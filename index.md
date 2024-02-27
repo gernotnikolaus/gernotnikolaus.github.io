@@ -1,6 +1,7 @@
 ---
 layout: paper
 title: "Home"
+---
 
 I am Gernot Nikolaus, a recent graduate of the Bachelor's programme in 'Geovisualization', currently enrolled in the 'Copernicus Master in Digital Earth' at the University of Salzburg.
 This is an Erasmus Mundus joint master's degree programme, and I will be pursuing my second year of study at Palacký University Olomouc in the Czech Republic.
