@@ -3,6 +3,7 @@ layout: page
 title: ""
 ---
 
-I am Gernot Nikolaus, a recent graduate of the Bachelor's programme in 'Geovisualization', currently enrolled in the 'Copernicus Master in Digital Earth' at the University of Salzburg.
-This is an Erasmus Mundus joint master's degree programme, and I will be pursuing my second year of study at Palacký University Olomouc in the Czech Republic.
-I chose this study because I can learn a lot there and want to establish international contacts and networks. This also applies to this BIP. I want to learn new things about Esri products and meet new people.
+I am Gernot Nikolaus, a recent graduate of the Bachelor's programme in 'Geovisualization', currently enrolled in the 'Copernicus Master in Digital Earth' at the University of Salzburg. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+![DSC_0753_2-2](https://github.com/gernotnikolaus/gernotnikolaus.github.io/assets/148253460/618e6d17-e809-4b97-93cb-ae8735580211)
+
