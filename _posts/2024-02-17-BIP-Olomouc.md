@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll"
+title: "BIP in Olomouc"
 layout: post
 ---
 
