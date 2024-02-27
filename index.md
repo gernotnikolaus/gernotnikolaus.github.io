@@ -3,7 +3,7 @@ layout: page
 title: "About me"
 ---
 #featured post
-https://gernotnikolaus.github.io/BIP-Olomouc/
+<a href="https://gernotnikolaus.github.io/BIP-Olomouc/">In Olomouc</a>.
 
 #aboutme
 
