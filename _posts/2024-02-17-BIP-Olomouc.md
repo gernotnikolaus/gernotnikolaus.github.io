@@ -19,8 +19,6 @@ Additionally, I had the chance to explore Olomouc, where I will spend my second 
 
 I extend a huge thank you to the organizers for putting together such a fantastic event, and to all the people I met for making it an unforgettable experience!
 
-![Gernot-Nikolaus-Departement-Geoinformatik-Olomouc](https://github.com/gernotnikolaus/gernotnikolaus.github.io/assets/148253460/5244edd2-2c42-48c3-811e-a979455d1dea)
-
 #BIP #Seminar #Olomouc #Networking #LearningAndDevelopment #GIS #UserExperience #Visualisation #PPGIS #Esri #AcademicJourney
 
 
