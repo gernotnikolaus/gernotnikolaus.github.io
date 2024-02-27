@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "About me"
 ---
 #featured post
 https://gernotnikolaus.github.io/BIP-Olomouc/
