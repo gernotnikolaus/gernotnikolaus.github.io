@@ -6,6 +6,8 @@ categories:
   - media
 ---
 
+Mapping my bicycle route from Germany to Asia.
+
 ![Map](https://github.com/gernotnikolaus/gernotnikolaus.github.io/assets/148253460/1593a489-fea0-438a-8b52-d2af84de73ce)
 
 
