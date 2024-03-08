@@ -8,6 +8,9 @@ categories:
 
 I had the chance to take part in the Blended Intensive Program (BIP) Digital Earth Citizens in Olomouc, at the Palacký University in Olomouc in cooperation with Z_GIS - Department of Geoinformatics, University of Salzburg and I am happy to share some insights from the event.
 
+![Map](https://github.com/gernotnikolaus/gernotnikolaus.github.io/assets/148253460/5ff03a1e-eb57-46f7-a40d-48fdaee69b19)
+
+
 ![Gernot-Nikolaus-Olomouc-Presenting](https://github.com/gernotnikolaus/gernotnikolaus.github.io/assets/148253460/8eb8862a-3192-4a11-aab8-58f215a5b227)
 
 
