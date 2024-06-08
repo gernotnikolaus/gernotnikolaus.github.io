@@ -11,7 +11,7 @@ End of May, I was on an excursion in Vienna, visiting two key institutions as pa
 ![gernot nikolaus](https://github.com/gernotnikolaus/gernotnikolaus.github.io/assets/148253460/91ccce45-a573-4e65-a6d9-347937463772)
 
 
-At the EODC, we discussed the infrastructure for #copernicus data management as well as visited the storage facilities and the Vienna Scientific Clusters. It was particularly exciting for me to see how efficiently the huge amounts of data are stored.
+At the EODC, we discussed the infrastructure for Copernicus data management as well as visited the storage facilities and the Vienna Scientific Clusters. It was particularly exciting for me to see how efficiently the huge amounts of data are stored.
 Later at the BEV, we gained insights into the importance of accurate geospatial information for various sectors, from land management to government planning.
 
 ![gernot nikolaus vienna scientific cluster 4](https://github.com/gernotnikolaus/gernotnikolaus.github.io/assets/148253460/29f86190-f256-41a3-afca-e1bee971cf37)
