@@ -9,4 +9,7 @@ The interactive map of castles in the Salzburg region offers a fascinating insig
 
 For best experience use it on the desktop - Full-screen: <a href="https://gernotnikolaus.github.io/medieval-castles-salzburg/" target="_blank">View Medieval Castles Map</a>
 
+![grafik](https://github.com/gernotnikolaus/gernotnikolaus.github.io/assets/148253460/4351fad6-3c26-4dc5-b31f-673515d85476)
+
+
 <iframe src="https://gernotnikolaus.github.io/medieval-castles-salzburg/" width="100%" height="600"></iframe>
