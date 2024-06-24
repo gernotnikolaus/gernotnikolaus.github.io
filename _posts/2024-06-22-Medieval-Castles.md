@@ -1,5 +1,5 @@
 ---
-title:  "Medievel-Castles in the region of Salzburg"
+title:  "Medieval-Castles in the region of Salzburg"
 mathjax: true
 layout: post
 categories: media
