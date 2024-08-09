@@ -20,6 +20,20 @@ title: About Me
         <br>Munich Climate Insurance Initiative
     </li>
     <li>
+        <strong>Co-Founder</strong>
+        <br>Gernot Nikolaus & Simon Kraus Creative Studio GbR
+    </li>
+    <li>
+        <strong>Travel - Career Break</strong>
+        <br>Between my bachelor's and master's degrees, I went on a solo cycling trip from Germany to Asia (Türkiye, Asian continent) along the Adriatic Sea and back again.
+    </li>
+    <li>
+        <strong>Technical GIS support, GIS Trainer and part of supportive supervision in Togo</strong>
+        <br> German Leprosy and TB Relief Association (DAHW)
+    </li>
+    <li>
+        <strong>Student Research Assistant</strong>
+        <br> Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)
     </li>
 </ul>
 
@@ -28,6 +42,10 @@ title: About Me
     <li>
         <strong>Paris Lodron Universität Salzburg</strong>
         <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth, Earth observation & Geoinformatics
+    </li>
+    <li>
+        <strong>Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)</strong>
+        <br>Bachelor of Engineering - BE, Geovisualization
     </li>
 </ul>
 
