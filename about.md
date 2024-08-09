@@ -49,11 +49,3 @@ title: About me
         <br>Bachelor of Engineering - BE, Geovisualization
     </li>
 </ul>
-
-
-<h2>Certificates</h2>
-
-*Department of Geoinformatics – Z_GIS*  
-*Schillerstraße 30*  
-*5020 Salzburg*  
-*Austria*  
