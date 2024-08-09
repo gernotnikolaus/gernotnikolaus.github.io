@@ -46,7 +46,6 @@ Thursday 4 July 2024 was dedicated to the preparation of the scenario design wor
   <figcaption>Stakeholder workshop.</figcaption>
 </div>
 
-
 On Friday, 5 July 2024, the day began with a debriefing discussion of the previous day's workshop. This was followed by sessions on policy proposals and health impact assessments. In the afternoon, there were presentations on policy and health impact assessments, and on preparing for the return to the population.
 
 The week ended on Saturday 6 July 2024 with a final preparation session for the community return. This was followed by a public presentation and debate. Our group focused on the general problem of heat islands in the commune of Chavannes-près-Renens and on identifying and proposing urban cooling projects, and then the day ended with a debriefing and final evaluation.
