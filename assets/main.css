@@ -155,6 +155,10 @@ footer p {
     padding-bottom: 20px; /* Space below the blog post */
 }
 
+.blog-post h2 {
+    text-align: right;
+}
+
 /* Blog Title */
 .blog-title {
     font-size: 1.5em; /* Adjust size as needed */
