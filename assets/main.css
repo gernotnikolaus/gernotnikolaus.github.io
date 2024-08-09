@@ -178,6 +178,7 @@ footer p {
     display: inline-block;
     font-weight: bold;
     color: #ffffff; /* Text color */
+    align-items: right;
     background-color: #000000; /* Background color */
     text-decoration: none;
     padding: 10px 20px; /* Padding inside the button */
@@ -189,11 +190,6 @@ footer p {
 .read-more:hover {
     background-color: #464646; /* Darker background on hover */
     text-decoration: none; /* Ensure text is not underlined on hover */
-}
-
-.read-more:focus {
-    outline: none; /* Remove default focus outline */
-    box-shadow: 0 0 0 2px rgba(49, 198, 19, 0.5); /* Add a focus ring */
 }
 
 /* Divider Line */
