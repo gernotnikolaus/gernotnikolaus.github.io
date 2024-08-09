@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: 'PT Sans', sans-serif;
     margin: 0;
@@ -5,28 +6,48 @@ body {
     background-color: #ffffff;
 }
 
+/* Header Styles */
 header {
     background-color: #ffffff;
-    color: #fff;
+    color: #000000; /* Changed from #fff to #000000 for better visibility */
     padding: 10px 0;
-    text-align: center;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* Adjust as needed */
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 1200px; /* Consistent max-width */
+    margin: 0 auto; /* Center align */
+    padding: 0 20px; /* Consistent padding */
 }
 
-.content-container {
-    max-width: 1200px; /* Same as header-container for consistency */
-    margin: 0 auto;
+/* Main Content Styles */
+main {
+    max-width: 1200px; /* Consistent max-width */
+    margin: 0 auto; /* Center align */
     padding: 20px; /* Adjust padding as needed */
 }
 
+/* Content Container (if using additional container for main content) */
+.content-container {
+    max-width: 1200px; /* Same as header-container for consistency */
+    margin: 0 auto; /* Center align */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff;
+    color: #000000; /* Changed from #fff to #000000 for better visibility */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Header and Navigation Styles */
 header h1 {
     font-family: 'PT Sans', sans-serif;
     margin: 0;
@@ -39,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -52,21 +74,7 @@ nav a {
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
-}
-
+/* Article Styles */
 article {
     margin-bottom: 20px;
 }
-
-footer {
-    background-color: #ffffff;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
