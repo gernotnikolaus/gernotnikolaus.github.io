@@ -20,7 +20,7 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 40px;  /* More space on left and right */
+    padding: 0 100px;  /* More space on left and right */
 }
 
 /* Navigation Styles */
@@ -45,7 +45,7 @@ nav a {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 40px; /* More space on left and right */
+    padding: 20px 100px; /* More space on left and right */
     text-align: justify;
 }
 
@@ -53,7 +53,7 @@ main {
 .content-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 40px; /* More space on left and right */
+    padding: 20px 100px; /* More space on left and right */
     text-align: justify;
 }
 
@@ -67,7 +67,7 @@ footer {
     width: 100%;
     bottom: 0;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-    padding: 0 40px; /* More space on left and right */
+    padding: 0 100px; /* More space on left and right */
 }
 
 
