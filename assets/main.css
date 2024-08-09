@@ -147,7 +147,6 @@ footer p {
 .blog-list {
     max-width: 900px; /* Ensure it matches the max width of other content */
     margin: 0 auto;
-    padding: 20px;
 }
 
 /* Individual Blog Post */
@@ -178,7 +177,8 @@ footer p {
 .read-more {
     display: inline-block;
     font-weight: bold;
-    color: #007BFF; /* Button color */
+    color: #ffffff; /* Button color */
+    background-color: #000;
     text-decoration: none;
     margin-top: 10px;
 }
