@@ -72,6 +72,8 @@ main {
 /* Footer Styles */
 footer {
     background-color: #ffffff;
+    max-width: 900px;
+    padding: 20px 100px; /* Add padding to left and right */
     color: #000000;
     text-align: left;
     padding: 10px 0;
