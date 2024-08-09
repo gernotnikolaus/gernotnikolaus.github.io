@@ -237,7 +237,7 @@ footer p {
 .gallery-item img {
     width: 100%; /* Ensure the image takes up the full width of the item */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Optional: rounded corners */
+    /*border-radius: 8px;  Optional: rounded corners */
     cursor: pointer;
 }
 
