@@ -55,6 +55,7 @@ a {
 /* Main Content Styles */
 main {
     max-width: 900px;
+    line-height: 1.6;
     margin: 0 auto;
     padding: 20px 100px; /* Add padding to left and right */
     text-align: justify;
@@ -72,7 +73,7 @@ main {
 footer {
     background-color: #ffffff;
     color: #000000;
-    text-align: center;
+    text-align: left;
     padding: 10px 0;
     position: fixed;
     width: 100%;
