@@ -17,6 +17,7 @@ header {
 .header-container {
     display: flex;
     justify-content: space-between;
+    text-align: justify;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -44,6 +45,7 @@ nav a {
 /* Main Content Styles */
 main {
     max-width: 1200px;
+    text-align: justify;
     margin: 0 auto;
     padding: 20px;
 }
@@ -53,6 +55,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    text-align: justify;
 }
 
 /* Footer Styles */
