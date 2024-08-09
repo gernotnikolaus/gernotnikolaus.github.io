@@ -10,19 +10,27 @@ title: About Me
     </div>
 </div>
 
+
 <h1>CV</h1>
 <h2>Experience</h2>
-
-<h3>Disaster Modelling Intern</h3>
-<h4>United Nations University - Institute for Environment and Human Security (UNU-EHS)</h4>
-
-<h3>Disaster Modelling Intern</h3>
-<h4>Munich Climate Insurance Initiative </h4>
+<ul class=cv-list>
+    <li >
+        <strong>Disaster Modelling Intern</strong>
+        <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
+    </li>
+    <li>
+        <strong>Disaster Modelling Intern</strong>
+        <br>Munich Climate Insurance Initiative
+    </li>
+</ul>
 
 <h2>Education</h2>
-
-<h3>Paris Lodron Universität Salzburg</h3>
-<h4>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth, Earth observation & Geoinformatics</h4>
+<ul class=cv-list>
+    <li>
+        <strong>Paris Lodron Universität Salzburg</strong>
+        <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth, Earth observation & Geoinformatics
+    </li>
+</ul>
 
 <h2>Certificates</h2>
 

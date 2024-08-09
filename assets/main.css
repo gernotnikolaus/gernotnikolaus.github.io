@@ -84,6 +84,22 @@ footer p {
     text-align: center;
 }
 
+/* Remove default list styling */
+.cv-list ul {
+    list-style-type: disc; /* Default bullet points */
+    padding-left: 20px; /* Add padding to space out from left edge */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for list items */
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+strong {
+    display: block; /* Make the job title and institution appear on their own line */
+}
+
 /* Responsive Adjustment */
 @media (max-width: 768px) {
     .container {
@@ -112,18 +128,18 @@ footer p {
 
 /* Container for about me section */
 .about-container {
-    display: flex; /* Align items horizontally by default */
+    display: flex; /* Align items horizontally */
     align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space out text and image */
+    justify-content: space-between; /* Ensure image and text are spaced out */
     margin: 20px 0; /* Margin for spacing around the container */
 }
 
 /* Style for the image */
 .about-image {
-    max-width: 150px; /* Set max width for the image */
+    max-width: 250px; /* Set max width for the image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: add rounded corners */
-    margin-left: 20px; /* Space between text and image */
+    margin-left: 30px; /* Space between text and image */
 }
 
 /* Style for the text */
@@ -149,5 +165,3 @@ footer p {
         text-align: center; /* Center text on small screens */
     }
 }
-
-
