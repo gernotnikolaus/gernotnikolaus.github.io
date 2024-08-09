@@ -84,29 +84,6 @@ footer p {
     text-align: center;
 }
 
-/* Custom Styling for CV Lists */
-.cv-list {
-    list-style-type: disc; /* Use default disc bullets */
-    padding-left: 20px; /* Space between bullets and text */
-    margin: 0; /* Remove default margin */
-}
-
-/* Style for list items */
-.cv-list li {
-    margin-bottom: 10px; /* Space between list items */
-    line-height: 1.6; /* Improve readability */
-}
-
-/* Optional: Add a separator line between list items */
-.cv-list li + li {
-    border-top: 1px solid #ddd; /* Light gray line */
-    padding-top: 10px; /* Space above the separator line */
-}
-
-strong {
-    display: block; /* Make the job title and institution appear on their own line */
-}
-
 /* Responsive Adjustment */
 @media (max-width: 768px) {
     .container {
@@ -154,3 +131,5 @@ strong {
     flex: 1; /* Allow text to take up the remaining space */
     line-height: 1.6; /* Line height for readability */
 }
+
+

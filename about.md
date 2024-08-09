@@ -13,8 +13,8 @@ title: About Me
 
 <h1>CV</h1>
 <h2>Experience</h2>
-<ul class=cv-list>
-    <li >
+<ul>
+    <li>
         <strong>Disaster Modelling Intern</strong>
         <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
     </li>
@@ -25,12 +25,13 @@ title: About Me
 </ul>
 
 <h2>Education</h2>
-<ul class=cv-list>
+<ul>
     <li>
         <strong>Paris Lodron Universität Salzburg</strong>
         <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth, Earth observation & Geoinformatics
     </li>
 </ul>
+
 
 <h2>Certificates</h2>
 
