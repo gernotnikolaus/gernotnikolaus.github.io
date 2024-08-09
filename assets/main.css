@@ -217,18 +217,27 @@ footer p {
     }
 }
 
+/* Gallery Container */
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px; /* Space between gallery items */
+    margin: 20px auto; /* Adjust margin as needed */
+    max-width: 1200px; /* Optional: set a max-width for better alignment */
 }
 
+/* Gallery Item */
 .gallery-item {
-    
+    flex: 1 1 calc(33.333% - 20px); /* Three items per row with space between */
+    box-sizing: border-box;
+    margin: 10px; /* Adjust margin as needed */
 }
 
 .gallery-item img {
-    width: 300px;
+    width: 100%; /* Ensure the image takes up the full width of the item */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
     cursor: pointer;
 }
 
@@ -269,6 +278,5 @@ footer p {
     margin-top: 20px;
     font-size: 18px;
 }
-
 
 
