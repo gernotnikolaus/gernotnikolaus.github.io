@@ -81,8 +81,7 @@ footer {
 }
 
 footer p {
-    padding: 20px 100px; /* Add padding to left and right */
-    text-align: left;
+    text-align: center;
 }
 
 /* Responsive Adjustment */
