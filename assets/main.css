@@ -303,3 +303,9 @@ footer p {
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: add rounded corners */
 }
+
+.blog-image figcaption {
+    font-size: 0.9em; /* Adjust font size as needed */
+    color: #666; /* Slightly lighter color for the caption text */
+    margin-top: 5px; /* Space between image and caption */
+}
