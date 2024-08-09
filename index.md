@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About me
+title: Home
 ---
 
 <div class="about-container">
