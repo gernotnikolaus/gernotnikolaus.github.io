@@ -10,7 +10,10 @@ title: About Me
     <img src="{{ "/assets/images/GernotNikolaus_portrait.jpg" | relative_url }}" alt="Gernot Nikolaus" class="about-image">
 </div>
 
-
+<h1>CV</h1>
+<h2>Experience</h2>
+<h2>Education</h2>
+<h2>Certificates</h2>
 
 *Department of Geoinformatics – Z_GIS*  
 *Schillerstraße 30*  

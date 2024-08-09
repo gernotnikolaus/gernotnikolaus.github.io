@@ -120,10 +120,10 @@ footer p {
 
 /* Style for the image */
 .about-image {
-    max-width: 150px; /* Set max width for the image */
+    max-width: 250px; /* Set max width for the image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: add rounded corners */
-    margin-left: 20px; /* Space between text and image */
+    margin-left: 30px; /* Space between text and image */
 }
 
 /* Style for the text */
