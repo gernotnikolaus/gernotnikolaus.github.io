@@ -97,7 +97,7 @@ footer p {
     .header-container,
     main,
     .content-container {
-        padding: 0 20px;  /* Adjust padding for smaller screens */
+        padding: 0 50px;  /* Adjust padding for smaller screens */
     }
 }
 
@@ -109,7 +109,7 @@ footer p {
     .header-container,
     main,
     .content-container {
-        padding: 0 10px;  /* Adjust padding for mobile screens */
+        padding: 0 50px;  /* Adjust padding for mobile screens */
     }
 }
 
