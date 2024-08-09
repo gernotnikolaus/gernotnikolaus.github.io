@@ -155,10 +155,6 @@ footer p {
     padding-bottom: 20px; /* Space below the blog post */
 }
 
-.blog-post h2 {
-    text-align: right;
-}
-
 /* Blog Title */
 .blog-title {
     font-size: 1.5em; /* Adjust size as needed */
@@ -183,6 +179,7 @@ footer p {
     font-weight: bold;
     color: #ffffff; /* Button color */
     background-color: #000;
+    align-items: right;
     text-decoration: none;
     margin-top: 10px;
 }
