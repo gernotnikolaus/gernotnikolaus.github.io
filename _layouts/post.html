@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+        <nav>
+            <ul>
+                <li><a href="{{ site.baseurl }}/about">About Me</a></li>
+                <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
+                <li><a href="{{ site.baseurl }}/blog">Blogs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.date | date: "%B %d, %Y" }}</p>
+            {{ content }}
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
