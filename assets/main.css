@@ -108,3 +108,25 @@ footer p {
         padding: 0 10px;  /* Adjust padding for mobile screens */
     }
 }
+
+
+/* Container for about me section */
+.about-container {
+    display: flex; /* Flexbox to align items horizontally */
+    align-items: flex-start; /* Align items to the start of the container */
+    gap: 20px; /* Space between the image and text */
+    margin: 20px 0; /* Margin for spacing around the container */
+}
+
+/* Style for the image */
+.about-image {
+    max-width: 150px; /* Set max width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    margin-left: 20px; /* Optional: add margin on the left */
+}
+
+/* Style for the text */
+.about-text {
+    flex: 1; /* Allow text to take up the remaining space */
+}
