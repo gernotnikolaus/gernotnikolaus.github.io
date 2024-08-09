@@ -179,7 +179,7 @@ footer p {
     font-weight: bold;
     color: #ffffff; /* Text color */
     align-items: right;
-    background-color: #000000; /* Background color */
+    background-color: #5e5e5e; /* Background color */
     text-decoration: none;
     padding: 10px 20px; /* Padding inside the button */
     border-radius: 4px; /* Optional: slightly rounded corners */
@@ -188,7 +188,7 @@ footer p {
 }
 
 .read-more:hover {
-    background-color: #464646; /* Darker background on hover */
+    background-color: #000000; /* Darker background on hover */
     text-decoration: none; /* Ensure text is not underlined on hover */
 }
 
@@ -214,6 +214,41 @@ footer p {
 
     .about-text {
         text-align: center; /* Center text on small screens */
+    }
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between images */
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 20px); /* 3 columns with gaps */
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners */
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        flex: 1 1 calc(50% - 20px); /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        flex: 1 1 100%; /* 1 column on small screens */
     }
 }
 
