@@ -21,8 +21,7 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding-left: 50px;  /* Padding on the left */
-    padding-right: 50px; /* Padding on the right */
+    padding: 20px;
 }
 
 /* Navigation Styles */
@@ -73,7 +72,7 @@ footer {
 
 /* Responsive Styles */
 
-/* For tablets and smaller screens */
+/* For tablets and smaller screens
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
@@ -97,11 +96,11 @@ footer {
     }
 
     footer {
-        position: static; /* Make footer static on small screens */
+        position: static;  Make footer static on small screens
     }
 }
 
-/* For mobile phones */
+
 @media (max-width: 480px) {
     .header-container {
         padding: 0 10px;
@@ -120,3 +119,4 @@ footer {
         padding: 10px;
     }
 }
+ */
