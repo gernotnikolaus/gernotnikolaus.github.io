@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 header {
@@ -21,8 +21,19 @@ header {
     padding: 0 20px;
 }
 
+.content-container {
+    max-width: 1200px; /* Same as header-container for consistency */
+    margin: 0 auto;
+    padding: 20px; /* Adjust padding as needed */
+}
+
 header h1 {
+    font-family: 'PT Sans', sans-serif;
     margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans', sans-serif;
 }
 
 nav ul {
@@ -36,6 +47,7 @@ nav ul li {
 }
 
 nav a {
+    font-family: 'PT Sans', sans-serif;
     color: #000000;
     text-decoration: none;
 }
