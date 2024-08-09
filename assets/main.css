@@ -112,18 +112,18 @@ footer p {
 
 /* Container for about me section */
 .about-container {
-    display: flex; /* Align items horizontally */
+    display: flex; /* Align items horizontally by default */
     align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Ensure image and text are spaced out */
+    justify-content: space-between; /* Space out text and image */
     margin: 20px 0; /* Margin for spacing around the container */
 }
 
 /* Style for the image */
 .about-image {
-    max-width: 250px; /* Set max width for the image */
+    max-width: 150px; /* Set max width for the image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: add rounded corners */
-    margin-left: 30px; /* Space between text and image */
+    margin-left: 20px; /* Space between text and image */
 }
 
 /* Style for the text */
@@ -131,4 +131,23 @@ footer p {
     flex: 1; /* Allow text to take up the remaining space */
     line-height: 1.6; /* Line height for readability */
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .about-image {
+        max-width: 100%; /* Ensure image fits within container */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Add space above the image */
+    }
+
+    .about-text {
+        text-align: center; /* Center text on small screens */
+    }
+}
+
 
