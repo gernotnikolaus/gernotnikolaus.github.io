@@ -291,3 +291,15 @@ footer p {
     margin-top: 20px;
     font-size: 18px;
 }
+
+/* Blog Image */
+.blog-image {
+    text-align: center; /* Center the image container */
+    margin: 20px 0; /* Space above and below the image */
+}
+
+.blog-image img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
