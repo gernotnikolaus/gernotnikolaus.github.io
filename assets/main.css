@@ -33,6 +33,11 @@ header {
     padding: 0 100px;  /* Add padding to left and right */
 }
 
+header h1 a {
+    text-decoration: none; /* Remove underline */
+    color: #000000;
+}
+
 /* Navigation Styles */
 nav ul {
     list-style: none;
