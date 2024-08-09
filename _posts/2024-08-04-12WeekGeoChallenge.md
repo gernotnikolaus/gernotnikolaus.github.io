@@ -12,3 +12,5 @@ Topic 01: river networks/water bodies 🗺️ Map of the Amazon Basin
 <div class="blog-image">
   <img src="{{ '/assets/images/blogs/AmazonBasin_GernotNikolaus.jpg' | relative_url }}" alt="Amazon Basin Map">
 </div>
+
+More details about the challenge and other maps will be added soon!
