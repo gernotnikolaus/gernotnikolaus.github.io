@@ -3,14 +3,9 @@ layout: default
 title: Projects
 ---
 
----
-layout: default
-title: Projects
----
-
 <div class="gallery-container">
   {% for image in site.static_files %}
-    {% if image.path contains '/images/' %}
+    {% if image.path contains 'assets/images/projects' %}
       {% assign img_name = image.path | split: '/' | last %}
       {% assign img_desc = site.data.image_descriptions[img_name] %}
       
