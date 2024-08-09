@@ -109,6 +109,17 @@ footer p {
     }
 }
 
+/* Style for the section divider line */
+.section-divider {
+    border: 0; /* Remove default border */
+    border-top: 1px solid #ddd; /* Light gray line */
+    margin: 20px 0; /* Space above and below the line */
+    width: 100%; /* Full width of the container */
+    max-width: 1200px; /* Optional: limit width for large screens */
+    margin-left: auto; /* Center the line horizontally */
+    margin-right: auto; /* Center the line horizontally */
+}
+
 
 /* Container for about me section */
 .about-container {
@@ -120,10 +131,10 @@ footer p {
 
 /* Style for the image */
 .about-image {
-    max-width: 150px; /* Set max width for the image */
+    max-width: 250px; /* Set max width for the image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: add rounded corners */
-    margin-left: 20px; /* Space between text and image */
+    margin-left: 40px; /* Space between text and image */
 }
 
 /* Style for the text */

@@ -10,6 +10,7 @@ title: About Me
     <img src="{{ "/assets/images/GernotNikolaus_portrait.jpg" | relative_url }}" alt="Gernot Nikolaus" class="about-image">
 </div>
 
+<hr class="section-divider">
 
 <h1>CV</h1>
 <h2>Experience</h2>
