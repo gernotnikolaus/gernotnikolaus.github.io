@@ -21,8 +21,8 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding-left: 10em;  /* Padding on the left */
-    padding-right: 10em; /* Padding on the right */
+    padding-left: 50px;  /* Padding on the left */
+    padding-right: 50px; /* Padding on the right */
 }
 
 /* Navigation Styles */
