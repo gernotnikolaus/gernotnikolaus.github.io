@@ -19,6 +19,9 @@ header {
     color: #000000;
     padding: 10px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Stack header elements vertically */
+    align-items: center; /* Center align header content */
 }
 
 .header-container {
@@ -26,7 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
     max-width: 900px;
-    margin: 0 auto;
+    width: 100%;
     padding: 0 100px;  /* Add padding to left and right */
 }
 
@@ -35,6 +38,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex; /* Ensure horizontal layout by default */
 }
 
 nav ul li {
@@ -120,7 +124,6 @@ footer p {
     margin-right: auto; /* Center the line horizontally */
 }
 
-
 /* Container for about me section */
 .about-container {
     display: flex; /* Align items horizontally by default */
@@ -179,7 +182,6 @@ footer p {
     display: inline-block;
     font-weight: bold;
     color: #ffffff; /* Text color */
-    align-items: right;
     background-color: #5e5e5e; /* Background color */
     text-decoration: none;
     padding: 10px 20px; /* Padding inside the button */
@@ -202,6 +204,21 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .header-container {
+        flex-direction: column; /* Stack header elements vertically on small screens */
+        align-items: center; /* Center align items */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center; /* Center align navigation items */
+        margin-top: 10px; /* Space above navigation */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Space between navigation items */
+    }
+
     .about-container {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
@@ -211,10 +228,6 @@ footer p {
         max-width: 100%; /* Ensure image fits within container */
         margin-left: 0; /* Remove left margin */
         margin-top: 20px; /* Add space above the image */
-    }
-
-    .about-text {
-        /*text-align: center;  Center text on small screens */
     }
 }
 
@@ -238,7 +251,6 @@ footer p {
 .gallery-item img {
     width: 100%; /* Ensure the image takes up the full width of the item */
     height: auto; /* Maintain aspect ratio */
-    /*border-radius: 8px;  Optional: rounded corners */
     cursor: pointer;
 }
 
@@ -279,5 +291,3 @@ footer p {
     margin-top: 20px;
     font-size: 18px;
 }
-
-
