@@ -177,15 +177,23 @@ footer p {
 .read-more {
     display: inline-block;
     font-weight: bold;
-    color: #ffffff; /* Button color */
-    background-color: #000;
-    align-items: right;
+    color: #ffffff; /* Text color */
+    background-color: #000000; /* Background color */
     text-decoration: none;
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 4px; /* Optional: slightly rounded corners */
     margin-top: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .read-more:hover {
-    text-decoration: underline; /* Underline on hover */
+    background-color: #464646; /* Darker background on hover */
+    text-decoration: none; /* Ensure text is not underlined on hover */
+}
+
+.read-more:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px rgba(49, 198, 19, 0.5); /* Add a focus ring */
 }
 
 /* Divider Line */
