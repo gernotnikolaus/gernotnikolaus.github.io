@@ -4,17 +4,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensures the body takes up at least the full viewport height */
 }
 
 /* Container for All Content */
 .container {
-    max-width: 1100px; /* Set max-width to limit content width */
-    margin: 0 auto; /* Center the container */
+    max-width: 1100px;  /* Set max-width to limit content width */
+    margin: 0 auto;  /* Center the container */
     padding: 0 100px; /* Add padding to left and right */
-    flex: 1; /* Allows the container to grow and push the footer down */
 }
 
 /* Header Styles */
@@ -58,14 +54,17 @@ a {
 
 /* Main Content Styles */
 main {
+    max-width: 900px;
     line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px 100px; /* Add padding to left and right */
     text-align: justify;
 }
 
-/* Content Container */
+/* Content Container (if using additional container for main content) */
 .content-container {
-    max-width: 900px; /* Adjust to match .container max-width if needed */
-    margin: 0 auto; /* Center the container */
+    max-width: 900px;
+    margin: 0 auto;
     padding: 20px 100px; /* Add padding to left and right */
     text-align: justify;
 }
@@ -75,9 +74,14 @@ footer {
     background-color: #ffffff;
     color: #000000;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
     text-align: center;
-    margin-top: auto; /* Pushes the footer to the bottom of the page */
 }
 
 /* Responsive Adjustment */
@@ -87,6 +91,7 @@ footer {
     }
 
     .header-container,
+    main,
     .content-container {
         padding: 0 20px;  /* Adjust padding for smaller screens */
     }
@@ -98,6 +103,7 @@ footer {
     }
 
     .header-container,
+    main,
     .content-container {
         padding: 0 10px;  /* Adjust padding for mobile screens */
     }
@@ -114,39 +120,46 @@ footer {
     margin-right: auto; /* Center the line horizontally */
 }
 
-/* About Container */
+
+/* Container for about me section */
 .about-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 0;
+    display: flex; /* Align items horizontally by default */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out text and image */
+    margin: 20px 0; /* Margin for spacing around the container */
 }
 
+/* Style for the image */
 .about-image {
-    max-width: 250px;
-    height: auto;
-    border-radius: 8px;
-    margin-left: 40px;
+    max-width: 250px; /* Set max width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    margin-left: 40px; /* Space between text and image */
 }
 
+/* Style for the text */
 .about-text {
-    flex: 1;
-    line-height: 1.6;
+    flex: 1; /* Allow text to take up the remaining space */
+    line-height: 1.6; /* Line height for readability */
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     .about-container {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
     }
 
     .about-image {
-        max-width: 100%;
-        margin-left: 0;
-        margin-top: 20px;
+        max-width: 100%; /* Ensure image fits within container */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Add space above the image */
     }
 
     .about-text {
-        text-align: center;
+        text-align: center; /* Center text on small screens */
     }
 }
+
+
+
