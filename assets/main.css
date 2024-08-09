@@ -217,39 +217,57 @@ footer p {
     }
 }
 
-/* Gallery Styles */
-.gallery {
+.gallery-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Space between images */
+    justify-content: space-around;
 }
 
 .gallery-item {
-    flex: 1 1 calc(33.333% - 20px); /* 3 columns with gaps */
-    margin-bottom: 20px;
+    margin: 10px;
 }
 
 .gallery-item img {
+    width: 300px;
+    cursor: pointer;
+}
+
+/* Fullscreen Modal Styles */
+#imageModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
     width: 100%;
-    height: auto;
-    border-radius: 8px; /* Optional: rounded corners */
-    transition: transform 0.3s ease;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
 }
 
-.gallery-item img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+#imageModal span {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .gallery-item {
-        flex: 1 1 calc(50% - 20px); /* 2 columns on medium screens */
-    }
+#modalImage {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
 }
 
-@media (max-width: 480px) {
-    .gallery-item {
-        flex: 1 1 100%; /* 1 column on small screens */
-    }
+#modalDescription {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 
