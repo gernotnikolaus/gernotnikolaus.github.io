@@ -9,7 +9,7 @@ title: Blog
         <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="blog-preview">{{ post.excerpt | truncate: 300, '...' }}</p>
         <a class="read-more" href="{{ post.url }}">Read More</a>
-        <hr class="post-divider"></hr>
+        <hr class="post-divider">
     </div>
     {% endfor %}
 </div>
