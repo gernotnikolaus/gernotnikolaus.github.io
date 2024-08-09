@@ -20,8 +20,6 @@ The MOOC component of the program spanned 12 weeks, with participants engaging i
 ### Face-to-Face Training at the University of Lausanne
 The workshop week in Lausanne focused on consolidating the knowledge acquired from the MOOC, applied to a case study with stakeholder interaction. The program included daily thematic sessions to deepen the understanding and strengthen the practical application of the concepts learned in the MOOC.
 
-![grafik](https://github.com/user-attachments/assets/07872fa6-4417-4734-8b4c-ba53d495ef8f)
-
 <div class="blog-image">
   <img src="{{ '/assets/images/blogs/CIVIS_BIP_01_GernotNikolaus.png' | relative_url }}" alt="Group photo">
   <figcaption>Group photo.</figcaption>
