@@ -143,6 +143,57 @@ footer p {
     line-height: 1.6; /* Line height for readability */
 }
 
+/* Blog Post List */
+.blog-list {
+    max-width: 900px; /* Ensure it matches the max width of other content */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Individual Blog Post */
+.blog-post {
+    margin-bottom: 20px; /* Space between blog posts */
+    padding-bottom: 20px; /* Space below the blog post */
+}
+
+/* Blog Title */
+.blog-title {
+    font-size: 1.5em; /* Adjust size as needed */
+    margin: 0;
+}
+
+.blog-title a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Link color */
+}
+
+/* Blog Preview */
+.blog-preview {
+    font-size: 1em;
+    color: #333; /* Slightly lighter color for the preview text */
+    margin: 10px 0; /* Space around the preview text */
+}
+
+/* Read More Button */
+.read-more {
+    display: inline-block;
+    font-weight: bold;
+    color: #007BFF; /* Button color */
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Divider Line */
+.post-divider {
+    border: 0;
+    border-top: 1px solid #ddd; /* Light gray line */
+    margin: 20px 0; /* Space above and below the line */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .about-container {

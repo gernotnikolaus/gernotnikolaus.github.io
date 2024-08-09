@@ -3,8 +3,13 @@ layout: default
 title: Blog
 ---
 
-<ul>
-{% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
-{% endfor %}
-</ul>
+<div class="blog-list">
+    {% for post in site.posts %}
+    <div class="blog-post">
+        <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="blog-preview">{{ post.excerpt | truncate: 150, '...' }}</p>
+        <a class="read-more" href="{{ post.url }}">Read More</a>
+        <hr class="post-divider">
+    </div>
+    {% endfor %}
+</div>
