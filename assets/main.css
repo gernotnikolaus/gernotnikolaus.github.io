@@ -17,11 +17,10 @@ header {
 .header-container {
     display: flex;
     justify-content: space-between;
-    text-align: justify;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 40px;  /* More space on left and right */
 }
 
 /* Navigation Styles */
@@ -45,16 +44,16 @@ nav a {
 /* Main Content Styles */
 main {
     max-width: 1200px;
-    text-align: justify;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 40px; /* More space on left and right */
+    text-align: justify;
 }
 
 /* Content Container (if using additional container for main content) */
 .content-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 60px;
+    padding: 20px 40px; /* More space on left and right */
     text-align: justify;
 }
 
@@ -68,7 +67,9 @@ footer {
     width: 100%;
     bottom: 0;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 40px; /* More space on left and right */
 }
+
 
 /* Responsive Styles */
 
