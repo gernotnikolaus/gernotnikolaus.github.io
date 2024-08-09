@@ -12,7 +12,6 @@ title: About me
 
 <hr class="section-divider">
 
-<h1>CV</h1>
 <h2>Experience</h2>
 <ul>
     <li>
