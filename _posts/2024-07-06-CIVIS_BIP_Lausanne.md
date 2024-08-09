@@ -7,7 +7,6 @@ categories: [blog]
 
 From July 1 to 6, 2024, I attended the Blended Intensive Programme (BIP) on Healthy Urban Systems (HUS) at the University of Lausanne (UNIL) in Lausanne, Switzerland. This programme aimed to equip students with a comprehensive understanding and tools related to health in urban settings. It combined a 12-week Massive Open Online Course (MOOC) with a concluding week of physical workshops. This final week focused on examining urban environments through various sessions, lectures, and practical exercises, involving participants from diverse academic backgrounds.
 
-
 # Program Structure
 ### MOOC: Healthy Urban Systems – UNIL/Coursera
 The MOOC component of the program spanned 12 weeks, with participants engaging in five hours per week of video courses, exercises, and readings. The course was structured into six modules, each lasting two weeks:
@@ -23,8 +22,10 @@ The workshop week in Lausanne focused on consolidating the knowledge acquired fr
 
 ![grafik](https://github.com/user-attachments/assets/07872fa6-4417-4734-8b4c-ba53d495ef8f)
 
-**Figure 1** Group photo.
-
+<div class="blog-image">
+  <img src="{{ '/assets/images/blogs/CIVIS_BIP_01_GernotNikolaus.png' | relative_url }}" alt="Group photo">
+  <figcaption>Group photo.</figcaption>
+</div>
 
 ### Daily Schedule and Activities
 The week began on Monday 1 July with an introduction and presentation of local issues by François Bussy, Loubna Laaab and Augustin Fragnières. Furthermore, we were split into four groups. Benoît Biéler and Yves Leyvraz then led a session on identifying and delineating concepts, levels and scales, with entry points and questions presented by Martin Loidl. In the afternoon there was a field visit led by Eduardo Camacho-Hübner, followed by a session on observation using GIS and statistics led by Martin Loidl and Sébastien Gadal. The day ended with a systems approach training session led by some of the previous presenters.
@@ -33,16 +34,17 @@ On Tuesday 2 July, the focus was on analysis using GIS and statistics. Dario Spi
 
 Wednesday 3 July started with a session on systems synthesis. This was followed by simulations presented by Sandra Perez, Céline Rozenblat, Vincent Laperrière, Martin Loidl and Stéphane Joost. In the afternoon, Francesco Panese discussed participatory approaches and the day ended with a first presentation of our simulations what we did in our group.
 
-![grafik](https://github.com/user-attachments/assets/d534a9ca-ecd7-4796-a37a-b3ebba9cf231)
-
-**Figure 2** Preparation for the stakeholder-workshop.
-
+<div class="blog-image">
+  <img src="{{ '/assets/images/blogs/CIVIS_BIP_02_GernotNikolaus.png' | relative_url }}" alt="Preparation for the stakeholder-workshop">
+  <figcaption>Preparation for the stakeholder-workshop.</figcaption>
+</div>
 
 Thursday 4 July 2024 was dedicated to the preparation of the scenario design workshop. Sandra Perez, Benjamin Wayens, Céline Rozenblat and Vincent Laperrière facilitated several sessions throughout the day. In the evening, a stakeholder workshop was held to discuss and refine the scenarios.
 
-![grafik](https://github.com/user-attachments/assets/0024f501-b6c0-477a-998c-e8860b9c30b3)
-
-**Figure 3** Stakeholder workshop.
+<div class="blog-image">
+  <img src="{{ '/assets/images/blogs/CIVIS_BIP_03_GernotNikolaus.png' | relative_url }}" alt="Stakeholder workshop">
+  <figcaption>Stakeholder workshop.</figcaption>
+</div>
 
 
 On Friday, 5 July 2024, the day began with a debriefing discussion of the previous day's workshop. This was followed by sessions on policy proposals and health impact assessments. In the afternoon, there were presentations on policy and health impact assessments, and on preparing for the return to the population.
