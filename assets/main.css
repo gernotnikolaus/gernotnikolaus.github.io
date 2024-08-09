@@ -182,7 +182,7 @@ footer p {
     display: inline-block;
     font-weight: bold;
     color: #ffffff; /* Text color */
-    background-color: #5e5e5e; /* Background color */
+    background-color: #000000; /* Background color */
     text-decoration: none;
     padding: 10px 20px; /* Padding inside the button */
     border-radius: 4px; /* Optional: slightly rounded corners */
@@ -191,7 +191,8 @@ footer p {
 }
 
 .read-more:hover {
-    background-color: #000000; /* Darker background on hover */
+    color: #000000;
+    background-color: #ffffff; /* Darker background on hover */
     text-decoration: none; /* Ensure text is not underlined on hover */
 }
 
