@@ -33,7 +33,7 @@ header {
     padding: 0 100px;  /* Add padding to left and right */
 }
 
-header h1 a {
+header h2 a {
     text-decoration: none; /* Remove underline */
     color: #000000;
 }
