@@ -84,16 +84,23 @@ footer p {
     text-align: center;
 }
 
-/* Remove default list styling */
-.cv-list ul {
-    list-style-type: disc; /* Default bullet points */
-    padding-left: 20px; /* Add padding to space out from left edge */
+/* Custom Styling for CV Lists */
+.cv-list {
+    list-style-type: disc; /* Use default disc bullets */
+    padding-left: 20px; /* Space between bullets and text */
     margin: 0; /* Remove default margin */
 }
 
 /* Style for list items */
-li {
+.cv-list li {
     margin-bottom: 10px; /* Space between list items */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Optional: Add a separator line between list items */
+.cv-list li + li {
+    border-top: 1px solid #ddd; /* Light gray line */
+    padding-top: 10px; /* Space above the separator line */
 }
 
 strong {
@@ -146,22 +153,4 @@ strong {
 .about-text {
     flex: 1; /* Allow text to take up the remaining space */
     line-height: 1.6; /* Line height for readability */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-container {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-    }
-
-    .about-image {
-        max-width: 100%; /* Ensure image fits within container */
-        margin-left: 0; /* Remove left margin */
-        margin-top: 20px; /* Add space above the image */
-    }
-
-    .about-text {
-        text-align: center; /* Center text on small screens */
-    }
 }
