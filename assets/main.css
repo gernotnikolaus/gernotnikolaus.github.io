@@ -175,6 +175,7 @@ footer p {
 
 /* Read More Button */
 .read-more {
+    text-align: right;
     display: inline-block;
     font-weight: bold;
     color: #ffffff; /* Text color */
@@ -213,7 +214,7 @@ footer p {
     }
 
     .about-text {
-        text-align: center; /* Center text on small screens */
+        /*text-align: center;  Center text on small screens */
     }
 }
 
