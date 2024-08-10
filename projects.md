@@ -12,14 +12,14 @@ title: Projects
     {% assign img_description = item.description %}
 
     <div class="gallery-item">
-      <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}', '{{ img_description | escape }}')">
+      <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}', '{{ img_description | escape: false }}')">
     </div>
   {% endfor %}
 </div>
 
 <!-- Fullscreen Modal -->
 <div id="imageModal">
-  <span onclick="closeModal()">&times;</span>
+  <span onclick="closeModal()" id="closeModal">&times;</span>
   <div id="modalContent">
     <img id="modalImage">
     <div id="modalDescription"></div>
