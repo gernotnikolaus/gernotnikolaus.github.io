@@ -3,39 +3,81 @@ layout: default
 title: Projects
 ---
 
+<div class="filter-buttons">
+  <button class="filter-button" data-filter="all">All</button>
+  {% assign all_hashtags = "" %}
+  {% for item in site.data.hashtags %}
+    {% for hashtag in item.hashtags %}
+      {% unless all_hashtags contains hashtag %}
+        <button class="filter-button" data-filter="{{ hashtag }}">{{ hashtag }}</button>
+        {% assign all_hashtags = all_hashtags | append: hashtag | append: "," %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
 <div class="gallery-container">
-  {% for image in site.static_files %}
-    {% if image.path contains '/assets/images/projects/' %}
-      {% assign img_name = image.path | split: '/' | last %}
-      
-      <div class="gallery-item">
-        <img src="{{ image.path }}" alt="{{ img_name }}" onclick="openModal('{{ image.path }}', '{{ img_name | escape }}')">
-      </div>
-      
-    {% endif %}
+  {% assign images = site.data.hashtags %}
+  {% assign reversed_images = images | reverse %}
+
+  {% for item in reversed_images %}
+    {% assign img_path = item.path %}
+    {% assign img_hashtags = item.hashtags %}
+
+    <div class="gallery-item" data-hashtags="{{ img_hashtags | join: ',' }}">
+      <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}')">
+    </div>
   {% endfor %}
 </div>
 
 <!-- Fullscreen Modal -->
-<div id="imageModal" style="display:none;">
-  <span onclick="closeModal()" style="cursor:pointer;">&times;</span>
-  <img id="modalImage" style="display:block; margin:auto; max-width:80%;">
-  <div id="modalDescription" style="color:#fff; text-align:center; margin-top:20px;"></div>
+<div id="imageModal">
+  <span onclick="closeModal()">&times;</span>
+  <img id="modalImage">
+  <div id="modalDescription"></div>
 </div>
 
-<!-- JavaScript Functions -->
 <script>
-function openModal(src, desc) {
+function openModal(src) {
     var modal = document.getElementById("imageModal");
     var modalImg = document.getElementById("modalImage");
-    var modalDesc = document.getElementById("modalDescription");
     modal.style.display = "block";
     modalImg.src = src;
-    modalDesc.textContent = desc || "No description available.";
 }
 
 function closeModal() {
     var modal = document.getElementById("imageModal");
     modal.style.display = "none";
 }
+
+document.querySelectorAll('.filter-button').forEach(button => {
+  button.addEventListener('click', function() {
+    var filter = this.getAttribute('data-filter');
+    document.querySelectorAll('.gallery-item').forEach(item => {
+      if (filter === 'all' || item.getAttribute('data-hashtags').includes(filter)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+});
 </script>
+
+<style>
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: #ccc;
+}
+</style>
