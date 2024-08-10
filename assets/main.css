@@ -339,6 +339,10 @@ footer p {
 }
 
 /* Fullscreen Modal Styles */
+.no-scroll {
+    overflow: hidden;
+}
+
 #imageModal {
     display: none;
     position: fixed;
