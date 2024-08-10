@@ -418,15 +418,16 @@ footer p {
 
 .contact-icons {
     margin-top: 15px;
+    text-align: center;
 }
 
 .contact-icons a {
     margin-right: 15px;
-    color: #333; /* Adjust color */
-    font-size: 24px; /* Adjust icon size */
+    color: #333;
+    font-size: 24px;
     text-decoration: none;
 }
 
 .contact-icons a:hover {
-    color: #0077b5; /* LinkedIn color or any hover effect */
+    color: #0077b5;
 }
