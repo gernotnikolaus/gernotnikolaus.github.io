@@ -297,45 +297,35 @@ footer p {
 }
 
 /* Gallery Container */
+/* Gallery Container */
 .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px; /* Space between gallery items */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Space between gallery items */
     margin: 20px auto; /* Adjust margin as needed */
     max-width: 1200px; /* Optional: set a max-width for better alignment */
 }
 
 /* Gallery Item */
 .gallery-item {
-    display: flex;
-    flex-direction: column; /* Stack image and title vertically */
-    align-items: left; /* Center-align image and title */
-    flex: 1 1 calc(33.333% - 20px); /* Three items per row with space between */
-    box-sizing: border-box;
-    margin: 10px; /* Adjust margin as needed */
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0; /* Optional: background color */
+    border-radius: 8px; /* Optional: rounded corners */
 }
 
-/* Gallery Item Styles */
+/* Gallery Item Image */
 .gallery-item img {
-    width: 100%; /* Ensure the image takes up the full width of the item */
-    height: auto; /* Maintain aspect ratio */
-    transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
-    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio without cropping */
+    display: block;
+    transition: transform 0.3s ease;
 }
 
 /* Hover Effect to Restore Original Color */
 .gallery-item img:hover {
-    filter: grayscale(0%); /* Remove grayscale filter on hover */
     transform: scale(1.05); /* Slightly scale the image */
-}
-
-/* Ensure Titles Align with Images */
-.gallery-item h2 {
-    margin-top: 10px; /* Space between image and title */
-    text-align: center; /* Center align the title */
-    font-size: 1.5em; /* Adjust the font size of the title */
-    color: #000000; /* Title color */
 }
 
 /* Fullscreen Modal Styles */
@@ -348,14 +338,14 @@ footer p {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: #fff; /* White background for the modal */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
 }
 
 #imageModal span {
     position: absolute;
     top: 20px;
     right: 35px;
-    color: #000; /* Black color for the close button */
+    color: #fff; /* White color for the close button */
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
