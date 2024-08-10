@@ -296,7 +296,7 @@ footer p {
 .gallery-item img {
     width: 100%; /* Ensure the image takes up the full width of the item */
     height: auto; /* Maintain aspect ratio */
-    filter: grayscale(100%); /* Apply grayscale filter */
+    /*filter: grayscale(100%);  Apply grayscale filter */
     transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
     cursor: pointer;
 }
