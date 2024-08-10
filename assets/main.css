@@ -299,7 +299,7 @@ footer p {
 /* Gallery Container */
 /* Gallery Container */
 .gallery-container {
-    column-count: 3; /* Number of columns; adjust based on screen size */
+    column-count: 2; /* Number of columns; adjust based on screen size */
     column-gap: 10px; /* Space between columns */
     margin: 20px auto; /* Adjust margin as needed */
     max-width: 1200px; /* Optional: set a max-width for better alignment */
@@ -388,7 +388,17 @@ footer p {
     text-decoration: none; /* Optional: Remove underline on hover */
 }
 
+@media (max-width: 1200px) {
+    .gallery-container {
+        column-count: 2;
+    }
+}
 
+@media (max-width: 768px) {
+    .gallery-container {
+        column-count: 1;
+    }
+}
 
 /* Blog Image */
 .blog-image {
