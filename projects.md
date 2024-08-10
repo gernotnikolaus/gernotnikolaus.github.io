@@ -10,7 +10,7 @@ title: Projects
       {% assign img_desc = site.data.image_descriptions[img_name] %}
       
       <div class="gallery-item">
-        <img src="{{ image.path }}" alt="{{ image.name }}" onclick="openModal('{{ image.path }}', '{{ img_desc | escape }}')">
+        <img src="{{ image.path }}" alt="{{ img_name }}" onclick="openModal('{{ image.path }}', '{{ img_desc | escape }}')">
       </div>
       
     {% endif %}
