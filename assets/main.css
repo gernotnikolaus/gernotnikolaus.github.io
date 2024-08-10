@@ -297,46 +297,33 @@ footer p {
 }
 
 /* Gallery Container */
-.gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px; /* Space between gallery items */
-    margin: 20px auto; /* Adjust margin as needed */
-    max-width: 1200px; /* Optional: set a max-width for better alignment */
-}
-
-/* Gallery Item */
 /* Gallery Container */
 .gallery-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax as needed */
-    gap: 10px; /* Space between gallery items */
+    column-count: 3; /* Number of columns; adjust based on screen size */
+    column-gap: 10px; /* Space between columns */
     margin: 20px auto; /* Adjust margin as needed */
     max-width: 1200px; /* Optional: set a max-width for better alignment */
 }
 
 /* Gallery Item */
 .gallery-item {
-    position: relative;
-    overflow: hidden;
-    background-color: #f0f0f0; /* Optional: background color */
-    border-radius: 8px; /* Optional: rounded corners */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for better look */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    margin-bottom: 10px; /* Space between items */
+    width: 100%; /* Full width for each column item */
+    break-inside: avoid; /* Prevent breaks inside the item */
 }
 
 /* Gallery Item Image */
 .gallery-item img {
-    width: 100%;
-    height: auto;
-    object-fit: contain; /* Ensure the whole image is shown without cropping */
     display: block;
+    width: 100%; /* Ensure the image takes up the full width of the item */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the whole image is shown without cropping */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    cursor: pointer;
 }
 
-/* Hover Effect to Restore Original Color */
+/* Hover Effect */
 .gallery-item img:hover {
     transform: scale(1.05); /* Slightly scale the image on hover */
 }
@@ -401,6 +388,17 @@ footer p {
     text-decoration: none; /* Optional: Remove underline on hover */
 }
 
+@media (max-width: 1200px) {
+    .gallery-container {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-container {
+        column-count: 1;
+    }
+}
 
 /* Blog Image */
 .blog-image {
