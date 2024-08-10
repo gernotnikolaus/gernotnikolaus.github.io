@@ -114,7 +114,14 @@ footer p {
     }
 
     .gallery-item img {
-        filter: grayscale(0%); /* Apply grayscale filter */
+        filter: none; /* Remove grayscale */
+        transform: none; /* Disable scale effect */
+        transition: none; /* Disable transition for instant effect */
+    }
+
+    .gallery-item img:hover {
+        filter: none; /* No grayscale on hover */
+        transform: none; /* No scale on hover */
     }
 }
 
@@ -138,7 +145,14 @@ footer p {
     }
 
     .gallery-item img {
-        filter: grayscale(0%); /* Apply grayscale filter */
+        filter: none; /* Remove grayscale */
+        transform: none; /* Disable scale effect */
+        transition: none; /* Disable transition for instant effect */
+    }
+
+    .gallery-item img:hover {
+        filter: none; /* No grayscale on hover */
+        transform: none; /* No scale on hover */
     }
 }
 
