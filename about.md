@@ -15,7 +15,7 @@ title: About me
     <a href="https://www.linkedin.com/in/gernot-nikolaus/" target="_blank" aria-label="LinkedIn">
         <i class="fab fa-linkedin"></i>
     </a>
-    <a href="mailto:gernotnikolaus@example.com" aria-label="Email">
+    <a href="mailto:gernot.nikolaus@stud.plus.ac.at" aria-label="Email">
         <i class="fas fa-envelope"></i>
     </a>
 </div>
