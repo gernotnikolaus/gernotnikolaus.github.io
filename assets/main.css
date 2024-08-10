@@ -361,23 +361,29 @@ footer p {
     cursor: pointer;
 }
 
-#modalImage {
-    display: block;
-    max-width: 85vw; /* 90% of viewport width */
-    max-height: 85vh; /* 90% of viewport height */
-    margin: auto;
+#modalContent {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the image */
+    width: 90%;
+    max-width: 800px;
+    transform: translate(-50%, -50%); /* Center the content */
+    text-align: center; /* Center the text and image */
+}
+
+#modalImage {
+    display: block;
+    max-width: 85vw; /* 85% of viewport width */
+    max-height: 75vh; /* 75% of viewport height */
+    margin: auto;
 }
 
 #modalDescription {
     font-family: 'PT Sans', sans-serif;
     color: #fff;
+    font-size: 0.9em; /* Same as figcaption font size */
+    margin-top: 15px; /* Space between image and description */
     text-align: center;
-    margin-top: 20px;
-    font-size: 18px;
 }
 
 /* Blog Image */
