@@ -12,14 +12,14 @@ title: Projects
     {% assign img_description = item.description %}
 
     <div class="gallery-item">
-      <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}', '{{ img_description | escape: false }}')">
+      <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}', '{{ img_description | escape }}')">
     </div>
   {% endfor %}
 </div>
 
 <!-- Fullscreen Modal -->
 <div id="imageModal">
-  <span onclick="closeModal()" id="closeModal">&times;</span>
+  <span onclick="closeModal()">&times;</span>
   <div id="modalContent">
     <img id="modalImage">
     <div id="modalDescription"></div>
@@ -34,7 +34,7 @@ function openModal(src, desc) {
     
     modal.style.display = "block";
     modalImg.src = src;
-    modalDesc.innerHTML = desc || "No description available."; // Use innerHTML to allow HTML content
+    modalDesc.textContent = desc || "No description available.";
 }
 
 function closeModal() {
@@ -44,6 +44,7 @@ function closeModal() {
 
 // Close the modal when clicking outside the image
 document.getElementById("imageModal").addEventListener('click', function(event) {
+    // Check if the click is outside the image
     if (event.target === this) {
         closeModal();
     }
