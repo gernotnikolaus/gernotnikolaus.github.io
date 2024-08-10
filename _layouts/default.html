@@ -38,5 +38,21 @@
             5020 Salzburg<br>
             Austria  </p>
     </footer>
-</body>
+    
+    <script>
+        function openModal(src, desc) {
+            var modal = document.getElementById("imageModal");
+            var modalImg = document.getElementById("modalImage");
+            var modalDesc = document.getElementById("modalDescription");
+            modal.style.display = "block";
+            modalImg.src = src;
+            modalDesc.textContent = desc || "No description available.";
+        }
+        
+        function closeModal() {
+            var modal = document.getElementById("imageModal");
+            modal.style.display = "none";
+        }
+        </script>
+    </body>
 </html>
