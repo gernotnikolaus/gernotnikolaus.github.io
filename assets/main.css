@@ -339,6 +339,7 @@ footer p {
 }
 
 /* Fullscreen Modal Styles */
+
 #imageModal {
     display: none;
     position: fixed;
@@ -373,17 +374,16 @@ footer p {
 
 #modalImage {
     display: block;
-    max-width: 85vw; /* 85% of viewport width */
-    max-height: 85vh; /* 75% of viewport height */
-    margin: auto;
+    max-width: 100%; /* Ensure the image scales correctly */
+    max-height: 80vh; /* Limit image height to prevent overflow */
+    margin: 0 auto; /* Center horizontally */
 }
 
 #modalDescription {
     font-family: 'PT Sans', sans-serif;
     color: #fff;
-    font-size: 0.9em; /* Same as figcaption font size */
+    font-size: 0.9em; /* Similar to figcaption font size */
     margin-top: 15px; /* Space between image and description */
-    text-align: center;
 }
 
 /* Blog Image */
