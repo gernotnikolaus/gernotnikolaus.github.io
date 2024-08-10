@@ -390,17 +390,17 @@ footer p {
 .modal-button {
     display: inline-block;
     font-family: 'PT Sans', sans-serif;
-    color: #ffffff; /* Link color */
+    color: #007bff; /* Link color */
     font-size: 16px;
     text-decoration: none;
-    border: 0px solidrgb(255, 255, 255)f; /* Border color */
+    border: 2px solid #007bff; /* Border color */
     border-radius: 5px;
     padding: 10px 20px;
-    background-color: #555555;
+    background-color: #fff;
 }
 
 .modal-button:hover {
-    background-color: #000000;
+    background-color: #007bff;
     color: #fff;
 }
 
