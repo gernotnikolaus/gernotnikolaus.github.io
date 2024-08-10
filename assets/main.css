@@ -299,7 +299,7 @@ footer p {
 /* Gallery Container */
 .gallery-container {
     column-count: 2; /* Number of columns; adjust based on screen size */
-    column-gap: 10px; /* Space between columns */
+    column-gap: 30px; /* Space between columns */
     margin: 40px auto; /* Adjust margin as needed */
     max-width: 1200px; /* Optional: set a max-width for better alignment */
 }
@@ -370,7 +370,7 @@ footer p {
     max-width: 100%; /* Ensure the image scales correctly */
     max-height: 80vh; /* Limit image height to prevent overflow */
     margin: 0 auto; /* Center horizontally */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add a slight shadow */
 }
 
 #modalDescription {
