@@ -29,6 +29,8 @@ title: Projects
 </div>
 
 <script>
+let scrollPosition = 0;
+
 function openModal(src, desc, link) {
     var modal = document.getElementById("imageModal");
     var modalImg = document.getElementById("modalImage");
@@ -40,14 +42,21 @@ function openModal(src, desc, link) {
     modalDesc.textContent = desc || "No description available.";
     modalLink.innerHTML = link || ""; // Use innerHTML to allow HTML content
 
-    document.body.style.overflow = "hidden"; // Disable scrolling
+    // Disable scrolling by fixing the body position
+    scrollPosition = window.pageYOffset;
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollPosition}px`;
+    document.body.style.width = '100%';
 }
 
 function closeModal() {
     var modal = document.getElementById("imageModal");
     modal.style.display = "none";
     
-    document.body.style.overflow = ""; // Re-enable scrolling
+    // Re-enable scrolling by restoring the body position
+    document.body.style.position = '';
+    document.body.style.top = '';
+    window.scrollTo(0, scrollPosition);
 }
 
 // Close the modal when clicking outside the image
