@@ -297,28 +297,29 @@ footer p {
 }
 
 /* Gallery Container */
-/* Gallery Container */
 .gallery-container {
-    column-count: 3; /* Number of columns; adjust based on screen size */
-    column-gap: 10px; /* Space between columns */
-    margin: 20px auto; /* Adjust margin as needed */
-    max-width: 1200px; /* Optional: set a max-width for better alignment */
+    display: flex;
+    flex-wrap: nowrap; /* Ensure all items stay in one row */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    gap: 10px; /* Space between items */
+    padding: 10px; /* Optional: Add padding around the container */
 }
 
 /* Gallery Item */
 .gallery-item {
-    display: inline-block;
-    margin-bottom: 10px; /* Space between items */
-    width: 100%; /* Full width for each column item */
-    break-inside: avoid; /* Prevent breaks inside the item */
+    flex: 1 1 auto; /* Allow items to grow and shrink */
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
 }
 
-/* Gallery Item Image */
+/* Gallery Item Styles */
 .gallery-item img {
     display: block;
-    width: 100%; /* Ensure the image takes up the full width of the item */
+    max-width: 100%; /* Scale image to fit the container */
     height: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Ensure the whole image is shown without cropping */
+    max-height: 100%; /* Ensure image doesn't exceed container height */
+    object-fit: contain; /* Ensure the whole image is visible without cropping */
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
     cursor: pointer;
 }
@@ -388,17 +389,6 @@ footer p {
     text-decoration: none; /* Optional: Remove underline on hover */
 }
 
-@media (max-width: 1200px) {
-    .gallery-container {
-        column-count: 2;
-    }
-}
-
-@media (max-width: 768px) {
-    .gallery-container {
-        column-count: 1;
-    }
-}
 
 /* Blog Image */
 .blog-image {
