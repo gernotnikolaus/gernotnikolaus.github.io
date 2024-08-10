@@ -318,6 +318,7 @@ footer p {
 
 /* Gallery Item Styles */
 .gallery-item img {
+    transform: scale(1.045);
     width: 100%; /* Ensure the image takes up the full width of the item */
     height: auto; /* Maintain aspect ratio */
     transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
@@ -327,7 +328,7 @@ footer p {
 /* Hover Effect to Restore Original Color */
 .gallery-item img:hover {
     filter: grayscale(0%); /* Remove grayscale filter on hover */
-    transform: scale(1.05); /* Slightly scale the image */
+    transform: scale(1.1); /* Slightly scale the image */
 }
 
 /* Ensure Titles Align with Images */
