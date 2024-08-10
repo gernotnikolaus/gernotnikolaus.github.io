@@ -115,6 +115,7 @@ footer p {
     .header-container,
     main,
     .content-container {
+        padding: 0 50px;  /* Adjust padding for mobile screens */
         width: 0;
     }
 }
