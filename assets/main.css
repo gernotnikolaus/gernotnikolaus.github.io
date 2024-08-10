@@ -379,7 +379,6 @@ footer p {
     max-width: 100%; /* Ensure the image scales correctly */
     max-height: 80vh; /* Limit image height to prevent overflow */
     margin: 0 auto; /* Center horizontally */
-    background-color: #fff; /* White background for the image itself (optional) */
 }
 
 #modalDescription {
