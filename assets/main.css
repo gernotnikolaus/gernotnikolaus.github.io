@@ -103,6 +103,7 @@ footer p {
     main,
     .content-container {
         padding: 0 50px;  /* Adjust padding for smaller screens */
+        width: 0;
     }
 }
 
@@ -114,7 +115,7 @@ footer p {
     .header-container,
     main,
     .content-container {
-        padding: 0 50px;  /* Adjust padding for mobile screens */
+        width: 0;
     }
 }
 
