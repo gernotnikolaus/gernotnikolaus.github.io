@@ -225,7 +225,7 @@ footer p {
     display: inline-block;
     font-weight: bold;
     color: #ffffff; /* Text color */
-    background-color: #000000; /* Background color */
+    background-color: #555555; /* Background color */
     text-decoration: none;
     padding: 10px 20px; /* Padding inside the button */
     border-radius: 4px; /* Optional: slightly rounded corners */
