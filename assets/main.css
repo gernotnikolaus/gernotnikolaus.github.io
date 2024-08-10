@@ -118,7 +118,18 @@ footer p {
         line-height: 1.2;
     }
 
+    .gallery-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    .gallery-item {
+        flex: 1 1 100%; /* Take full width on smaller screens */
+        margin-bottom: 20px; /* Space between items */
+    }
+
     .gallery-item img {
+        width: 100%; /* Full width image on smaller screens */
         filter: none; /* Remove grayscale */
         transform: none; /* Disable scale effect */
         transition: none; /* Disable transition for instant effect */
@@ -297,6 +308,9 @@ footer p {
 
 /* Gallery Item */
 .gallery-item {
+    display: flex;
+    flex-direction: column; /* Stack image and title vertically */
+    align-items: center; /* Center-align image and title */
     flex: 1 1 calc(33.333% - 20px); /* Three items per row with space between */
     box-sizing: border-box;
     margin: 10px; /* Adjust margin as needed */
@@ -306,7 +320,6 @@ footer p {
 .gallery-item img {
     width: 100%; /* Ensure the image takes up the full width of the item */
     height: auto; /* Maintain aspect ratio */
-    /*filter: grayscale(100%);  Apply grayscale filter */
     transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
     cursor: pointer;
 }
@@ -315,6 +328,14 @@ footer p {
 .gallery-item img:hover {
     filter: grayscale(0%); /* Remove grayscale filter on hover */
     transform: scale(1.05); /* Slightly scale the image */
+}
+
+/* Ensure Titles Align with Images */
+.gallery-item h2 {
+    margin-top: 10px; /* Space between image and title */
+    text-align: center; /* Center align the title */
+    font-size: 1.5em; /* Adjust the font size of the title */
+    color: #000000; /* Title color */
 }
 
 /* Fullscreen Modal Styles */
