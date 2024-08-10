@@ -99,10 +99,13 @@ footer p {
         padding: 0 20px;  /* Adjust padding for smaller screens */
     }
 
-    .header-container,
+    .header-container {
+        padding: 0 0;  /* Adjust padding for smaller screens */
+    }
+
     main,
     .content-container {
-        padding: 0 50px;  /* Adjust padding for smaller screens */
+        padding: 0 30px;  /* Adjust padding for smaller screens */
     }
 }
 
@@ -111,10 +114,13 @@ footer p {
         padding: 0 10px;  /* Adjust padding for mobile screens */
     }
 
-    .header-container,
+    .header-container {
+        padding: 0 0;  /* Adjust padding for smaller screens */
+    }
+
     main,
     .content-container {
-        padding: 0 50px;  /* Adjust padding for mobile screens */
+        padding: 0 30px;  /* Adjust padding for smaller screens */
     }
 }
 
