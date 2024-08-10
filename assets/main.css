@@ -307,7 +307,7 @@ footer p {
 /* Gallery Item */
 .gallery-item {
     display: inline-block;
-    margin-bottom: 10px; /* Space between items */
+    margin-bottom: 30px; /* Space between items */
     width: 100%; /* Full width for each column item */
     break-inside: avoid; /* Prevent breaks inside the item */
 }
