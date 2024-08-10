@@ -4,7 +4,7 @@ title: Projects
 ---
 
 <div class="gallery-container">
-  {% assign images = site.data.hashtags %}
+  {% assign images = site.data.image_data %}
   {% assign reversed_images = images | reverse %}
 
   {% for item in reversed_images %}
