@@ -397,21 +397,26 @@ footer p {
     text-decoration: none; /* Optional: Remove underline on hover */
 }
 
-#modalLink {
-    font-family: 'PT Sans', sans-serif;
-    color: #000000; /* Link color */
+#modalLinkContainer {
     text-align: center;
     margin-top: 10px;
+}
+
+.modal-button {
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    color: #007bff; /* Link color */
     font-size: 16px;
-}
-
-#modalLink a {
-    color: #000000; /* Link color */
     text-decoration: none;
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
 }
 
-#modalLink a:hover {
-    text-decoration: underline;
+.modal-button:hover {
+    background-color: #007bff;
+    color: #fff;
 }
 
 /* Blog Image */
