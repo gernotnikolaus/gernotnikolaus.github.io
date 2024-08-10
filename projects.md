@@ -3,30 +3,16 @@ layout: default
 title: Projects
 ---
 
-<div class="filter-buttons">
-  <button class="filter-button" data-filter="all">All</button>
-  {% assign all_hashtags = "" %}
-  {% for item in site.data.hashtags %}
-    {% for hashtag in item.hashtags %}
-      {% unless all_hashtags contains hashtag %}
-        <button class="filter-button" data-filter="{{ hashtag }}">{{ hashtag }}</button>
-        {% assign all_hashtags = all_hashtags | append: hashtag | append: "," %}
-      {% endunless %}
-    {% endfor %}
-  {% endfor %}
-</div>
-
 <div class="gallery-container">
-  {% assign images = site.data.hashtags %}
+  {% assign images = site.static_files | where: "path", "/assets/images/projects/" %}
   {% assign reversed_images = images | reverse %}
 
-  {% for item in reversed_images %}
-    {% assign img_path = item.path %}
-    {% assign img_hashtags = item.hashtags %}
-    {% assign img_description = item.description %}
-
-    <div class="gallery-item" data-hashtags="{{ img_hashtags | join: ',' }}" data-description="{{ img_description }}">
-      <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}', '{{ img_description | escape }}')">
+  {% for image in reversed_images %}
+    {% assign img_name = image.path | split: '/' | last %}
+    {% assign img_desc = img_name %} <!-- Use file name as description -->
+    
+    <div class="gallery-item">
+      <img src="{{ image.path }}" alt="{{ image.name }}" onclick="openModal('{{ image.path }}', '{{ img_desc | escape }}')">
     </div>
   {% endfor %}
 </div>
@@ -34,10 +20,8 @@ title: Projects
 <!-- Fullscreen Modal -->
 <div id="imageModal">
   <span onclick="closeModal()">&times;</span>
-  <div id="modalContent">
-    <img id="modalImage">
-    <div id="modalDescription"></div>
-  </div>
+  <img id="modalImage" src="" alt="Modal Image">
+  <div id="modalDescription"></div>
 </div>
 
 <script>
@@ -54,17 +38,4 @@ function closeModal() {
     var modal = document.getElementById("imageModal");
     modal.style.display = "none";
 }
-
-document.querySelectorAll('.filter-button').forEach(button => {
-  button.addEventListener('click', function() {
-    var filter = this.getAttribute('data-filter');
-    document.querySelectorAll('.gallery-item').forEach(item => {
-      if (filter === 'all' || item.getAttribute('data-hashtags').includes(filter)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    });
-  });
-});
 </script>

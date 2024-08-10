@@ -338,12 +338,6 @@ footer p {
     color: #000000; /* Title color */
 }
 
-.filter-buttons {
-    margin-bottom: 20px;
-}
-
-
-
 #imageModal {
     display: none;
     position: fixed;
