@@ -107,6 +107,11 @@ footer p {
     .content-container {
         padding: 0 30px;  /* Adjust padding for smaller screens */
     }
+
+    h2.blog-title {
+        text-align: left;
+        line-height: 1.2;
+    }
 }
 
 @media (max-width: 480px) {
@@ -121,6 +126,11 @@ footer p {
     main,
     .content-container {
         padding: 0 30px;  /* Adjust padding for smaller screens */
+    }
+
+    h2.blog-title {
+        text-align: left;
+        line-height: 1.2;
     }
 }
 
