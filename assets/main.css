@@ -343,15 +343,22 @@ footer p {
 }
 
 .filter-button {
-    margin: 5px;
-    padding: 10px;
-    border: none;
-    background-color: #ddd;
-    cursor: pointer;
+    text-align: right;
+    display: inline-block;
+    font-weight: bold;
+    color: #ffffff; /* Text color */
+    background-color: #555555; /* Background color */
+    text-decoration: none;
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 4px; /* Optional: slightly rounded corners */
+    margin-top: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .filter-button:hover {
-    background-color: #ccc;
+    color: #000000;
+    background-color: #ffffff; /* Darker background on hover */
+    text-decoration: none; /* Ensure text is not underlined on hover */
 }
 
 #imageModal {
