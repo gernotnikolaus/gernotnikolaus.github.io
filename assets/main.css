@@ -113,6 +113,11 @@ footer p {
         line-height: 1.2;
     }
 
+    h2, h3 {
+        text-align: left;
+        line-height: 1.2;
+    }
+
     .gallery-item img {
         filter: none; /* Remove grayscale */
         transform: none; /* Disable scale effect */
@@ -140,6 +145,11 @@ footer p {
     }
 
     h2.blog-title {
+        text-align: left;
+        line-height: 1.2;
+    }
+
+    h2, h3 {
         text-align: left;
         line-height: 1.2;
     }
