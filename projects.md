@@ -34,7 +34,7 @@ function openModal(src, desc) {
     
     modal.style.display = "block";
     modalImg.src = src;
-    modalDesc.textContent = desc || "No description available.";
+    modalDesc.innerHTML = desc || "No description available."; // Use innerHTML to allow HTML content
 }
 
 function closeModal() {

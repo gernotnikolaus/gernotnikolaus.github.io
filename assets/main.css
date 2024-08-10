@@ -388,6 +388,15 @@ footer p {
     margin-top: 15px; /* Space between image and description */
 }
 
+#modalDescription a {
+    color: #000000; /* Link color */
+    text-decoration: underline; /* Optional: Underline links */
+}
+
+#modalDescription a:hover {
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+
 /* Blog Image */
 .blog-image {
     text-align: center; /* Center the image container */
