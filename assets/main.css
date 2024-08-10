@@ -385,7 +385,8 @@ footer p {
     font-family: 'PT Sans', sans-serif;
     color: #000; /* Black text color for the description */
     font-size: 0.9em; /* Similar to figcaption font size */
-    margin-top: 15px; /* Space between image and description */
+    margin-top: 20px; /* Space between image and description */
+    font-size: 18px;
 }
 
 #modalDescription a {

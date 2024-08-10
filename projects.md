@@ -39,11 +39,15 @@ function openModal(src, desc, link) {
     modalImg.src = src;
     modalDesc.textContent = desc || "No description available.";
     modalLink.innerHTML = link || ""; // Use innerHTML to allow HTML content
+
+    document.body.style.overflow = "hidden"; // Disable scrolling
 }
 
 function closeModal() {
     var modal = document.getElementById("imageModal");
     modal.style.display = "none";
+    
+    document.body.style.overflow = ""; // Re-enable scrolling
 }
 
 // Close the modal when clicking outside the image
