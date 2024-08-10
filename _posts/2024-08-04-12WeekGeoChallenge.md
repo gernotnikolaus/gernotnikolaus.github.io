@@ -10,7 +10,7 @@ Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeo
 ## Topic 01: river networks/water bodies 🗺️ Map of the Amazon Basin
 
 <div class="blog-image">
-  <img src="{{ '/assets/images/blogs/AmazonBasin_GernotNikolaus.jpg' | relative_url }}" alt="Amazon Basin Map">
+  <img src="{{ '/assets/images/projects/AmazonBasin_GernotNikolaus.jpg' | relative_url }}" alt="Amazon Basin Map">
   <figcaption>Map of the Amazon Basin (own figure).</figcaption>
 </div>
 
