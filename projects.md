@@ -7,10 +7,9 @@ title: Projects
   {% for image in site.static_files %}
     {% if image.path contains '/assets/images/projects/' %}
       {% assign img_name = image.path | split: '/' | last %}
-      {% assign img_desc = site.data.image_descriptions[img_name] %}
       
       <div class="gallery-item">
-        <img src="{{ image.path }}" alt="{{ image.name }}" onclick="openModal('{{ image.path }}', '{{ img_desc | escape }}')">
+        <img src="{{ image.path }}" alt="{{ img_name }}" onclick="openModal('{{ image.path }}', '{{ img_name | escape }}')">
       </div>
       
     {% endif %}
@@ -18,10 +17,10 @@ title: Projects
 </div>
 
 <!-- Fullscreen Modal -->
-<div id="imageModal">
-  <span onclick="closeModal()">&times;</span>
-  <img id="modalImage">
-  <div id="modalDescription"></div>
+<div id="imageModal" style="display:none;">
+  <span onclick="closeModal()" style="cursor:pointer;">&times;</span>
+  <img id="modalImage" style="display:block; margin:auto; max-width:80%;">
+  <div id="modalDescription" style="color:#fff; text-align:center; margin-top:20px;"></div>
 </div>
 
 <script>
