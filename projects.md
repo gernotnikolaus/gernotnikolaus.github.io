@@ -31,6 +31,7 @@ function openModal(src, desc) {
     var modal = document.getElementById("imageModal");
     var modalImg = document.getElementById("modalImage");
     var modalDesc = document.getElementById("modalDescription");
+    
     modal.style.display = "block";
     modalImg.src = src;
     modalDesc.textContent = desc || "No description available.";
@@ -40,4 +41,12 @@ function closeModal() {
     var modal = document.getElementById("imageModal");
     modal.style.display = "none";
 }
+
+// Close the modal when clicking outside the image
+document.getElementById("imageModal").addEventListener('click', function(event) {
+    // Check if the click is outside the image
+    if (event.target === this) {
+        closeModal();
+    }
+});
 </script>
