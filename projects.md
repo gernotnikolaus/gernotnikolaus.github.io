@@ -4,15 +4,15 @@ title: Projects
 ---
 
 <div class="gallery-container">
-  {% assign images = site.static_files | where: "path", "/assets/images/projects/" %}
+  {% assign images = site.data.hashtags %}
   {% assign reversed_images = images | reverse %}
 
-  {% for image in reversed_images %}
-    {% assign img_name = image.path | split: '/' | last %}
-    {% assign img_desc = img_name %} <!-- Use file name as description -->
-    
-    <div class="gallery-item">
-      <img src="{{ image.path }}" alt="{{ image.name }}" onclick="openModal('{{ image.path }}', '{{ img_desc | escape }}')">
+  {% for item in reversed_images %}
+    {% assign img_path = item.path %}
+    {% assign img_description = item.description %}
+
+    <div class="gallery-item" data-description="{{ img_description }}">
+      <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}', '{{ img_description | escape }}')">
     </div>
   {% endfor %}
 </div>
@@ -20,8 +20,10 @@ title: Projects
 <!-- Fullscreen Modal -->
 <div id="imageModal">
   <span onclick="closeModal()">&times;</span>
-  <img id="modalImage" src="" alt="Modal Image">
-  <div id="modalDescription"></div>
+  <div id="modalContent">
+    <img id="modalImage">
+    <div id="modalDescription"></div>
+  </div>
 </div>
 
 <script>
@@ -38,4 +40,3 @@ function closeModal() {
     var modal = document.getElementById("imageModal");
     modal.style.display = "none";
 }
-</script>
