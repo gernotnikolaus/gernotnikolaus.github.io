@@ -34,8 +34,10 @@ title: Projects
 <!-- Fullscreen Modal -->
 <div id="imageModal">
   <span onclick="closeModal()">&times;</span>
-  <img id="modalImage">
-  <div id="modalDescription"></div>
+  <div id="modalContent">
+    <img id="modalImage">
+    <div id="modalDescription"></div>
+  </div>
 </div>
 
 <script>
@@ -66,21 +68,3 @@ document.querySelectorAll('.filter-button').forEach(button => {
   });
 });
 </script>
-
-<style>
-.filter-buttons {
-  margin-bottom: 20px;
-}
-
-.filter-button {
-  margin: 5px;
-  padding: 10px;
-  border: none;
-  background-color: #ddd;
-  cursor: pointer;
-}
-
-.filter-button:hover {
-  background-color: #ccc;
-}
-</style>
