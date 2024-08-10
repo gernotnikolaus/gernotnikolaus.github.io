@@ -374,7 +374,7 @@ footer p {
 #modalImage {
     display: block;
     max-width: 85vw; /* 85% of viewport width */
-    max-height: 75vh; /* 75% of viewport height */
+    max-height: 85vh; /* 75% of viewport height */
     margin: auto;
 }
 
