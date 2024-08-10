@@ -310,18 +310,16 @@ footer p {
 .gallery-item {
     display: flex;
     flex-direction: column; /* Stack image and title vertically */
-    align-items: center; /* Center-align image and title */
+    align-items: left; /* Center-align image and title */
     flex: 1 1 calc(33.333% - 20px); /* Three items per row with space between */
     box-sizing: border-box;
-    margin: 20px; /* Adjust margin as needed */
+    margin: 10px; /* Adjust margin as needed */
 }
 
 /* Gallery Item Styles */
 .gallery-item img {
-    transform: scale(1.07);
     width: 100%; /* Ensure the image takes up the full width of the item */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 8px;
     transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
     cursor: pointer;
 }
@@ -329,7 +327,7 @@ footer p {
 /* Hover Effect to Restore Original Color */
 .gallery-item img:hover {
     filter: grayscale(0%); /* Remove grayscale filter on hover */
-    transform: scale(1.0); /* Slightly scale the image */
+    transform: scale(1.05); /* Slightly scale the image */
 }
 
 /* Ensure Titles Align with Images */
