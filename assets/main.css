@@ -299,9 +299,8 @@ footer p {
 /* Gallery Container */
 /* Gallery Container */
 .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
     gap: 20px; /* Space between gallery items */
     margin: 20px auto; /* Adjust margin as needed */
     max-width: 1200px; /* Optional: set a max-width for better alignment */
@@ -309,25 +308,17 @@ footer p {
 
 /* Gallery Item */
 .gallery-item {
-    flex: 1 1 calc(33.333% - 20px); /* Three items per row with space between */
-    box-sizing: border-box;
-    margin: 10px; /* Adjust margin as needed */
-    overflow: hidden; /* Ensure content does not overflow */
-    position: relative; /* For better positioning control */
+    position: relative;
+    overflow: hidden; /* Hide overflow */
+    background-color: #f0f0f0; /* Optional: background color */
 }
 
 /* Gallery Item Image */
 .gallery-item img {
     width: 100%;
-    height: 300px; /* Set a fixed height for uniformity */
-    object-fit: cover; /* Ensures images maintain aspect ratio while filling the space */
-    transition: transform 0.3s ease; /* Smooth transition for hover effect */
-    cursor: pointer;
-}
-
-/* Hover Effect to Scale Image */
-.gallery-item img:hover {
-    transform: scale(1.05); /* Slightly scale the image */
+    height: 100%;
+    object-fit: contain; /* Maintain aspect ratio without cropping */
+    display: block;
 }
 
 /* Fullscreen Modal Styles */
@@ -340,14 +331,14 @@ footer p {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: #fff; /* White background for the modal */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
 }
 
 #imageModal span {
     position: absolute;
     top: 20px;
     right: 35px;
-    color: #000; /* Black color for the close button */
+    color: #fff; /* White color for the close button */
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
