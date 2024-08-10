@@ -44,7 +44,6 @@ function closeModal() {
 
 // Close the modal when clicking outside the image
 document.getElementById("imageModal").addEventListener('click', function(event) {
-    // Check if the click is outside the image
     if (event.target === this) {
         closeModal();
     }
