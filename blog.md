@@ -15,6 +15,7 @@ title: Blog
             {% endif %}
         </p>
         <a class="read-more" href="{{ post.url }}">Read More</a>
+        <br>
         <hr class="post-divider">
     </div>
     {% endfor %}
