@@ -23,9 +23,10 @@ title: Projects
   {% for item in reversed_images %}
     {% assign img_path = item.path %}
     {% assign img_hashtags = item.hashtags %}
+    {% assign img_description = item.description %}
 
-    <div class="gallery-item" data-hashtags="{{ img_hashtags | join: ',' }}">
-      <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}')">
+    <div class="gallery-item" data-hashtags="{{ img_hashtags | join: ',' }}" data-description="{{ img_description }}">
+      <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}', '{{ img_description | escape }}')">
     </div>
   {% endfor %}
 </div>
@@ -38,11 +39,13 @@ title: Projects
 </div>
 
 <script>
-function openModal(src) {
+function openModal(src, desc) {
     var modal = document.getElementById("imageModal");
     var modalImg = document.getElementById("modalImage");
+    var modalDesc = document.getElementById("modalDescription");
     modal.style.display = "block";
     modalImg.src = src;
+    modalDesc.textContent = desc || "No description available.";
 }
 
 function closeModal() {

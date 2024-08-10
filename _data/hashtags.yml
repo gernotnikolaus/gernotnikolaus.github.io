@@ -2,16 +2,19 @@
   hashtags:
     - nature
     - landscape
+  description: "A beautiful landscape in the mountains."
 
 - path: /assets/images/projects/image_02.jpg
   hashtags:
     - city
     - night
+  description: "wdnklawndklawnk."
 
 - path: /assets/images/projects/image_03.jpg
   hashtags:
     - city
     - night
+  description: "wdnklawndklawnk."
 
 - path: /assets/images/projects/image_04.jpg
   hashtags:
