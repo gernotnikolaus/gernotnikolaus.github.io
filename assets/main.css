@@ -415,3 +415,18 @@ footer p {
     color: #666; /* Slightly lighter color for the caption text */
     margin-top: 5px; /* Space between image and caption */
 }
+
+.contact-icons {
+    margin-top: 15px;
+}
+
+.contact-icons a {
+    margin-right: 15px;
+    color: #333; /* Adjust color */
+    font-size: 24px; /* Adjust icon size */
+    text-decoration: none;
+}
+
+.contact-icons a:hover {
+    color: #0077b5; /* LinkedIn color or any hover effect */
+}
