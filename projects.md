@@ -11,7 +11,7 @@ title: Projects
     {% assign img_path = item.path %}
     {% assign img_description = item.description %}
 
-    <div class="gallery-item" data-description="{{ img_description }}">
+    <div class="gallery-item">
       <img src="{{ img_path }}" alt="Image" onclick="openModal('{{ img_path }}', '{{ img_description | escape }}')">
     </div>
   {% endfor %}
