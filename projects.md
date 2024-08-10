@@ -23,6 +23,7 @@ title: Projects
   <div id="modalDescription" style="color:#fff; text-align:center; margin-top:20px;"></div>
 </div>
 
+<!-- JavaScript Functions -->
 <script>
 function openModal(src, desc) {
     var modal = document.getElementById("imageModal");
