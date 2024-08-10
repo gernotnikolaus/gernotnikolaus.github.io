@@ -1,3 +1,25 @@
+- path: /assets/images/projects/image_01.jpg
+  description: "A beautiful landscape in the mountains."
+
+- path: /assets/images/projects/image_02.jpg
+  description: ""
+
+- path: /assets/images/projects/image_03.jpg
+
+- path: /assets/images/projects/image_04.jpg
+
+- path: /assets/images/projects/image_05.jpg
+
+- path: /assets/images/projects/image_06.jpg
+
+- path: /assets/images/projects/image_07.jpg
+
+- path: /assets/images/projects/image_08.jpg
+
+- path: /assets/images/projects/image_09.jpg
+
+- path: /assets/images/projects/image_10.jpg
+
 - path: /assets/images/projects/MedievalCastlesWebMap_GernotNikolaus.jpg
   description: "Medieval-Castles in the region of Salzburg (own figure)"
 
