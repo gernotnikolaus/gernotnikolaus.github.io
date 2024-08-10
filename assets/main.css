@@ -348,60 +348,70 @@ footer p {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: #fff; /* White background */
+    background-color: #fff; /* White background for the modal */
 }
 
-#closeModal {
+#imageModal span {
     position: absolute;
     top: 20px;
     right: 35px;
-    color: #000; /* Black color for close button */
+    color: #000; /* Black color for the close button */
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
 }
 
 #modalContent {
-    position: relative;
-    text-align: center;
-    margin: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 800px;
+    transform: translate(-50%, -50%); /* Center the content */
+    text-align: center; /* Center the text and image */
+    background-color: #fff; /* White background for the image and description container */
+    padding: 10px; /* Optional: add padding around the content */
+    border-radius: 8px; /* Optional: add rounded corners */
 }
 
 #modalImage {
     display: block;
-    max-width: 90vw; /* 90% of viewport width */
-    max-height: 80vh; /* 80% of viewport height */
-    margin: auto;
+    max-width: 100%; /* Ensure the image scales correctly */
+    max-height: 80vh; /* Limit image height to prevent overflow */
+    margin: 0 auto; /* Center horizontally */
 }
 
 #modalDescription {
     font-family: 'PT Sans', sans-serif;
-    color: #000; /* Black text color for description */
-    text-align: center;
-    margin-top: 20px;
-    font-size: 18px;
+    color: #000; /* Black text color for the description */
+    font-size: 0.9em; /* Similar to figcaption font size */
+    margin-top: 15px; /* Space between image and description */
 }
 
-#modalLinkContainer {
+#modalDescription a {
+    color: #000000; /* Link color */
+    text-decoration: underline; /* Optional: Underline links */
+}
+
+#modalDescription a:hover {
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+#modalLink {
+    font-family: 'PT Sans', sans-serif;
+    color: #000000; /* Link color */
     text-align: center;
     margin-top: 10px;
-}
-
-.modal-button {
-    display: inline-block;
-    font-family: 'PT Sans', sans-serif;
-    color: #007bff; /* Link color */
     font-size: 16px;
-    text-decoration: none;
-    border: 2px solid #007bff; /* Border color */
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: #fff;
 }
 
-.modal-button:hover {
-    background-color: #007bff;
-    color: #fff;
+#modalLink a {
+    color: #000000; /* Link color */
+    text-decoration: none;
+}
+
+#modalLink a:hover {
+    text-decoration: underline;
 }
 
 /* Blog Image */
