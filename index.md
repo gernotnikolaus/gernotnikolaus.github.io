@@ -10,6 +10,16 @@ title: About me
     <img src="{{ "/assets/images/GernotNikolaus_portrait.jpg" | relative_url }}" alt="Gernot Nikolaus" class="about-image">
 </div>
 
+<!-- Icons Section -->
+<div class="contact-icons">
+    <a href="https://www.linkedin.com/in/gernot-nikolaus/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:gernot.nikolaus@stud.plus.ac.at" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+    </a>
+</div>
+
 <hr class="section-divider">
 
 <h2>Experience</h2>
