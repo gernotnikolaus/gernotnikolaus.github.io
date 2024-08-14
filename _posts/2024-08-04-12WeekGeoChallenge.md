@@ -14,7 +14,7 @@ Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeo
   <figcaption>Map of the Amazon Basin (own figure).</figcaption>
 </div>
 
-## Topic 02: Animal in the wild 🗺️
+## Topic 02: Animals in the wild 🗺️
 
 <div class="blog-image">
   <img src="{{ '/assets/images/blogs/RockMonitor_GernotNikolaus.jpg' | relative_url }}" alt="Amazon Basin Map">
@@ -22,6 +22,6 @@ Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeo
 </div>
 
 
-## Topic 0e: Local Landmark 🗺️
+## Topic 03: Local Landmark 🗺️
 
 More details about the challenge and other maps will be added soon!
