@@ -16,4 +16,12 @@ Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeo
 
 ## Topic 02: Animal in the wild 🗺️
 
+<div class="blog-image">
+  <img src="{{ '/assets/images/blogs/RockMonitor_GernotNikolaus.jpg' | relative_url }}" alt="Amazon Basin Map">
+  <figcaption>Map of the Rock Monitor in South Africa (own figure).</figcaption>
+</div>
+
+
+## Topic 0e: Local Landmark 🗺️
+
 More details about the challenge and other maps will be added soon!
