@@ -3,3 +3,9 @@ description: A showcase of my work and thoughts.
 baseurl: ""
 url: "https://gernotnikolaus.github.io"
 markdown: kramdown
+
+collections:
+  posts:
+    output: true
+  projects:
+    output: true
