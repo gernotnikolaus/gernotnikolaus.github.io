@@ -3,6 +3,7 @@ layout: default
 title: "Report on the Blended Intensive Program: Healthy Urban Systems (HUS) in Lausanne, Switzerland"
 date: 2024-07-06
 categories: [blog]
+permalink: /blog/ReportBIPLausanne
 ---
 
 From July 1 to 6, 2024, I attended the Blended Intensive Programme (BIP) on Healthy Urban Systems (HUS) at the University of Lausanne (UNIL) in Lausanne, Switzerland. This programme aimed to equip students with a comprehensive understanding and tools related to health in urban settings. It combined a 12-week Massive Open Online Course (MOOC) with a concluding week of physical workshops. This final week focused on examining urban environments through various sessions, lectures, and practical exercises, involving participants from diverse academic backgrounds.

@@ -3,6 +3,7 @@ layout: default
 title: "Excursion in Vienna"
 date: 2024-05-21
 categories: [blog]
+permalink: /blog/ExcursionVienna
 ---
 
 End of May, I was on an excursion in Vienna, visiting two key institutions as part of the EM CDE Copernicus Hubs and Institutions course: the Earth Observation Data Centre for Water Resources Monitoring EODC and the Federal Office of Metrology and Surveying (BEV).
