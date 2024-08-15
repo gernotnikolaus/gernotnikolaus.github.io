@@ -4,7 +4,8 @@ title: Blog
 ---
 
 <div class="blog-list">
-    {% for post in site.posts %}
+{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
     <div class="blog-post">
         <h2 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="blog-preview">
