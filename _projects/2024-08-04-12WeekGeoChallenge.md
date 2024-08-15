@@ -8,6 +8,7 @@ permalink: /projects/12WeekGeoChallenge
 
 Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeoChallenge**, where we have one week to create a map on a specific topic. I mostly used ArcGIS Pro, as well as the Affinity suit for drawing and creating own symbols etc.
 Topics of the challenge:
+<!---
 * River Networks/Waterbodies
 * Animals in the wild
 * Local Landmarks
@@ -19,9 +20,9 @@ Topics of the challenge:
 * Natural Disasters/Human Impact
 * Unexpected Map
 * Air Quality
-* Raster Creativity
+* Raster Creativity -->
 
-| Topic | Topic |
+| Topic |  |
 | -------- | ------- |
 | River Networks/Waterbodies | Polar Regions |
 | Animals in the wild | Elevation Map |
