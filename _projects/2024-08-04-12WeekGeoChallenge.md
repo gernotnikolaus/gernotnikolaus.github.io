@@ -3,6 +3,7 @@ layout: default
 title: "12WeekGeoChallenge"
 date: 2024-08-04
 categories: [projects]
+permalink: /projects/12WeekGeoChallenge
 ---
 
 Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeoChallenge**, where we have one week to create a map on a specific topic.
