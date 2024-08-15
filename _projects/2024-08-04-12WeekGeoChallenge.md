@@ -21,6 +21,15 @@ Topics of the challenge:
 * Air Quality
 * Raster Creativity
 
+| Topic | Topic |
+| -------- | ------- |
+| River Networks/Waterbodies | Polar Regions |
+| Animals in the wild | Elevation Map |
+| Local Landmarks | Natural Disasters/Human Impact |
+| Minimalist Map  | Unexpected Map |
+| Creative Lines | Air Quality |
+| Travel/Adventure Route | Raster Creativity |
+
 ## Topic 01: river networks/water bodies 🗺️ Map of the Amazon Basin
 
 <div class="blog-image">
