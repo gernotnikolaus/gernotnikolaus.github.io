@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Project
 ---
 
 <div class="blog-list">
