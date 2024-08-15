@@ -4,7 +4,8 @@ title: Projects
 ---
 
 <div class="blog-list">
-    {% for project in site.projects %}
+    {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+    {% for project in sorted_projects %}
     <div class="blog-post">
         <h2 class="blog-title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
         <p class="blog-preview">
