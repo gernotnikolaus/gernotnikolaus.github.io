@@ -6,7 +6,20 @@ categories: [projects]
 permalink: /projects/12WeekGeoChallenge
 ---
 
-Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeoChallenge**, where we have one week to create a map on a specific topic.
+Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeoChallenge**, where we have one week to create a map on a specific topic. I mostly used ArcGIS Pro, as well as the Affinity suit for drawing and creating own symbols etc.
+Topics of the challenge:
+* River Networks/Waterbodies
+* Animals in the wild
+* Local Landmarks
+* Minimalist Map
+* Creative Lines
+* Travel/Adventure Route
+* Polar Regions
+* Elevation Map
+* Natural Disasters/Human Impact
+* Unexpected Map
+* Air Quality
+* Raster Creativity
 
 ## Topic 01: river networks/water bodies 🗺️ Map of the Amazon Basin
 
@@ -23,6 +36,6 @@ Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeo
 </div>
 
 
-## Topic 03: Local Landmark 🗺️
+## Topic 03: Local Landmarks 🗺️
 
 More details about the challenge and other maps will be added soon!
