@@ -224,7 +224,7 @@ footer p {
 
 /* Blog Title */
 .blog-title {
-    text-align: left;
+    /*text-align: left;*/
     font-size: 1.5em; /* Adjust size as needed */
     margin: 0;
 }
