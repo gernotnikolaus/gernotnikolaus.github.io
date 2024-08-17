@@ -10,7 +10,7 @@ I had the chance to take part in the Blended Intensive Program (BIP) Digital Ear
 
 <div class="blog-image">
   <img src="{{ '/assets/images/blogs/OlomoucBIP_01_GernotNikolaus.jpg' | relative_url }}" alt="Presenting of our topic">
-  <figcaption>Presenting of our topic (own image).</figcaption>
+  <figcaption>Presentation of our topic (own image).</figcaption>
 </div>
 
 The program started online in November 2023 and concluded in a physical week in February 2024 which included discussions and presentations, workshops, and hands-on lectures, all aimed at exploring various facets of our field. Different topics such as detailed explorations of the ArcGIS platform, (geo)-visualization techniques, user experience design, and Public Participation Geographic Information System (PPGIS) were covered. There were morning and afternoon sessions, each filled with insightful content and practical learning opportunities. Undoubtedly, one of the highlights of this experience was the opportunity to connect with people from various countries and cultures. This networking aspect was invaluable, as it facilitated an exchange of great ideas. Not only could I connect with fellow students but I also had the opportunity to meet with lecturers and seniors, exchanging information about future academic paths and my master's thesis.

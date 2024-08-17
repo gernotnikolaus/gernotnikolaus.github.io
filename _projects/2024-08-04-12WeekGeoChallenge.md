@@ -26,7 +26,7 @@ Topics of the challenge:
   <figcaption>Map of the Amazon Basin (own figure).</figcaption>
 </div>
 
-## Topic 02: Animals in the wild 🗺️
+## Topic 02: Animals in the wild 🗺️ Map of the Rock Monitor in South Africa
 
 <div class="blog-image">
   <img src="{{ '/assets/images/projects/RockMonitor_SouthAfrica_GernotNikolaus.jpg' | relative_url }}" alt="Rock Monitor South Africa">
