@@ -10,14 +10,14 @@ Inspired by the **30DayMapChallenge**, friends and I created our own **12WeekGeo
 
 Topics of the challenge:
 
-| Topic |  |
-| -------- | ------- |
-| River Networks/Waterbodies | Polar Regions |
-| Animals in the wild | Elevation Map |
-| Local Landmarks | Natural Disasters/Human Impact |
-| Minimalist Map  | Unexpected Map |
-| Creative Lines | Air Quality |
-| Travel/Adventure Route | Raster Creativity |
+| Topic                         |                                 |
+|-------------------------------|---------------------------------|
+| River Networks/Waterbodies     | Polar Regions                   |
+| Animals in the wild            | Elevation Map                   |
+| Local Landmarks                | Natural Disasters/Human Impact  |
+| Minimalist Map                 | Unexpected Map                  |
+| Creative Lines                 | Air Quality                     |
+| Travel/Adventure Route         | Raster Creativity               |
 
 ## Topic 01: river networks/water bodies 🗺️ Map of the Amazon Basin
 
@@ -29,10 +29,11 @@ Topics of the challenge:
 ## Topic 02: Animals in the wild 🗺️
 
 <div class="blog-image">
-  <img src="{{ '/assets/images/blogs/RockMonitor_GernotNikolaus.jpg' | relative_url }}" alt="Amazon Basin Map">
+  <img src="{{ '/assets/images/projects/RockMonitor_SouthAfrica_GernotNikolaus.jpg' | relative_url }}" alt="Rock Monitor South Africa">
   <figcaption>Map of the Rock Monitor in South Africa (own figure).</figcaption>
 </div>
 
+**#AnimalsInTheWild** was the second theme of our **#12WeekGeoChallenge!** The map shows the number of sightings of the Rock Monitor Lizard (*Varanus albigularis*) across South Africa in 2019 - no more information needed, just the distribution.
 
 ## Topic 03: Local Landmarks 🗺️
 
