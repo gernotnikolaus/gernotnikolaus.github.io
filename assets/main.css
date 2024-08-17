@@ -271,12 +271,12 @@ footer p {
 /* Responsive Design */
 @media (max-width: 768px) {
     .header-container {
-        flex-direction: column; /* Stack header elements vertically on small screens */
+        flex-direction: row; /* Stack header elements vertically on small screens */
         align-items: center; /* Center align items */
     }
 
     nav ul {
-        flex-direction: column; /* Stack navigation items vertically */
+        flex-direction: row; /* Stack navigation items vertically */
         align-items: center; /* Center align navigation items */
         margin-top: 10px; /* Space above navigation */
     }
