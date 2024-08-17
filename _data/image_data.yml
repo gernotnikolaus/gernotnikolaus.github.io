@@ -20,11 +20,14 @@
 
 - path: /assets/images/projects/image_10.jpg
 
+- path: /assets/images/projects/SouthAmericaMap_Gernot Nikolaus.jpg
+  description: "Map of South America (own figure)."
+
 - path: /assets/images/projects/MedievalCastlesWebMap_GernotNikolaus.jpg
   description: "Medieval-Castles in the region of Salzburg (own figure)."
 
 - path: /assets/images/projects/AmazonBasin_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 01: river networks/water bodies 🗺️ Map of the Amazon Basin (own figure)."
 
-- path: /assets/images/projects/SouthAmericaMap_Gernot Nikolaus.jpg
-  description: "Map of South America (own figure)."
+- path: /assets/images/projects/RockMonitor_SouthAfrica_GernotNikolaus.jpg
+description: "Map of the Rock Monitor in South Africa (own figure)."
