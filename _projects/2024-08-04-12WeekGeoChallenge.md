@@ -41,7 +41,7 @@ Topics of the challenge:
 ## Topic 03: Local Landmarks 🗺️ The Great Wall of China
 
 <div class="blog-image">
-  <img src="{{ '/assets/images/projects/RockMonitor_TheGreatWallOfChina_GernotNikolaus.jpg' | relative_url }}" alt="Rock Monitor South Africa">
+  <img src="{{ '/assets/images/projects/TheGreatWallOfChina_GernotNikolaus.jpg' | relative_url }}" alt="Rock Monitor South Africa">
   <figcaption>Map of the Great Wall of China (own figure).</figcaption>
 </div>
 
