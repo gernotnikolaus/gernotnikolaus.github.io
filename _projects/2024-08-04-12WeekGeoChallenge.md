@@ -38,6 +38,15 @@ Topics of the challenge:
 
 **#AnimalsInTheWild** was the second theme of our **#12WeekGeoChallenge!** The map shows the number of sightings of the Rock Monitor Lizard (*Varanus albigularis*) across South Africa in 2019 - no more information needed, just the distribution.
 
-## Topic 03: Local Landmarks 🗺️
+## Topic 03: Local Landmarks 🗺️ The Great Wall of China
+
+<div class="blog-image">
+  <img src="{{ '/assets/images/projects/RockMonitor_TheGreatWallOfChina_GernotNikolaus.jpg' | relative_url }}" alt="Rock Monitor South Africa">
+  <figcaption>Map of the Great Wall of China (own figure).</figcaption>
+</div>
+
+Showcasing the third map for our **#12WeekGeoChallenge**, focusing on **#LocalLandmarks**. This one highlights the iconic **Great Wall of China**, capturing its incredible span across the country - while sticking to a single-color theme.
+
+## Topic 04: Minimalist Map 🗺️
 
 More details about the challenge and other maps will be added soon!
