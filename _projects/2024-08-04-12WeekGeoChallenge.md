@@ -47,6 +47,25 @@ Topics of the challenge:
 
 Showcasing the third map for our **#12WeekGeoChallenge**, focusing on **#LocalLandmarks**. This one highlights the iconic **Great Wall of China**, capturing its incredible span across the country - while sticking to a single-color theme.
 
-## Topic 04: Minimalist Map 🗺️
+## Topic 04: Minimalist Map 🗺️ Mountain Peaks Prominence & Shinkansen Train Line of Japan
+
+For the latest topic of our #12WeekGeoChallenge, focusing on #MinimalistMaps, I created two maps showcasing iconic aspects of Japan.
+
+<div class="blog-image">
+  <img src="{{ '/assets/images/projects/Mountains_Japan_GernotNikolaus.jpg' | relative_url }}" alt="Japan mountains, the top ten peaks with the highest prominence">
+  <figcaption>Japan mountains - the top ten peaks with the highest prominence (own figure).</figcaption>
+</div>
+
+First of all, the **Mountains of Japan**: Highlighting the top ten peaks with the highest prominence across the country, with a bold, single-color theme.
+
+<div class="blog-image">
+  <img src="{{ '/assets/images/projects/Shinkansen_Japan_GernotNikolaus.jpg' | relative_url }}" alt="Shinkansen, the speed train line of Japan">
+  <figcaption>Shinkansen, the speed train line of Japan (own figure).</figcaption>
+</div>
+
+Secondly, the **Shinkansen Speed Train Lines**: Mapping Japan’s famous high-speed rail network, keeping it simple and clean.
+
+
+
 
 More details about the challenge and other maps will be added soon!
