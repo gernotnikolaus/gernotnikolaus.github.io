@@ -72,7 +72,7 @@ Secondly, the **Shinkansen Speed Train Lines**: Mapping Japan’s famous high-sp
   <figcaption>Map of Cyclone Activity in Northern Queensland, Australia (2000-2020).</figcaption>
 </div>
 
-Showcasing the fourth map for our #12WeekGeoChallenge, this time focusing on #CreativeLines! This visualization captures cyclone activity along the northern Queensland coast from Port Douglas to Mackay over two decades. I know some areas are quite data-dense, but I wanted to take on the challenge of representing three different fields within a single line symbol: nature (type of storm), season, and year.
+Showcasing the fifth map for our #12WeekGeoChallenge, this time focusing on #CreativeLines! This visualization captures cyclone activity along the northern Queensland coast from Port Douglas to Mackay over two decades. I know some areas are quite data-dense, but I wanted to take on the challenge of representing three different attributes within a single line symbol: nature (type of storm), season, and year.
 
 Balancing multiple variables while maintaining clarity was an exciting cartographic experiment. I hope this map conveys both the frequency and complexity of these storm systems in the region.
 
