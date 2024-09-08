@@ -65,6 +65,16 @@ First of all, the **Mountains of Japan**: Highlighting the top ten peaks with th
 
 Secondly, the **Shinkansen Speed Train Lines**: Mapping Japan’s famous high-speed rail network, keeping it simple and clean.
 
+## Topic 05: Creative Lines 🗺️ Cyclone Activity in Northern Queensland, Australia (2000-2020)
+
+<div class="blog-image">
+  <img src="{{ '/assets/images/projects/Cyclones_NorthernQueenslandAustralia_GernotNikolaus.jpg' | relative_url }}" alt="Cyclones Northern Queensland Australia.jpg">
+  <figcaption>Map of Cyclone Activity in Northern Queensland, Australia (2000-2020).</figcaption>
+</div>
+
+Showcasing the fourth map for our #12WeekGeoChallenge, this time focusing on #CreativeLines! This visualization captures cyclone activity along the northern Queensland coast from Port Douglas to Mackay over two decades. I know some areas are quite data-dense, but I wanted to take on the challenge of representing three different fields within a single line symbol: nature (type of storm), season, and year.
+
+Balancing multiple variables while maintaining clarity was an exciting cartographic experiment. I hope this map conveys both the frequency and complexity of these storm systems in the region.
 
 
 
