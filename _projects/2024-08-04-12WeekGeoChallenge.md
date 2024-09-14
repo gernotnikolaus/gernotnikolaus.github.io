@@ -68,13 +68,24 @@ Secondly, the **Shinkansen Speed Train Lines**: Mapping Japan’s famous high-sp
 ## Topic 05: Creative Lines 🗺️ Cyclone Activity in Northern Queensland, Australia (2000-2020)
 
 <div class="blog-image">
-  <img src="{{ '/assets/images/projects/Cyclones_NorthernQueenslandAustralia_GernotNikolaus.jpg' | relative_url }}" alt="Cyclones Northern Queensland Australia.jpg">
+  <img src="{{ '/assets/images/projects/Cyclones_NorthernQueenslandAustralia_GernotNikolaus.jpg' | relative_url }}" alt="Cyclones Northern Queensland Australia">
   <figcaption>Map of Cyclone Activity in Northern Queensland, Australia (2000-2020).</figcaption>
 </div>
 
 Showcasing the fifth map for our #12WeekGeoChallenge, this time focusing on #CreativeLines! This visualization captures cyclone activity along the northern Queensland coast from Port Douglas to Mackay over two decades. I know some areas are quite data-dense, but I wanted to take on the challenge of representing three different attributes within a single line symbol: nature (type of storm), season, and year.
 
 Balancing multiple variables while maintaining clarity was an exciting cartographic experiment. I hope this map conveys both the frequency and complexity of these storm systems in the region.
+
+## Topic 06: Travel/Adventure Route 🗺️ Magellan's Circumnavigation | 1519-1522
+
+<div class="blog-image">
+  <img src="{{ '/assets/images/projects/MagellanExpedition_GernotNikolaus.jpg' | relative_url }}" alt="Magellan's Circumnavigation | 1519-1522">
+  <figcaption>Topic 06: Travel/Adventure Route 🗺️ Magellan's Circumnavigation | 1519-1522 (own figure)..</figcaption>
+</div>
+
+Presenting the sixth map for the #12WeekGeoChallenge, with the theme of #TravelRoute! This map follows the historic journey of Ferdinand Magellan and Juan Sebastián Elcano, which is known as the first successful circumnavigation of the globe. The route covers key stops from Spain, across the Atlantic, around the Strait of Magellan, across the Pacific, and back via the Indian Ocean.
+
+For this map, I decided to experiment with a polar coordinate system to center the entire journey.
 
 
 
