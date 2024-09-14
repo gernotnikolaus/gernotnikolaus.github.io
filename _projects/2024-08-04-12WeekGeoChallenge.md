@@ -80,7 +80,7 @@ Balancing multiple variables while maintaining clarity was an exciting cartograp
 
 <div class="blog-image">
   <img src="{{ '/assets/images/projects/MagellanExpedition_GernotNikolaus.jpg' | relative_url }}" alt="Magellan's Circumnavigation | 1519-1522">
-  <figcaption>Topic 06: Travel/Adventure Route 🗺️ Magellan's Circumnavigation | 1519-1522 (own figure)..</figcaption>
+  <figcaption>Topic 06: Travel/Adventure Route 🗺️ Magellan's Circumnavigation | 1519-1522 (own figure).</figcaption>
 </div>
 
 Presenting the sixth map for the #12WeekGeoChallenge, themed around #TravelRoute! This map traces the historic journey of Ferdinand Magellan and Juan Sebastián Elcano, known as the first successful circumnavigation of the globe. The route covers key stops from Spain, across the Atlantic, around the Strait of Magellan, across the Pacific, and back via the Indian Ocean. 
