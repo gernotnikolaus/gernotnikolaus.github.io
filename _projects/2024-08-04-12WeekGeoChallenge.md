@@ -83,9 +83,9 @@ Balancing multiple variables while maintaining clarity was an exciting cartograp
   <figcaption>Topic 06: Travel/Adventure Route 🗺️ Magellan's Circumnavigation | 1519-1522 (own figure)..</figcaption>
 </div>
 
-Presenting the sixth map for the #12WeekGeoChallenge, with the theme of #TravelRoute! This map follows the historic journey of Ferdinand Magellan and Juan Sebastián Elcano, which is known as the first successful circumnavigation of the globe. The route covers key stops from Spain, across the Atlantic, around the Strait of Magellan, across the Pacific, and back via the Indian Ocean.
+Presenting the sixth map for the #12WeekGeoChallenge, themed around #TravelRoute! This map traces the historic journey of Ferdinand Magellan and Juan Sebastián Elcano, known as the first successful circumnavigation of the globe. The route covers key stops from Spain, across the Atlantic, around the Strait of Magellan, across the Pacific, and back via the Indian Ocean. 
 
-For this map, I decided to experiment with a polar coordinate system to center the entire journey.
+For this map, I chose to experiment with a polar coordinate system to center the entire journey. 
 
 
 
