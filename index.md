@@ -25,29 +25,29 @@ title: About me
 <h2>Experience</h2>
 <ul>
     <li>
-        <strong>GIS Consultant</strong>
+        <strong>GIS Consultant | September 2024</strong>
         <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
         <br>Munich Climate Insurance Initiative
     </li>
     <li>
-        <strong>Disaster Modelling Intern</strong>
+        <strong>Disaster Modelling Intern | July - September 2024 </strong>
         <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
         <br>Munich Climate Insurance Initiative
     </li>
     <li>
-        <strong>Co-Founder</strong>
+        <strong>Co-Founder | July 2024</strong>
         <br>Gernot Nikolaus & Simon Kraus Creative Studio GbR
     </li>
     <li>
-        <strong>Travel - Career Break</strong>
+        <strong>Travel - Career Break | April 2023 - July 2023 </strong>
         <br>Between my bachelor's and master's degrees, I went on a solo cycling trip from Germany to Asia (Türkiye, Asian continent) along the Adriatic Sea and back again.
     </li>
     <li>
-        <strong>Technical GIS support, GIS Trainer and part of supportive supervision in Togo</strong>
+        <strong>Technical GIS support, GIS Trainer and part of supportive supervision in Togo | April 2022 - March 2023</strong>
         <br> German Leprosy and TB Relief Association (DAHW)
     </li>
     <li>
-        <strong>Student Research Assistant</strong>
+        <strong>Student Research Assistant | July 2021 - September 2021</strong>
         <br> Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)
     </li>
 </ul>
@@ -55,11 +55,15 @@ title: About me
 <h2>Education</h2>
 <ul>
     <li>
-        <strong>Paris Lodron Universität Salzburg</strong>
-        <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth, Earth observation & Geoinformatics
+        <strong>Palacký University Olomouc| September 2024</strong>
+        <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth - Geovisualisation and Geocommunication
     </li>
     <li>
-        <strong>Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)</strong>
+        <strong>Paris Lodron Universität Salzburg | September 2023</strong>
+        <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth - Geoinformatics & Earth Oberservation
+    </li>
+    <li>
+        <strong>Technical University of Applied Sciences Würzburg-Schweinfurt (THWS) | October 2019 - March 2023</strong>
         <br>Bachelor of Engineering - BE, Geovisualization
     </li>
 </ul>
