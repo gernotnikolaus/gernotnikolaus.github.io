@@ -25,6 +25,11 @@ title: About me
 <h2>Experience</h2>
 <ul>
     <li>
+        <strong>GIS Consultant</strong>
+        <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
+        <br>Munich Climate Insurance Initiative
+    </li>
+    <li>
         <strong>Disaster Modelling Intern</strong>
         <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
         <br>Munich Climate Insurance Initiative
