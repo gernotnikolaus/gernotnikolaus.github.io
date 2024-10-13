@@ -77,7 +77,7 @@ For this map, I chose to experiment with a polar coordinate system to center the
 
 <div class="blog-image">
   <img src="{{ '/assets/images/projects/CyclingToAsia_Map_GernotNikolaus.jpg' | relative_url }}" alt="Magellan's Circumnavigation | 1519-1522">
-  <figcaption>Topic 10: Cycling from Germany to Asia (own figure)..</figcaption>
+  <figcaption>Topic 10: Unexpted Map 🗺️ Cycling from Germany to Asia (own figure).</figcaption>
 </div>
 
 Excited to share my latest map, which visualizes my cycling journey last year from Germany all the way to Asia! I wanted to represent the elevation changes (bottom part), route progression, and key moments - such as where I set up my tent or stayed in hostels - while also providing some key statistics from my almost three-month adventure.
