@@ -58,7 +58,7 @@ title: About me
 <ul>
     <li>
         <strong>Palacký University Olomouc | September 2024</strong>
-        <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth - Geovisualisation and Geocommunication
+        <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth - Geovisualisation & Geocommunication
     </li>
     <li>
         <strong>Paris Lodron Universität Salzburg | September 2023</strong>
