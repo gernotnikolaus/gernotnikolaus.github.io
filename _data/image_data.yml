@@ -25,5 +25,17 @@
 - path: /assets/images/projects/TransportNetwork_Czechia_GernotNikolaus.jpg
   description: "The Transport Network in Czechia (own figure)."
 
+- path: /assets/images/projects/TopographicMap_Salzburg_GernotNikolaus.jpg
+  description: "Topographic Map of Salzburg (own figure)." 
+
 - path: /assets/images/projects/CyclingToAsia_Map_GernotNikolaus.jpg
   description: "Cycling from Germany to Asia (own figure)."
+
+- path: /assets/images/projects/Migration_Czechia_GernotNikolaus.jpg
+  description: "The difference between incoming and outcoming represented as positive numbers of incoming migrants in Czechia (own figure)."
+
+- path: /assets/images/projects/AgriculturalExportsEuropeanCountries2021_GernotNikolaus.jpg
+  description: "Agricultural Exports in European Countries 2021 (own figure)."
+
+- path: /assets/images/projects/Ireland_SheepDensity_GernotNikolaus.jpg
+  description: "Where Sheep Outnumber Humans - Sheep Density Relative to Population 2022, Ireland (own figure)."
