@@ -415,6 +415,13 @@ footer p {
     border-radius: 8px; /* Optional: add rounded corners */
 }
 
+.blog-image iframe {
+    width: 120%;
+    height: 800px; /* or adjust based on your preference */
+    border: none;
+    display: block; /* Makes sure iframe stretches fully */
+  }
+
 .blog-image figcaption {
     font-size: 0.9em; /* Adjust font size as needed */
     color: #666; /* Slightly lighter color for the caption text */
