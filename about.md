@@ -54,7 +54,7 @@ title: About me
     </li>
 </ul>
 
-<h2>Education</h2>
+<h2>Alma Mater</h2>
 <ul>
     <li>
         <strong>Palacký University Olomouc | September 2024</strong>
@@ -67,5 +67,34 @@ title: About me
     <li>
         <strong>Technical University of Applied Sciences Würzburg-Schweinfurt (THWS) | October 2019 - March 2023</strong>
         <br>Bachelor of Engineering - BE, Geovisualization
+    </li>
+</ul>
+
+
+<h2>Projects</h2>
+<ul>
+</ul>
+
+<h2>Volunteering</h2>
+<ul>
+    <li>
+        <strong>Missing Maps | October 2023</strong>
+        <br>Voluntary mapping, participation in mapathons
+    </li>
+    <li>
+        <strong>German Leprosy and TB Relief Association (DAHW) | April 2022 - March 2023</strong>
+        <br>Technical GIS support to combat three NTDs in Togo
+    </li>
+</ul>
+
+<h2>Awards</h2>
+<ul>
+    <li>
+        <strong>Dean's Award, overall winner in the Earth Sciences section | May 2025</strong>
+        <br>Faculty of Science at Palacký University in Olomouc
+    </li>
+    <li>
+        <strong>“Harbert-Buchpreis“ award for best student of the year | September 2023</strong>
+        <br>DVW e.V. German Association for Geodesy, Geoinformation and Land Management     
     </li>
 </ul>
