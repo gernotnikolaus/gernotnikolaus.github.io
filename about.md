@@ -71,10 +71,6 @@ title: About me
 </ul>
 
 
-<h2>Projects</h2>
-<ul>
-</ul>
-
 <h2>Volunteering</h2>
 <ul>
     <li>
