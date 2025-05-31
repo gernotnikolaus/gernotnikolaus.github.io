@@ -29,7 +29,7 @@ title: About me
     <li>
         <strong>GIS Consultant | September 2024 - Present</strong>
         <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
-        <br>Munich Climate Insurance Initiative
+        <br>Climate Risk Analytics
     </li>
     <li>
         <strong>Disaster Modelling Intern | July - September 2024 </strong>
