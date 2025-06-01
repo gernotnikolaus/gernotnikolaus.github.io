@@ -84,7 +84,7 @@ title: About me
 
 <h2>Projects/Publications</h2>
 <ul>
-    <strong>2025</strong>
+    <h3>2025</h3>
     <li>
         Nikolaus, G., Dabiri, Z., Vozenilek, V., Behre, E. Flood vulnerability mapping using a multi-dimensional approach and open data: A Tehsil-level case study in Punjab, Pakistan. (Manuscript in preparation)
     </li>
@@ -94,7 +94,7 @@ title: About me
     <li>
      Flood Vulnerability in Punjab, Pakistan: A Geospatial Analysis and Cartographic Approach (Master's Thesis)
     </li>
-    <strong>2023</strong>
+    <h3>2023</h3>
     <li>
      Geospatial Contexts for Combating Buruli ulcer and Yaws in Togo (Bachelor's Thesis)
     </li>

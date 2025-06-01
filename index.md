@@ -82,6 +82,24 @@ title: About me
     </li>
 </ul>
 
+<h2>Projects/Publications</h2>
+<ul>
+    <h3>2025</h3>
+    <li>
+        Nikolaus, G., Dabiri, Z., Vozenilek, V., Behre, E. Flood vulnerability mapping using a multi-dimensional approach and open data: A Tehsil-level case study in Punjab, Pakistan. (Manuscript in preparation)
+    </li>
+    <li>
+        Nikolaus, G., Dabiri, Z., Vozenilek, V., Behre, E. (2025). Assessment of flood susceptibility using AHP and remote sensing-derived products: A case study in Punjab, Pakistan. Accepted for publication in the AGIT Conference Series Journal (2025), University Library of PLUS, and to be presented at the AGIT 2025 Symposium for Applied Geoinformatics in Salzburg, Austria.
+    </li>
+    <li>
+     Flood Vulnerability in Punjab, Pakistan: A Geospatial Analysis and Cartographic Approach (Master's Thesis)
+    </li>
+    <h3>2023</h3>
+    <li>
+     Geospatial Contexts for Combating Buruli ulcer and Yaws in Togo (Bachelor's Thesis)
+    </li>
+</ul>
+
 <h2>Awards</h2>
 <ul>
     <li>
