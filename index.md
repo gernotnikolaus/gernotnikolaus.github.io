@@ -21,7 +21,7 @@ title: About me
     <a href="https://www.researchgate.net/profile/Gernot-Nikolaus" target="_blank" aria-label="ResearchGate">
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" 
             alt="ResearchGate" 
-            style="width: 1.2em; height: 1.2em; vertical-align: middle;">
+            style="width: 1em; height: 1em; vertical-align: middle;">
 </a>
 
 </div>
