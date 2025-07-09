@@ -19,7 +19,10 @@ title: About me
         <i class="fas fa-envelope"></i>
     </a>
     <a href="https://www.researchgate.net/profile/Gernot-Nikolaus" target="_blank" aria-label="ResearchGate">
-    <i class="fas fa-graduation-cap"></i>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" 
+            alt="ResearchGate" 
+            style="width: 1.2em; height: 1.2em; vertical-align: middle;">
+    </a>
 </a>
 
 </div>

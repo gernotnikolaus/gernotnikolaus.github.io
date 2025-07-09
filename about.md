@@ -18,6 +18,13 @@ title: About me
     <a href="mailto:gernot.nikolaus@stud.plus.ac.at" aria-label="Email">
         <i class="fas fa-envelope"></i>
     </a>
+    <a href="https://www.researchgate.net/profile/Gernot-Nikolaus" target="_blank" aria-label="ResearchGate">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" 
+            alt="ResearchGate" 
+            style="width: 1.2em; height: 1.2em; vertical-align: middle;">
+    </a>
+</a>
+
 </div>
 
 <hr class="section-divider">
