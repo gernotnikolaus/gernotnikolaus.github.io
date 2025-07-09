@@ -7,7 +7,7 @@ title: About me
     <div class="about-text">
         <p>I hold a double master’s degree from the Copernicus Master in Digital Earth program (University of Salzburg & Palacký University Olomouc), focusing on GIS, remote sensing, disaster risk assessment, and climate change. I also earned a Bachelor’s degree in Geovisualization from the Technical University of Applied Sciences Würzburg-Schweinfurt. My interests lie in geospatial data, earth observation, and humanitarian and environmental applications. I have applied GIS technology to health challenges during a project in Togo with the German Leprosy and Tuberculosis Relief Association (DAHW). Currently, I work as a GIS Consultant at the United Nations University - Institute for Environment and Human Security (UNU-EHS), supporting climate risk insurance projects.</p>
     </div>
-    <img src="{{ "/assets/images/GernotNikolaus_portrait.jpg" | relative_url }}" alt="Gernot Nikolaus" class="about-image">
+    <img src="{{ "/assets/images/GernotNikolaus.jpg" | relative_url }}" alt="Gernot Nikolaus" class="about-image">
 </div>
 
 <!-- Icons Section -->
@@ -22,7 +22,6 @@ title: About me
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" 
             alt="ResearchGate" 
             style="width: 1.2em; height: 1.2em; vertical-align: middle;">
-    </a>
 </a>
 
 </div>
