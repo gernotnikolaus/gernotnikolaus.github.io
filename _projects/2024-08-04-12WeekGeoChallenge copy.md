@@ -32,7 +32,7 @@ filtered data - converted 10-min winds to 1-min winds - categorized + symbolized
   <figcaption>Global Tropical Cyclone Tracks and Landfalls, 1980-2019 (own figure).</figcaption>
 </div>
 
-## Topic 03: My Data 🗺️ The UK trip
+## Topic 04: My Data 🗺️ The UK Trip
 
 In July and August I went on a long-distance solo cycling trip through most of the UK - starting in Germany and back again. What data could suit Day 4, #MyData, of the #30DayMapChallenge better than my own GPX tracks? Cycling nearly 5000 km and camping most nights out in nature, passing places like Dartmoor, Snowdonia, and the Glenfinnan Viaduct.
 
