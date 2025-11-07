@@ -5,7 +5,7 @@ title: About me
 
 <div class="about-container">
     <div class="about-text">
-        <p>I hold a double master’s degree from the Copernicus Master in Digital Earth program (University of Salzburg & Palacký University Olomouc), focusing on GIS, remote sensing, disaster risk assessment, and climate change. I also earned a Bachelor’s degree in Geovisualization from the Technical University of Applied Sciences Würzburg-Schweinfurt. My interests lie in geospatial data, earth observation, and humanitarian and environmental applications. I have applied GIS technology to health challenges during a project in Togo with the German Leprosy and Tuberculosis Relief Association (DAHW). Currently, I work as a GIS Consultant at the United Nations University - Institute for Environment and Human Security (UNU-EHS), supporting climate risk insurance projects.</p>
+        <p>I hold a double master’s degree from the Copernicus Master in Digital Earth program (University of Salzburg & Palacký University Olomouc), focusing on GIS, remote sensing, disaster risk assessment, and climate change. I also earned a Bachelor’s degree in Geovisualization from the Technical University of Applied Sciences Würzburg-Schweinfurt. My interests lie in geospatial data, earth observation, and humanitarian and environmental applications. I have applied GIS technology to health challenges during a project in Togo with the German Leprosy and Tuberculosis Relief Association (DAHW). Currently, I work as a Project Assistant at the United Nations University - Institute for Environment and Human Security (UNU-EHS), supporting climate risk insurance projects.</p>
     </div>
     <img src="{{ "/assets/images/GernotNikolaus.jpg" | relative_url }}" alt="Gernot Nikolaus" class="about-image">
 </div>
@@ -21,7 +21,7 @@ title: About me
     <a href="https://www.researchgate.net/profile/Gernot-Nikolaus" target="_blank" aria-label="ResearchGate">
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" 
             alt="ResearchGate" 
-            style="width: 1.2em; height: 1.2em; vertical-align: middle;">
+            style="width: 1em; height: 1em; vertical-align: middle;">
 </a>
 
 </div>
@@ -31,9 +31,16 @@ title: About me
 <h2>Experience</h2>
 <ul>
     <li>
-        <strong>GIS Consultant | September 2024 - Present</strong>
+        <strong>Project Assistant | September 2024 - Present</strong>
         <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
-        <br>Climate Risk Analytics
+    </li>
+    <li>
+        <strong>Residential Fieldworker Volunteer - LIFE Raft Seabird Conservation Project | September 2025 - October 2025</strong>
+        <br>Royal Society for the Protection of Birds (RSPB)
+    </li>
+    <li>
+        <strong>GIS Consultant | September 2024 - September 2025</strong>
+        <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
     </li>
     <li>
         <strong>Disaster Modelling Intern | July - September 2024 </strong>
