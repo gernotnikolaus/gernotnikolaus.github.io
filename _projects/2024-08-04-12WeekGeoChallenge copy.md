@@ -31,3 +31,17 @@ filtered data - converted 10-min winds to 1-min winds - categorized + symbolized
   <img src="{{ '/assets/images/projects/30Maps_2025_02_Lines_Cyclone_GernotNikolaus.jpg' | relative_url }}" alt="Global Tropical Cyclone Tracks and Landfalls (1980-2019)">
   <figcaption>Global Tropical Cyclone Tracks and Landfalls, 1980-2019 (own figure).</figcaption>
 </div>
+
+## Topic 03: My Data 🗺️ The UK trip
+
+In July and August I went on a long-distance solo cycling trip through most of the UK - starting in Germany and back again. What data could suit Day 4, #MyData, of the #30DayMapChallenge better than my own GPX tracks? Cycling nearly 5000 km and camping most nights out in nature, passing places like Dartmoor, Snowdonia, and the Glenfinnan Viaduct.
+
+Germany - France - England - Wales - England - Scotland - England - the Netherlands - Germany
+
+quick processing in ArcGIS Pro, everything else in Affinity Designer and Photo
+cycling - merge gpx tracks - design
+
+<div class="blog-image">
+  <img src="{{ '/assets/images/projects/30Maps_2025_04_MyData_CyclingUK_GernotNikolaus.jpg' | relative_url }}" alt="The UK trip">
+  <figcaption>The UK trip (own figure).</figcaption>
+</div>
