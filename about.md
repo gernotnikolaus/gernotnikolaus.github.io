@@ -99,10 +99,10 @@ title: About me
 <ul>
     <h3>2025</h3>
     <li>
-        Nikolaus, G., Dabiri, Z., Voženílek, V., & Behre, E. (2025). Flood susceptibility mapping using AHP and sensitivity analysis in Punjab, Pakistan. gis.Science, 2025, 4, 147–152. https://doi.org/10.14627/gis.Science.2025.4.5.
+        Nikolaus, G., Dabiri, Z., Voženílek, V., & Behre, E. (2025). Flood susceptibility mapping using AHP and sensitivity analysis in Punjab, Pakistan. gis.Science, 2025, 4, 147–152. https://doi.org/10.14627/gis.Science.2025.4.5
     </li>
     <li>
-        Nikolaus, G., Dabiri, Z., Voženílek, V. and Behre, E., (2025). Assessment of flood susceptibility using AHP and remote sensing-derived products, a case study in Punjab, Pakistan. AGIT Conference, 2025(1), pp.36-42. https://doi.org/10.25598/agit/2025-6.
+        Nikolaus, G., Dabiri, Z., Voženílek, V. and Behre, E., (2025). Assessment of flood susceptibility using AHP and remote sensing-derived products, a case study in Punjab, Pakistan. AGIT Conference, 2025(1), pp.36-42. https://doi.org/10.25598/agit/2025-6
     </li>
     <li>
      Flood Vulnerability in Punjab, Pakistan: A Geospatial Analysis and Cartographic Approach (Master's Thesis)
