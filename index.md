@@ -70,12 +70,12 @@ title: About me
     <li>
         <strong>Palacký University Olomouc | September 2024 - July 2025</strong>
         <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth - Geovisualisation & Geocommunication
-        <br>Graduated with Distinction
+        <br>Graduated with Honours
     </li>
     <li>
         <strong>Paris Lodron Universität Salzburg | September 2023 - July 2025</strong>
         <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth - Geoinformatics & Earth Oberservation
-        <br>Graduated with Honours
+        <br>Graduated with Distinction
     </li>
     <li>
         <strong>Technical University of Applied Sciences Würzburg-Schweinfurt (THWS) | October 2019 - March 2023</strong>
