@@ -74,7 +74,7 @@ title: About me
     </li>
     <li>
         <strong>Paris Lodron Universität Salzburg | September 2023 - July 2025</strong>
-        <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth - Geoinformatics & Earth Oberservation
+        <br>M.Sc., double degree, (EMJM) Copernicus Master in Digital Earth - Geoinformatics & Earth Observation
         <br>Graduated with Distinction
     </li>
     <li>
