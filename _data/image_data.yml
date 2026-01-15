@@ -45,3 +45,12 @@
 
 - path: /assets/images/projects/TouristPotentialSouthEasternEurope_GernotNikolaus.jpg
   description: "Tourist Potential of South-Eastern Europe countries, multivarate Mapping (own figure)."
+
+- path: /assets/images/projects/30Maps_2025_01_Points_Iceland_GernotNikolaus.jpg
+  description: "Elevation of Iceland (own figure)."
+
+- path: /assets/images/projects/30Maps_2025_02_Lines_Cyclone_GernotNikolaus.jpg
+  description: "Global Tropical Cyclone Tracks and Landfalls from 1980 to2019 (own figure)."
+
+- path: /assets/images/projects/30Maps_2025_04_MyData_CyclingUK_GernotNikolaus.jpg
+  description: "The UK Trip (own figure)."
