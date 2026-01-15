@@ -10,6 +10,9 @@
 - path: /assets/images/projects/RockMonitor_SouthAfrica_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 02: Animals in the wild 🗺️ Map of the Rock Monitor in South Africa (own figure)."
 
+- path: /assets/images/projects/Ireland_SheepDensity_GernotNikolaus.jpg
+  description: "Where Sheep Outnumber Humans - Sheep Density Relative to Population 2022, Ireland (own figure)."
+
 - path: /assets/images/projects/Mountains_Japan_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 04: Minimalist Map 🗺️ Mountain Peaks Prominence (own figure)."
 
@@ -36,9 +39,6 @@
 
 - path: /assets/images/projects/AgriculturalExportsEuropeanCountries2021_GernotNikolaus.jpg
   description: "Agricultural Exports in European Countries 2021 (own figure)."
-
-- path: /assets/images/projects/Ireland_SheepDensity_GernotNikolaus.jpg
-  description: "Where Sheep Outnumber Humans - Sheep Density Relative to Population 2022, Ireland (own figure)."
 
 - path: /assets/images/projects/GeographicMap_Czechia_GernotNikolaus.jpg
   description: "Geography of Czechia (own figure)."
