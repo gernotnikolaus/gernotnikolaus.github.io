@@ -4,6 +4,9 @@
 - path: /assets/images/projects/MedievalCastlesWebMap_GernotNikolaus.jpg
   description: "Medieval-Castles in the region of Salzburg (own figure)."
 
+- path: /assets/images/projects/Cyclones_NorthernQueenslandAustralia_GernotNikolaus.jpg
+  description: "12WeekGeoChallenge | Topic 05: Creative Lines 🗺️ Cyclone Activity in Northern Queensland, Australia | 2000-2020 (own figure)."
+
 - path: /assets/images/projects/RockMonitor_SouthAfrica_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 02: Animals in the wild 🗺️ Map of the Rock Monitor in South Africa (own figure)."
 
@@ -15,12 +18,6 @@
 
 - path: /assets/images/projects/Shinkansen_Japan_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 04: Minimalist Map 🗺️ Shinkansen Train Line of Japan (own figure)."
-
-- path: /assets/images/projects/Cyclones_NorthernQueenslandAustralia_GernotNikolaus.jpg
-  description: "12WeekGeoChallenge | Topic 05: Creative Lines 🗺️ Cyclone Activity in Northern Queensland, Australia | 2000-2020 (own figure)."
-
-- path: /assets/images/projects/MagellanExpedition_GernotNikolaus.jpg
-  description: "12WeekGeoChallenge | Topic 06: Travel/Adventure Route 🗺️ Magellan Expedition | 1519-1522 (own figure)."
 
 - path: /assets/images/projects/TransportNetwork_Czechia_GernotNikolaus.jpg
   description: "The Transport Network in Czechia (own figure)."
@@ -47,8 +44,8 @@
   description: "Tourist Potential of South-Eastern Europe countries, multivarate Mapping (own figure)."
 
 - path: /assets/images/projects/masterThesis/sampleAtlas1.jpg
-  description: "Example page of my atlas on Flood Vulnerability in Punjab (own figure)."
-  
+  description: "Example page of my atlas on flood vulnerability in Punjab, Pakistan (own figure)."
+
 - path: /assets/images/projects/30Maps_2025_01_Points_Iceland_GernotNikolaus.jpg
   description: "Elevation of Iceland (own figure)."
 
@@ -59,4 +56,7 @@
   description: "The UK Trip (own figure)."
 
 - path: /assets/images/projects/masterThesis/sampleAtlas2.jpg
-  description: "Example page of my atlas on Flood Vulnerability in Punjab (own figure)."
+  description: "Example page of my atlas on flood vulnerability in Punjab, Pakistan (own figure)."
+
+- path: /assets/images/projects/MagellanExpedition_GernotNikolaus.jpg
+  description: "12WeekGeoChallenge | Topic 06: Travel/Adventure Route 🗺️ Magellan Expedition | 1519-1522 (own figure)."
