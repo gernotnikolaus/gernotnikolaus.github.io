@@ -10,14 +10,14 @@
 - path: /assets/images/projects/RockMonitor_SouthAfrica_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 02: Animals in the wild 🗺️ Map of the Rock Monitor in South Africa (own figure)."
 
-- path: /assets/images/projects/TheGreatWallOfChina_GernotNikolaus.jpg
-  description: "12WeekGeoChallenge | Topic 03: Local Landmarks 🗺️ The Great Wall of China (own figure)."
-
 - path: /assets/images/projects/Mountains_Japan_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 04: Minimalist Map 🗺️ Mountain Peaks Prominence (own figure)."
 
 - path: /assets/images/projects/Shinkansen_Japan_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 04: Minimalist Map 🗺️ Shinkansen Train Line of Japan (own figure)."
+
+- path: /assets/images/projects/TheGreatWallOfChina_GernotNikolaus.jpg
+  description: "12WeekGeoChallenge | Topic 03: Local Landmarks 🗺️ The Great Wall of China (own figure)."
 
 - path: /assets/images/projects/TransportNetwork_Czechia_GernotNikolaus.jpg
   description: "The Transport Network in Czechia (own figure)."
@@ -27,7 +27,7 @@
 
 - path: /assets/images/projects/TopographicMap_Salzburg_GernotNikolaus.jpg
   description: "Topographic Map of Salzburg (own figure).
-  
+
 - path: /assets/images/projects/CyclingToAsia_Map_GernotNikolaus.jpg
   description: "Cycling from Germany to Asia (own figure)."
 
