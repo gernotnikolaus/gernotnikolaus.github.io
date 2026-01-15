@@ -113,6 +113,7 @@ title: About me
     </li>
 </ul>
 
+<!--
 <h2>Awards</h2>
 <ul>
     <li>
@@ -124,3 +125,4 @@ title: About me
         <br>DVW e.V. German Association for Geodesy, Geoinformation and Land Management     
     </li>
 </ul>
+--> 
