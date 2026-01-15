@@ -22,15 +22,15 @@
 - path: /assets/images/projects/TransportNetwork_Czechia_GernotNikolaus.jpg
   description: "The Transport Network in Czechia (own figure)."
 
-- path: /assets/images/projects/TopographicMap_Salzburg_GernotNikolaus.jpg
-  description: "Topographic Map of Salzburg (own figure)." 
-
 - path: /assets/images/projects/30Maps_2025_02_Lines_Cyclone_GernotNikolaus.jpg
   description: "Global Tropical Cyclone Tracks and Landfalls from 1980 to2019 (own figure)."
 
 - path: /assets/images/projects/CyclingToAsia_Map_GernotNikolaus.jpg
   description: "Cycling from Germany to Asia (own figure)."
 
+- path: /assets/images/projects/TopographicMap_Salzburg_GernotNikolaus.jpg
+  description: "Topographic Map of Salzburg (own figure).
+  
 - path: /assets/images/projects/Migration_Czechia_GernotNikolaus.jpg
   description: "The difference between incoming and outcoming represented as positive numbers of incoming migrants in Czechia (own figure)."
 
@@ -47,7 +47,7 @@
   description: "Tourist Potential of South-Eastern Europe countries, multivarate Mapping (own figure)."
 
 - path: /assets/images/projects/masterThesis/sampleAtlas1.jpg
-  description: "Example page of my atlas on flood vulnerability in Punjab, Pakistan (own figure)."
+  description: "Example of two pages of my atlas on flood vulnerability in Punjab, Pakistan (own figure)."
 
 - path: /assets/images/projects/30Maps_2025_01_Points_Iceland_GernotNikolaus.jpg
   description: "Elevation of Iceland (own figure)."
@@ -56,7 +56,7 @@
   description: "The UK Trip (own figure)."
 
 - path: /assets/images/projects/masterThesis/sampleAtlas2.jpg
-  description: "Example page of my atlas on flood vulnerability in Punjab, Pakistan (own figure)."
+  description: "Example of two pages of my atlas on flood vulnerability in Punjab, Pakistan (own figure)."
 
 - path: /assets/images/projects/MagellanExpedition_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 06: Travel/Adventure Route 🗺️ Magellan Expedition | 1519-1522 (own figure)."
