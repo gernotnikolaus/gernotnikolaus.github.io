@@ -2,7 +2,7 @@
   description: "12WeekGeoChallenge | Topic 01: River networks/water bodies 🗺️ Map of the Amazon Basin (own figure)."
 
 - path: /assets/images/projects/MedievalCastlesWebMap_GernotNikolaus.jpg
-  description: "Medieval-Castles in the region of Salzburg (own figure)."
+  description: "Screenshot of my web map showing medieval castles in the Salzburg region (own figure)."
 
 - path: /assets/images/projects/Cyclones_NorthernQueenslandAustralia_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 05: Creative Lines 🗺️ Cyclone Activity in Northern Queensland, Australia | 2000-2020 (own figure)."
@@ -28,6 +28,9 @@
 - path: /assets/images/projects/CyclingToAsia_Map_GernotNikolaus.jpg
   description: "Cycling from Germany to Asia (own figure)."
 
+- path: /assets/images/projects/30Maps_2025_02_Lines_Cyclone_GernotNikolaus.jpg
+  description: "Global Tropical Cyclone Tracks and Landfalls from 1980 to2019 (own figure)."
+
 - path: /assets/images/projects/Migration_Czechia_GernotNikolaus.jpg
   description: "The difference between incoming and outcoming represented as positive numbers of incoming migrants in Czechia (own figure)."
 
@@ -48,9 +51,6 @@
 
 - path: /assets/images/projects/30Maps_2025_01_Points_Iceland_GernotNikolaus.jpg
   description: "Elevation of Iceland (own figure)."
-
-- path: /assets/images/projects/30Maps_2025_02_Lines_Cyclone_GernotNikolaus.jpg
-  description: "Global Tropical Cyclone Tracks and Landfalls from 1980 to2019 (own figure)."
 
 - path: /assets/images/projects/30Maps_2025_04_MyData_CyclingUK_GernotNikolaus.jpg
   description: "The UK Trip (own figure)."
