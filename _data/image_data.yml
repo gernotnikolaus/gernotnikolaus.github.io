@@ -22,8 +22,8 @@
 - path: /assets/images/projects/TheGreatWallOfChina_GernotNikolaus.jpg
   description: "12WeekGeoChallenge | Topic 03: Local Landmarks 🗺️ The Great Wall of China (own figure)."
 
-- path: /assets/images/projects/TransportNetwork_Czechia_GernotNikolaus.jpg
-  description: "The Transport Network in Czechia (own figure)."
+- path: /assets/images/projects/CyclingToAsia_Map_GernotNikolaus.jpg
+  description: "Cycling from Germany to Asia (own figure)."
 
 - path: /assets/images/projects/30Maps_2025_02_Lines_Cyclone_GernotNikolaus.jpg
   description: "Global Tropical Cyclone Tracks and Landfalls from 1980 to2019 (own figure)."
@@ -49,8 +49,8 @@
 - path: /assets/images/projects/masterThesis/sampleAtlas1.jpg
   description: "Example of two pages of my atlas on flood vulnerability in Punjab, Pakistan (own figure)."
 
-- path: /assets/images/projects/CyclingToAsia_Map_GernotNikolaus.jpg
-  description: "Cycling from Germany to Asia (own figure)."
+- path: /assets/images/projects/TransportNetwork_Czechia_GernotNikolaus.jpg
+  description: "The Transport Network in Czechia (own figure)."
 
 - path: /assets/images/projects/30Maps_2025_04_MyData_CyclingUK_GernotNikolaus.jpg
   description: "The UK Trip (own figure)."
