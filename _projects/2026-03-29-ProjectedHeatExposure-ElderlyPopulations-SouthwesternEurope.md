@@ -74,28 +74,6 @@ Table 1 lists the top 50 NUTS3 regions by combined exposure, highlighting Spain�
   | 20   | A Coruña | ES   | 24.62           | 0.39             | 0.81            |
 
 <div class="blog-image">
-  | Rank | Region | Country | Temp RCP8.5 (°C) | Elderly Share 2050 | Combined Exposure |
-  |------|--------|--------|-----------------|------------------|-----------------|
-  | 1    | Zamora | ES     | 31.65           | 0.47             | 1.61            |
-  | 2    | Cáceres | ES    | 35.69           | 0.40             | 1.59            |
-  | 3    | Ciudad Real | ES | 36.82           | 0.39             | 1.59            |
-  | 4    | Salamanca | ES   | 32.81           | 0.42             | 1.48            |
-  | 5    | Ávila | ES      | 31.40           | 0.41             | 1.36            |
-  | 6    | Alentejo Central | PT | 33.22      | 0.39             | 1.37            |
-  | 7    | Alto Alentejo | PT | 33.95         | 0.39             | 1.40            |
-  | 8    | Cuenca | ES     | 34.11           | 0.38             | 1.39            |
-  | 9    | Valladolid | ES  | 31.95           | 0.40             | 1.34            |
-  | 10   | Beira Baixa | PT  | 33.34           | 0.38             | 1.35            |
-  | 11   | Albacete | ES   | 34.45           | 0.37             | 1.35            |
-  | 12   | Asturias | ES   | 24.82           | 0.43             | 0.99            |
-  | 13   | León | ES       | 27.06           | 0.44             | 1.19            |
-  | 14   | Ourense | ES    | 27.91           | 0.42             | 1.17            |
-  | 15   | Soria | ES      | 31.19           | 0.39             | 1.22            |
-  | 16   | Segovia | ES    | 31.15           | 0.39             | 1.22            |
-  | 17   | Pontevedra | ES | 26.53           | 0.40             | 0.97            |
-  | 18   | Burgos | ES     | 28.18           | 0.40             | 1.07            |
-  | 19   | Cantabria | ES  | 24.90           | 0.39             | 0.83            |
-  | 20   | A Coruña | ES   | 24.62           | 0.39             | 0.81            |
   <figcaption>Table 1: Top 20 NUTS3 regions in Southwestern Europe by combined heat and elderly exposure (2050, RCP8.5).</figcaption>
 </div>
 
