@@ -15,19 +15,21 @@ In Google Earth Engine (GEE), I calculated summer mean temperature for the three
   <figcaption>Figure 1: Mean Summer Temperature in Southwestern Europe (own figure).</figcaption>
 </div>
 
-Figure 1 shows the distribution of summer temperatures in Southwestern Europe. While Portugal and especially Spain already have the highest baseline temperatures, these regions are projected to experience the largest increases. Southern and inland Spain (e.g., Córdoba, Sevilla, Ciudad Real, Badajoz) are expected to reach mean summer temperatures of 36–37°C (Table 1), with temperature increases up to 5°C (Figure 2 and 3) in RCP8.5. Portugal’s Alentejo region will also warm significantly (~33–34°C), while France experiences moderate warming (~28–31°C).
+Figure 1 shows the distribution of summer temperatures in Southwestern Europe. While Portugal and especially Spain already have the highest baseline temperatures, these regions are projected to experience the largest increases. Southern and inland Spain (e.g., Córdoba, Sevilla, Ciudad Real, Badajoz) are expected to reach mean summer temperatures of 36–37°C (Table 1), with temperature increases up to 5°C (Figure 2 and 3) in RCP8.5. Portugal’s Alentejo region will also warm significantly (~33–34°C). While France experiences lower absolute temperatures (~28–31°C), the increase is still high.
 
 <div class="blog-image">
   <img src="{{ '/assets/images/projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope/delta_GernotNikolaus.png' | relative_url }}" alt="Projected Summer Temperature Increase in Southwestern Europe (ΔT) 2050 (own figure)">
   <figcaption>Figure 2: Projected Summer Temperature Increase in Southwestern Europe (ΔT) 2050 (own figure).</figcaption>
 </div>
 
+The density plots represent the distribution of values across all NUTS3 regions, where higher peaks indicate that more regions fall within a specific temperature or elderly share range.
+
 <div class="blog-image">
   <img src="{{ '/assets/images/projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope/temperatureDistribution_GernotNikolaus.png' | relative_url }}" alt="Distribution of Summer Temperatures in Southwestern Europe (own figure)">
   <figcaption>Figure 3: Distribution of Summer Temperatures in Southwestern Europe (own figure).</figcaption>
 </div>
 
-Figure 4 shows the projected share of elderly populations (65+) for 2025 and 2050. While the elderly share 2025 is quite even in the countries, Spain will have an increasing elderly grow in northwestern and inland regions. Regions such as Zamora, León, and Asturias are projected to see elderly shares rise to 43–47%. Portugal shows moderate increases in elderly share, while France remains comparatively stable (Table 1).
+Figure 4 shows the projected share of elderly populations (65+) for 2025 and 2050. While the elderly share 2025 is quite even in the countries, Spain will have an grow in elderly population in northwestern and inland regions. Regions such as Zamora, León, and Asturias are projected to see elderly shares rise to 43–47%. Portugal shows moderate increases in elderly share, while France remains comparatively stable (Table 1).
 
 <div class="blog-image">
   <img src="{{ '/assets/images/projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope/Elderly_GernotNikolaus.png' | relative_url }}" alt="Elderly share (65+) 2025 vs 2050 (own figure)">
@@ -49,6 +51,8 @@ Figure 6 shows a bivariate map, combining temperature increase (ΔT under RCP8.5
 </div>
 
 Table 1 lists the top 20 NUTS3 regions by combined exposure, highlighting Spain’s dominance in regions most at risk. The combined exposure indicator was calculated by normalizing projected summer temperature (RCP8.5) and elderly population share (2050) to a 0–1 scale and summing both variables. The combined exposure indicator represents relative exposure within the study area and does not account for adaptive capacity, urban heat effects, or socioeconomic vulnerability. Only top 20 regions are displayed here for clarity. The full dataset includes 170 NUTS3 regions across Portugal, Spain, and France.
+
+Overall, the results show a spatial concentration of heat-related demographic exposure in Southwestern Europe. Inland Spain emerges as the most vulnerable region, where high temperature increases along with rapidly aging populations. Portugal shows moderate but consistent exposure patterns, particularly in Alentejo and interior regions. In contrast, French regions experience significant warming but lower demographic pressure from aging, resulting in comparatively lower combined exposure. The findings highlight the importance of considering both climatic and demographic factors when assessing future heat risk. Future work could include incorporating urban heat island effects, socioeconomic vulnerability, and uncertainty analysis across climate models.
   
 | NUTS Name               | Country | Elderly 2025 (%) | Elderly 2050 (%) | Temperature base (°C) | Temperature RCP4.5 (°C) | Temperatur RCP8.5 (°C) | ΔT RCP4.5 | ΔT RCP8.5 | Exposure combined |
 |---------------------------|---------|--------------------|--------------------|-----------|------------|------------|----------|----------|-------------------|
