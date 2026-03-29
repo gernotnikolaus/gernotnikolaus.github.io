@@ -6,7 +6,7 @@ categories: [projects]
 permalink: /projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope
 ---
 
-August 2025 was the third-warmest August on record globally; Heatwaves are becoming increasingly frequent and intense in Southwestern Europe [1]. Using NASA/NEX-GDDP climate models (MIROC5, GFDL-CM3, HadGEM2-ES) and EUROSTAT demographic projections [2, 3], I analyzed the future exposure of elderly populations in Portugal, Spain, and France to summer heat under different climate scenarios (current, RCP4.5, and RCP8.5).
+August 2025 was the third-warmest August on record globally, and Heatwaves are becoming increasingly frequent and intense in Southwestern Europe [1]. Using NASA/NEX-GDDP climate models (MIROC5, GFDL-CM3, HadGEM2-ES) and EUROSTAT demographic projections [2, 3], I analyzed the future exposure of elderly populations in Portugal, Spain, and France to summer heat under different climate scenarios (current, RCP4.5, and RCP8.5).
 
 In Google Earth Engine (GEE), I calculated summer mean temperature for the three countries and aggregated the data at NUTS3 level (sub-regional administrative units in the EU) using zonal statistics. Outputs were exported for further analysis in R (sf, dplyr, ggplot2) and prepared for mapping in QGIS.
 
@@ -48,7 +48,7 @@ Figure 6 shows a bivariate map, combining temperature increase (ΔT under RCP8.5
   <figcaption>Figure 6: Temperature Increase and Elderly Population Share (2050, RCP8.5) (own figure).</figcaption>
 </div>
 
-Table 1 lists the top 30 NUTS3 regions by combined exposure, highlighting Spain’s dominance in regions most at risk. The combined exposure indicator was calculated by normalizing projected summer temperature (RCP8.5) and elderly population share (2050) to a 0–1 scale and summing both variables. The combined exposure indicator represents relative exposure within the study area and does not account for adaptive capacity, urban heat effects, or socioeconomic vulnerability. Only top 30 regions are displayed here for clarity. The full dataset includes 170 NUTS3 regions across Portugal, Spain, and France.
+Table 1 lists the top 20 NUTS3 regions by combined exposure, highlighting Spain’s dominance in regions most at risk. The combined exposure indicator was calculated by normalizing projected summer temperature (RCP8.5) and elderly population share (2050) to a 0–1 scale and summing both variables. The combined exposure indicator represents relative exposure within the study area and does not account for adaptive capacity, urban heat effects, or socioeconomic vulnerability. Only top 20 regions are displayed here for clarity. The full dataset includes 170 NUTS3 regions across Portugal, Spain, and France.
   
 | NUTS Name               | Country | Elderly 2025 (%) | Elderly 2050 (%) | Temperature base (°C) | Temperature RCP4.5 (°C) | Temperatur RCP8.5 (°C) | ΔT RCP4.5 | ΔT RCP8.5 | Exposure combined |
 |---------------------------|---------|--------------------|--------------------|-----------|------------|------------|----------|----------|-------------------|
@@ -71,25 +71,4 @@ Table 1 lists the top 30 NUTS3 regions by combined exposure, highlighting Spain�
 | Beiras e Serra da Estrela | PT      | 0,31               | 0,39               | 26,78     | 30,70      | 31,57      | 3,92     | 4,79     | 1,27              |
 | Terras de Trás-os-Montes  | PT      | 0,32               | 0,38               | 27,15     | 31,03      | 31,87      | 3,87     | 4,72     | 1,23              |
 | Soria                     | ES      | 0,27               | 0,39               | 26,43     | 30,33      | 31,19      | 3,91     | 4,77     | 1,22              |
-| Segovia                   | ES      | 0,25               | 0,39               | 26,13     | 30,24      | 31,15      | 4,11     | 5,02     | 1,22              |
-| Huelva                    | ES      | 0,19               | 0,33               | 30,49     | 33,73      | 34,47      | 3,24     | 3,98     | 1,21              |
-| León                      | ES      | 0,30               | 0,44               | 23,16     | 26,46      | 27,06      | 3,30     | 3,90     | 1,19              |
-| Zaragoza                  | ES      | 0,23               | 0,35               | 28,49     | 32,35      | 33,18      | 3,86     | 4,69     | 1,18              |
-| Teruel                    | ES      | 0,26               | 0,37               | 26,77     | 30,55      | 31,43      | 3,79     | 4,66     | 1,17              |
-| Ourense                   | ES      | 0,32               | 0,42               | 24,03     | 27,30      | 27,91      | 3,27     | 3,88     | 1,17              |
-| Granada                   | ES      | 0,20               | 0,34               | 29,70     | 32,78      | 33,62      | 3,08     | 3,93     | 1,16              |
-| Região de Coimbra         | PT      | 0,28               | 0,38               | 26,74     | 30,19      | 30,84      | 3,46     | 4,10     | 1,16              |
-| Douro                     | PT      | 0,27               | 0,38               | 26,19     | 30,06      | 30,90      | 3,87     | 4,71     | 1,16              |
-| Cádiz                     | ES      | 0,19               | 0,34               | 29,09     | 32,24      | 32,90      | 3,15     | 3,81     | 1,15              |
-| Palencia                  | ES      | 0,29               | 0,41               | 24,12     | 27,57      | 28,20      | 3,45     | 4,08     | 1,15              |
-
-
-<div class="blog-image">
-  <figcaption>Table 1: Top 30 NUTS3 regions in Southwestern Europe by combined heat and elderly exposure (2050, RCP8.5).</figcaption>
-</div>
-
-This study is intended for academic purposes only. It has not been peer-reviewed, and no formal uncertainty analysis was performed.
-
-[1] https://climate.copernicus.eu/major-heatwave-southwestern-europe-during-third-warmest-august-record
-[2] Thrasher, B., et al. (2012). "Technical Note: Bias correcting climate model simulated daily temperature extremes with quantile mapping," Hydrology and Earth System Sciences, 16(9), 3309-3314
-[3] https://doi.org/10.2908/PROJ_19RP3 [28.03.2026]
+| Segovia                   | ES      | 0,25               | 0,39               | 26,13     | 30,24      | 31,15      | 4,11     | 5,02     | 1,22  
