@@ -8,7 +8,7 @@ permalink: /projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope
 
 August 2025 was the third-warmest August on record globally, and Heatwaves are becoming increasingly frequent and intense in Southwestern Europe [1]. Using NASA/NEX-GDDP climate models (MIROC5, GFDL-CM3, HadGEM2-ES) and EUROSTAT demographic projections [2, 3], I analyzed the future exposure of elderly populations in Portugal, Spain, and France to summer heat under different climate scenarios (current, RCP4.5, and RCP8.5).
 
-In Google Earth Engine (GEE), I calculated summer mean temperature for the three countries and aggregated the data at NUTS3 level (sub-regional administrative units in the EU) using zonal statistics. Outputs were exported for further analysis in R (sf, dplyr, ggplot2) and prepared for mapping in QGIS.
+In Google Earth Engine (GEE), I calculated summer mean temperature for the three countries and aggregated the data at NUTS3 level (sub-regional administrative units in the EU) using zonal statistics. Future climate projections represent the average conditions for the period 2041–2060. Outputs were exported for further analysis in R (sf, dplyr, ggplot2) and prepared for mapping in QGIS.
 
 <div class="blog-image">
   <img src="{{ '/assets/images/projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope/TemperatureMaps_GernotNikolaus.png' | relative_url }}" alt="Mean Summer Temperature in Southwestern Europe (own figure)">
@@ -19,7 +19,7 @@ Figure 1 shows the distribution of summer temperatures in Southwestern Europe. W
 
 <div class="blog-image">
   <img src="{{ '/assets/images/projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope/delta_GernotNikolaus.png' | relative_url }}" alt="Projected Summer Temperature Increase in Southwestern Europe (ΔT) 2050 (own figure)">
-  <figcaption>Figure 2: Projected Summer Temperature Increase in Southwestern Europe (ΔT) 2050 (own figure).</figcaption>
+  <figcaption>Figure 2: Projected Summer Temperature Increase in Southwestern Europe (ΔT) by mid-century (2041–2060) (own figure).</figcaption>
 </div>
 
 The density plots represent the distribution of values across all NUTS3 regions, where higher peaks indicate that more regions fall within a specific temperature or elderly share range.
@@ -43,7 +43,7 @@ Figure 5 shows elderly population shares. The overall trend is a clear rightward
   <figcaption>Figure 5: Distribution of Elderly Population Share by Country (own figure).</figcaption>
 </div>
 
-Figure 6 shows a bivariate map, combining temperature increase (ΔT under RCP8.5) and projected elderly share. This map shows patterns to identify regions of highest vulnerability. Spain’s inland provinces, such as Zamora, Cáceres, and Ciudad Real, have the highest combined exposure due to both high temperatures and a large proportion of elderly residents. While Portugal shows moderate combined exposure, France’s regions, while temperature increases, have lower elderly shares and thus lower exposure overall (compare with Figure 5).
+Figure 6 shows a bivariate map, combining temperature increase (ΔT, RCP8.5, 2041–2060 vs. baseline) and projected elderly share. This map shows patterns to identify regions of highest vulnerability. Spain’s inland provinces, such as Zamora, Cáceres, and Ciudad Real, have the highest combined exposure due to both high temperatures and a large proportion of elderly residents. While Portugal shows moderate combined exposure, France’s regions, while temperature increases, have lower elderly shares and thus lower exposure overall (compare with Figure 5).
 
 <div class="blog-image">
   <img src="{{ '/assets/images/projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope/bivariateMap_delta85_elderly2050_GernotNikolaus.png' | relative_url }}" alt="Temperature Increase and Elderly Population Share (2050, RCP8.5) (own figure)">
