@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Projected Heat Exposure for Elderly Populations in Southwestern Europe under Future Climate Scenarios"
+title: "Projected heat exposure for elderly populations in Southwestern Europe under future climate scenarios"
 date: 2026-03-29
 categories: [projects]
 permalink: /projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope
 ---
 
-August 2025 was the third-warmest August on record globally; Heatwaves are becoming increasingly frequent and intense in Southwestern Europe [1]. Using NASA/NEX-GDDP [2] climate models (MIROC5, GFDL-CM3, HadGEM2-ES), EUROSTAT demographic projections [3], I analyzed the future exposure of elderly populations in Portugal, Spain, and France to summer heat under different climate scenarios (current, RCP4.5, and RCP8.5).
+August 2025 was the third-warmest August on record globally; Heatwaves are becoming increasingly frequent and intense in Southwestern Europe [1]. Using NASA/NEX-GDDP climate models (MIROC5, GFDL-CM3, HadGEM2-ES) and EUROSTAT demographic projections [2, 3], I analyzed the future exposure of elderly populations in Portugal, Spain, and France to summer heat under different climate scenarios (current, RCP4.5, and RCP8.5).
 
 In Google Earth Engine (GEE), I calculated summer mean temperature for the three countries and aggregated the data at NUTS3 level (sub-regional administrative units in the EU) using zonal statistics. Outputs were exported for further analysis in R (sf, dplyr, ggplot2) and prepared for mapping in QGIS.
 
@@ -50,7 +50,7 @@ Figure 6 shows a bivariate map, combining temperature increase (ΔT under RCP8.5
 
 Table 1 lists the top 30 NUTS3 regions by combined exposure, highlighting Spain’s dominance in regions most at risk. The combined exposure indicator was calculated by normalizing projected summer temperature (RCP8.5) and elderly population share (2050) to a 0–1 scale and summing both variables. The combined exposure indicator represents relative exposure within the study area and does not account for adaptive capacity, urban heat effects, or socioeconomic vulnerability. Only top 30 regions are displayed here for clarity. The full dataset includes 170 NUTS3 regions across Portugal, Spain, and France.
   
-| NUTS_NAME.x               | COUNTRY | ELDERLY_SHARE_2025 | ELDERLY_SHARE_2050 | TEMP_base | TEMP_rcp45 | TEMP_rcp85 | DELTA_45 | DELTA_85 | Combined_Exposure |
+| NUTS Name               | Country | Elderly share 2025 (%) | Elderly share 2050 (%) | Temperature base (°C) | Temperature RCP4.5 (°C) | Temperatur RCP8.5 (°C) | ΔT RCP4.5 | ΔT RCP8.5 | Exposure combined |
 |---------------------------|---------|--------------------|--------------------|-----------|------------|------------|----------|----------|-------------------|
 | Zamora                    | ES      | 0,33               | 0,47               | 26,97     | 30,84      | 31,65      | 3,87     | 4,68     | 1,61              |
 | Cáceres                   | ES      | 0,26               | 0,40               | 30,50     | 34,64      | 35,69      | 4,14     | 5,19     | 1,59              |
