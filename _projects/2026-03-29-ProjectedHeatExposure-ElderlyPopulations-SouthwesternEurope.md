@@ -48,33 +48,44 @@ Figure 6 shows a bivariate map, visualizing delta8.5 and share of elderly Popula
   <figcaption>Figure 6: Temperature Increase and Elderly Population Share (2050, RCP8.5) (own figure).</figcaption>
 </div>
 
-Table 1 lists the top 50 NUTS3 regions by combined exposure, highlighting Spain’s dominance in regions most at risk. Only the top 20 regions are displayed here for clarity. The full dataset includes 170 NUTS3 regions across Portugal, Spain, and France.
+Table 1 lists the top 30 NUTS3 regions by combined exposure, highlighting Spain’s dominance in regions most at risk. The combined exposure indicator was calculated by normalizing projected summer temperature (RCP8.5) and elderly population share (2050) to a 0–1 scale and summing both variables. Only the top 30 regions are displayed here for clarity. The full dataset includes 170 NUTS3 regions across Portugal, Spain, and France.
   
-  | Rank | Region | Country | Temp RCP8.5 (°C) | Elderly Share 2050 | Combined Exposure |
-  |------|--------|--------|-----------------|------------------|-----------------|
-  | 1    | Zamora | ES     | 31.65           | 0.47             | 1.61            |
-  | 2    | Cáceres | ES    | 35.69           | 0.40             | 1.59            |
-  | 3    | Ciudad Real | ES | 36.82           | 0.39             | 1.59            |
-  | 4    | Salamanca | ES   | 32.81           | 0.42             | 1.48            |
-  | 5    | Ávila | ES      | 31.40           | 0.41             | 1.36            |
-  | 6    | Alentejo Central | PT | 33.22      | 0.39             | 1.37            |
-  | 7    | Alto Alentejo | PT | 33.95         | 0.39             | 1.40            |
-  | 8    | Cuenca | ES     | 34.11           | 0.38             | 1.39            |
-  | 9    | Valladolid | ES  | 31.95           | 0.40             | 1.34            |
-  | 10   | Beira Baixa | PT  | 33.34           | 0.38             | 1.35            |
-  | 11   | Albacete | ES   | 34.45           | 0.37             | 1.35            |
-  | 12   | Asturias | ES   | 24.82           | 0.43             | 0.99            |
-  | 13   | León | ES       | 27.06           | 0.44             | 1.19            |
-  | 14   | Ourense | ES    | 27.91           | 0.42             | 1.17            |
-  | 15   | Soria | ES      | 31.19           | 0.39             | 1.22            |
-  | 16   | Segovia | ES    | 31.15           | 0.39             | 1.22            |
-  | 17   | Pontevedra | ES | 26.53           | 0.40             | 0.97            |
-  | 18   | Burgos | ES     | 28.18           | 0.40             | 1.07            |
-  | 19   | Cantabria | ES  | 24.90           | 0.39             | 0.83            |
-  | 20   | A Coruña | ES   | 24.62           | 0.39             | 0.81            |
+| NUTS_NAME.x               | COUNTRY | ELDERLY_SHARE_2025 | ELDERLY_SHARE_2050 | TEMP_base | TEMP_rcp45 | TEMP_rcp85 | DELTA_45 | DELTA_85 | Combined_Exposure |
+|---------------------------|---------|--------------------|--------------------|-----------|------------|------------|----------|----------|-------------------|
+| Zamora                    | ES      | 0,33               | 0,47               | 26,97     | 30,84      | 31,65      | 3,87     | 4,68     | 1,61              |
+| Cáceres                   | ES      | 0,26               | 0,40               | 30,50     | 34,64      | 35,69      | 4,14     | 5,19     | 1,59              |
+| Ciudad Real               | ES      | 0,23               | 0,39               | 31,83     | 35,76      | 36,82      | 3,93     | 4,99     | 1,59              |
+| Córdoba                   | ES      | 0,22               | 0,36               | 32,84     | 36,56      | 37,56      | 3,72     | 4,72     | 1,52              |
+| Badajoz                   | ES      | 0,22               | 0,36               | 32,02     | 35,97      | 37,00      | 3,95     | 4,98     | 1,51              |
+| Jaén                      | ES      | 0,22               | 0,36               | 32,37     | 35,86      | 36,82      | 3,49     | 4,44     | 1,49              |
+| Salamanca                 | ES      | 0,29               | 0,42               | 27,65     | 31,84      | 32,81      | 4,20     | 5,17     | 1,48              |
+| Alto Alentejo             | PT      | 0,29               | 0,39               | 29,58     | 33,19      | 33,95      | 3,60     | 4,37     | 1,40              |
+| Cuenca                    | ES      | 0,24               | 0,38               | 29,34     | 33,19      | 34,11      | 3,85     | 4,77     | 1,39              |
+| Toledo                    | ES      | 0,20               | 0,35               | 30,97     | 35,11      | 36,15      | 4,14     | 5,18     | 1,38              |
+| Alentejo Central          | PT      | 0,28               | 0,39               | 29,22     | 32,55      | 33,22      | 3,32     | 4,00     | 1,37              |
+| Ávila                     | ES      | 0,28               | 0,41               | 26,21     | 30,41      | 31,40      | 4,20     | 5,19     | 1,36              |
+| Albacete                  | ES      | 0,21               | 0,37               | 30,23     | 33,57      | 34,45      | 3,34     | 4,22     | 1,35              |
+| Sevilla                   | ES      | 0,19               | 0,33               | 32,50     | 35,94      | 36,78      | 3,44     | 4,29     | 1,35              |
+| Beira Baixa               | PT      | 0,31               | 0,38               | 28,70     | 32,51      | 33,34      | 3,81     | 4,64     | 1,35              |
+| Valladolid                | ES      | 0,26               | 0,40               | 27,23     | 31,13      | 31,95      | 3,90     | 4,71     | 1,34              |
+| Beiras e Serra da Estrela | PT      | 0,31               | 0,39               | 26,78     | 30,70      | 31,57      | 3,92     | 4,79     | 1,27              |
+| Terras de Trás-os-Montes  | PT      | 0,32               | 0,38               | 27,15     | 31,03      | 31,87      | 3,87     | 4,72     | 1,23              |
+| Soria                     | ES      | 0,27               | 0,39               | 26,43     | 30,33      | 31,19      | 3,91     | 4,77     | 1,22              |
+| Segovia                   | ES      | 0,25               | 0,39               | 26,13     | 30,24      | 31,15      | 4,11     | 5,02     | 1,22              |
+| Huelva                    | ES      | 0,19               | 0,33               | 30,49     | 33,73      | 34,47      | 3,24     | 3,98     | 1,21              |
+| León                      | ES      | 0,30               | 0,44               | 23,16     | 26,46      | 27,06      | 3,30     | 3,90     | 1,19              |
+| Zaragoza                  | ES      | 0,23               | 0,35               | 28,49     | 32,35      | 33,18      | 3,86     | 4,69     | 1,18              |
+| Teruel                    | ES      | 0,26               | 0,37               | 26,77     | 30,55      | 31,43      | 3,79     | 4,66     | 1,17              |
+| Ourense                   | ES      | 0,32               | 0,42               | 24,03     | 27,30      | 27,91      | 3,27     | 3,88     | 1,17              |
+| Granada                   | ES      | 0,20               | 0,34               | 29,70     | 32,78      | 33,62      | 3,08     | 3,93     | 1,16              |
+| Região de Coimbra         | PT      | 0,28               | 0,38               | 26,74     | 30,19      | 30,84      | 3,46     | 4,10     | 1,16              |
+| Douro                     | PT      | 0,27               | 0,38               | 26,19     | 30,06      | 30,90      | 3,87     | 4,71     | 1,16              |
+| Cádiz                     | ES      | 0,19               | 0,34               | 29,09     | 32,24      | 32,90      | 3,15     | 3,81     | 1,15              |
+| Palencia                  | ES      | 0,29               | 0,41               | 24,12     | 27,57      | 28,20      | 3,45     | 4,08     | 1,15              |
+
 
 <div class="blog-image">
-  <figcaption>Table 1: Top 20 NUTS3 regions in Southwestern Europe by combined heat and elderly exposure (2050, RCP8.5).</figcaption>
+  <figcaption>Table 1: Top 30 NUTS3 regions in Southwestern Europe by combined heat and elderly exposure (2050, RCP8.5).</figcaption>
 </div>
 
 This study is intended for academic purposes only. It has not been peer-reviewed, and no formal uncertainty analysis was performed.
