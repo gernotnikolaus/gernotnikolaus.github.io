@@ -48,20 +48,30 @@ Figure 6 shows a bivariate map, visualizing delta8.5 and share of elderly Popula
   <figcaption>Figure 6: Temperature Increase and Elderly Population Share (2050, RCP8.5) (own figure).</figcaption>
 </div>
 
-<figcaption>Table 6: Temperature Increase and Elderly Population Share (2050, RCP8.5) (own figure).</figcaption>
+<figcaption>Table 1: Top 20 NUTS3 regions in Southwestern Europe by combined heat and elderly exposure (2050, RCP8.5); Only the top 20 regions are displayed here for clarity. The full dataset includes 170 NUTS3 regions across Portugal, Spain, and France.</figcaption>
 
-| NUTS_ID | NUTS_NAME.x | COUNTRY | POP_2025 | POP_2050 | POP_DENS_2025 | POP_DENS_2050 | ELDERLY_SHARE_2025 | ELDERLY_SHARE_2050 | TEMP_base | TEMP_rcp45 | TEMP_rcp85 | DELTA_45 | DELTA_85 | Combined_Exposure |
-|---------|-------------|---------|----------|----------|---------------|---------------|-------------------|-------------------|-----------|------------|------------|----------|----------|------------------|
-| ES419   | Zamora      | ES      | 161121   | 121932   | 8.49          | 6.43          | 0.33              | 0.47              | 26.97     | 30.84      | 31.65      | 3.87     | 4.68     | 1.61             |
-| ES413   | León        | ES      | 440562   | 356777   | 15.30         | 12.39         | 0.30              | 0.44              | 23.16     | 26.46      | 27.06      | 3.30     | 3.90     | 1.19             |
-| ES120   | Asturias    | ES      | 989194   | 820426   | 49.41         | 40.98         | 0.29              | 0.43              | 21.47     | 24.35      | 24.82      | 2.88     | 3.34     | 0.99             |
-| ES113   | Ourense     | ES      | 295373   | 242660   | 22.28         | 18.30         | 0.32              | 0.42              | 24.03     | 27.30      | 27.91      | 3.27     | 3.88     | 1.17             |
-| ES415   | Salamanca   | ES      | 321652   | 270080   | 14.91         | 12.52         | 0.29              | 0.42              | 27.65     | 31.84      | 32.81      | 4.20     | 5.17     | 1.48             |
-| ES112   | Lugo        | ES      | 318269   | 273049   | 17.26         | 14.80         | 0.30              | 0.42              | 22.44     | 25.26      | 25.71      | 2.81     | 3.26     | 1.01             |
-| ES411   | Ávila       | ES      | 152021   | 125181   | 10.88         | 8.96          | 0.28              | 0.41              | 26.21     | 30.41      | 31.40      | 4.20     | 5.19     | 1.36             |
-| ES414   | Palencia    | ES      | 154060   | 127119   | 10.44         | 8.61          | 0.29              | 0.41              | 24.12     | 27.57      | 28.20      | 3.45     | 4.08     | 1.15             |
-| ES432   | Cáceres     | ES      | 377919   | 316491   | 11.24         | 9.41          | 0.26              | 0.40              | 30.50     | 34.64      | 35.69      | 4.14     | 5.19     | 1.59             |
-| ES418   | Valladolid  | ES      | 512019   | 448751   | 35.24         | 30.88         | 0.26              | 0.40              | 27.23     | 31.13      | 31.95      | 3.90     | 4.71     | 1.34             |
+| Rank | Region | Country | Temp RCP8.5 (°C) | Elderly Share 2050 | Combined Exposure |
+|------|--------|--------|-----------------|------------------|-----------------|
+| 1    | Zamora | ES     | 31.65           | 0.47             | 1.61            |
+| 2    | Cáceres | ES    | 35.69           | 0.40             | 1.59            |
+| 3    | Ciudad Real | ES | 36.82           | 0.39             | 1.59            |
+| 4    | Salamanca | ES   | 32.81           | 0.42             | 1.48            |
+| 5    | Ávila | ES      | 31.40           | 0.41             | 1.36            |
+| 6    | Alentejo Central | PT | 33.22      | 0.39             | 1.37            |
+| 7    | Alto Alentejo | PT | 33.95         | 0.39             | 1.40            |
+| 8    | Cuenca | ES     | 34.11           | 0.38             | 1.39            |
+| 9    | Valladolid | ES  | 31.95           | 0.40             | 1.34            |
+| 10   | Beira Baixa | PT  | 33.34           | 0.38             | 1.35            |
+| 11   | Albacete | ES   | 34.45           | 0.37             | 1.35            |
+| 12   | Asturias | ES   | 24.82           | 0.43             | 0.99            |
+| 13   | León | ES       | 27.06           | 0.44             | 1.19            |
+| 14   | Ourense | ES    | 27.91           | 0.42             | 1.17            |
+| 15   | Soria | ES      | 31.19           | 0.39             | 1.22            |
+| 16   | Segovia | ES    | 31.15           | 0.39             | 1.22            |
+| 17   | Pontevedra | ES | 26.53           | 0.40             | 0.97            |
+| 18   | Burgos | ES     | 28.18           | 0.40             | 1.07            |
+| 19   | Cantabria | ES  | 24.90           | 0.39             | 0.83            |
+| 20   | A Coruña | ES   | 24.62           | 0.39             | 0.81            |
 
 This study is intended for academic purposes only. It has not been peer-reviewed, and no formal uncertainty analysis was performed.
 
