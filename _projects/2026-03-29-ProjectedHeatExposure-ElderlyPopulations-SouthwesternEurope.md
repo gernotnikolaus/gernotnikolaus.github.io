@@ -50,7 +50,7 @@ Figure 6 shows a bivariate map, combining temperature increase (ΔT under RCP8.5
 
 Table 1 lists the top 30 NUTS3 regions by combined exposure, highlighting Spain’s dominance in regions most at risk. The combined exposure indicator was calculated by normalizing projected summer temperature (RCP8.5) and elderly population share (2050) to a 0–1 scale and summing both variables. The combined exposure indicator represents relative exposure within the study area and does not account for adaptive capacity, urban heat effects, or socioeconomic vulnerability. Only top 30 regions are displayed here for clarity. The full dataset includes 170 NUTS3 regions across Portugal, Spain, and France.
   
-| NUTS Name               | Country | Elderly share 2025 (%) | Elderly share 2050 (%) | Temperature base (°C) | Temperature RCP4.5 (°C) | Temperatur RCP8.5 (°C) | ΔT RCP4.5 | ΔT RCP8.5 | Exposure combined |
+| NUTS Name               | Country | Elderly 2025 (%) | Elderly 2050 (%) | Temperature base (°C) | Temperature RCP4.5 (°C) | Temperatur RCP8.5 (°C) | ΔT RCP4.5 | ΔT RCP8.5 | Exposure combined |
 |---------------------------|---------|--------------------|--------------------|-----------|------------|------------|----------|----------|-------------------|
 | Zamora                    | ES      | 0,33               | 0,47               | 26,97     | 30,84      | 31,65      | 3,87     | 4,68     | 1,61              |
 | Cáceres                   | ES      | 0,26               | 0,40               | 30,50     | 34,64      | 35,69      | 4,14     | 5,19     | 1,59              |
