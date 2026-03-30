@@ -1,3 +1,4 @@
+---
 layout: default
 title: "AGIT Conference 2025"
 date: 2025-07-03
