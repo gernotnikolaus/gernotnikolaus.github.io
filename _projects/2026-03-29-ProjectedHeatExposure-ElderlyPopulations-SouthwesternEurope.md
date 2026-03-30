@@ -76,3 +76,8 @@ The results show a spatial concentration of heat-related demographic exposure in
 | Terras de Trás-os-Montes  | PT      | 0.32               | 0.38               | 27.15     | 31.03      | 31.87      | 3.87     | 4.72     | 1.23              |
 | Soria                     | ES      | 0.27               | 0.39               | 26.43     | 30.33      | 31.19      | 3.91     | 4.77     | 1.22              |
 | Segovia                   | ES      | 0.25               | 0.39               | 26.13     | 30.24      | 31.15      | 4.11     | 5.02     | 1.22  
+
+
+[1] [https://lnkd.in/dm-kExYR](https://climate.copernicus.eu/major-heatwave-southwestern-europe-during-third-warmest-august-record)
+[2] Thrasher, B., et al. (2012). "Technical Note: Bias correcting climate model simulated daily temperature extremes with quantile mapping," Hydrology and Earth System Sciences, 16(9), 3309-3314
+[3] https://doi.org/10.2908/PROJ_19RP3 [accessed: 28.03.2026]
