@@ -15,9 +15,6 @@ title: About me
     <a href="https://www.linkedin.com/in/gernot-nikolaus/" target="_blank" aria-label="LinkedIn">
         <i class="fab fa-linkedin"></i>
     </a>
-    <a href="mailto:gernot.nikolaus@stud.plus.ac.at" aria-label="Email">
-        <i class="fas fa-envelope"></i>
-    </a>
     <a href="https://www.researchgate.net/profile/Gernot-Nikolaus" target="_blank" aria-label="ResearchGate">
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" 
             alt="ResearchGate" 
