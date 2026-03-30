@@ -6,7 +6,7 @@ categories: [blog]
 permalink: /blog/AGIT_Conference_2025
 ---
 
-in July 2025, I had the opportunity to present part of my master’s thesis at the AGIT Conference 2025 in Salzburg!
+In July 2025, I had the opportunity to present part of my master’s thesis at the AGIT Conference 2025 in Salzburg!
 The short paper, titled “Assessment of flood susceptibility using AHP and remote sensing-derived products, a case study in Punjab, Pakistan”, represents about one-third of my thesis work.
 It focuses on integrating remote sensing and multi-criteria decision analysis to better understand flood hazards in the vulnerable province of Punjab.
 
