@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Cycling all the UK"
-date: 2025-11-01
+date: 2025-10-01
 categories: [blog]
 permalink: /blog/CyclingUK
 ---
