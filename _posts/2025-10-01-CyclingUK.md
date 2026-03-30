@@ -10,5 +10,5 @@ placeholder
 
 <div class="blog-image">
   <img src="{{ '/assets/images/blogs/' | relative_url }}" alt="Arrival on the Asian continent">
-  <figcaption>Arrival on the Asian continent (own image).</figcaption>
+  <figcaption>placeholder (own image).</figcaption>
 </div>
