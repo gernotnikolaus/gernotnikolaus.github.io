@@ -39,7 +39,7 @@ title: About me
         <br>Royal Society for the Protection of Birds (RSPB)
     </li>
     <li>
-        <strong>GIS Consultant | September 2024 - September 2025</strong>
+        <strong>Student Assistant | September 2024 - September 2025</strong>
         <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
     </li>
     <li>
