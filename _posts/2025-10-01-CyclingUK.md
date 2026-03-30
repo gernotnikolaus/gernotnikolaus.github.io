@@ -6,12 +6,11 @@ categories: [blog]
 permalink: /blog/CyclingUK
 ---
 
-placeholder text
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+In July and August, I went on a long-distance solo cycling adventure through much of the UK, starting and finishing in Germany. The journey took me from Germany into France, across the English Channel via ferry from Roscoff to Plymouth, and then through England, Wales, and Scotland, exploring both cities and remote landscapes. I returned south through England to Harwich, caught a ferry to the Netherlands, rode through Dutch towns like Zwolle and Utrecht, and finally cycled back into Germany.
 
 <div class="blog-image">
   <img src="{{ 'assets/images/projects/30Maps_2025_04_MyData_CyclingUK_GernotNikolaus.jpg' | relative_url }}" alt="Cycling UK">
   <figcaption>Cycling UK (own image).</figcaption>
 </div>
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Over 46 days, I covered 4,605 km with 32,578 meters of climbing, spending 265 hours in the saddle. The trip combined 30 nights of wild camping, 14 nights with friends or acquaintances, and one night on a ferry—all completed with zero flat tires.
