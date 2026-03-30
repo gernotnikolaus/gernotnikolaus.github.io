@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Projected heat exposure for elderly populations in Southwestern Europe under future climate scenarios"
-date: 2026-03-29
+date: 2026-03-30
 categories: [projects]
 permalink: /projects/ProjectedHeatExposureElderlyPopulationsSouthwesternEurope
 ---
