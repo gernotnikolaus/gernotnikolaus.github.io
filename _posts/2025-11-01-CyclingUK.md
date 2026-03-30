@@ -1,19 +1,14 @@
 ---
 layout: default
-title: "Cycling from Germany to Asia (Break between studies)"
-date: 2023-08-01
+title: "Cycling all the UK"
+date: 2025-11-01
 categories: [blog]
-permalink: /blog/CyclingToAsia
+permalink: /blog/CyclingUK
 ---
 
-Between my bachelor's and master's degrees, I went on a solo cycling trip from Germany to Asia (Türkiye, Asian continent) along the Adriatic Sea and back again.
+placeholder
 
 <div class="blog-image">
-  <img src="{{ '/assets/images/blogs/CyclingToAsia_Arrival_01_GernotNikolaus.jpg' | relative_url }}" alt="Arrival on the Asian continent">
+  <img src="{{ '/assets/images/blogs/' | relative_url }}" alt="Arrival on the Asian continent">
   <figcaption>Arrival on the Asian continent (own image).</figcaption>
-</div>
-
-<div class="blog-image">
-  <img src="{{ '/assets/images/blogs/CyclingToAsia_Map_GernotNikolaus.jpg' | relative_url }}" alt="Cycling to Asia map">
-  <figcaption>Map of the cycling tour (own image).</figcaption>
 </div>
