@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Cycling all the UK"
+title: "From Germany across the UK and back"
 date: 2025-10-01
 categories: [blog]
 permalink: /blog/CyclingUK
