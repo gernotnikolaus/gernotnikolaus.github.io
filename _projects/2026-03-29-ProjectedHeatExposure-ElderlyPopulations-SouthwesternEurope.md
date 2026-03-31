@@ -81,5 +81,9 @@ The results show a spatial concentration of heat-related demographic exposure in
 
 
 [1] https://climate.copernicus.eu/major-heatwave-southwestern-europe-during-third-warmest-august-record
+
 [2] Thrasher, B., et al. (2012). "Technical Note: Bias correcting climate model simulated daily temperature extremes with quantile mapping," Hydrology and Earth System Sciences, 16(9), 3309-3314
+
 [3] https://doi.org/10.2908/PROJ_19RP3 [accessed: 28.03.2026]
+
+This study is intended for academic purposes only. It has not been peer-reviewed, and no formal uncertainty analysis was performed.
