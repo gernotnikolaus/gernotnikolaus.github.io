@@ -28,7 +28,7 @@ title: About me
 <h2>Experience</h2>
 <ul>
     <li>
-        <strong>Project Assistant | September 2024 - Present</strong>
+        <strong>Project Assistant | September 2025 - Present</strong>
         <br>United Nations University - Institute for Environment and Human Security (UNU-EHS)
     </li>
     <li>
