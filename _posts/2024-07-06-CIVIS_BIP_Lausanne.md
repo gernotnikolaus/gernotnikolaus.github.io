@@ -2,7 +2,9 @@
 layout: default
 title: "Report on the Blended Intensive Program: Healthy Urban Systems (HUS) in Lausanne, Switzerland"
 date: 2024-07-06
-categories: [blog]
+categories: [insight]
+tags: [research]
+image: assets/images/blogs/CIVIS_BIP_02_GernotNikolaus.png
 permalink: /blog/ReportBIPLausanne
 ---
 

@@ -2,7 +2,9 @@
 layout: default
 title: "Excursion in Vienna"
 date: 2024-05-21
-categories: [blog]
+categories: [insight]
+tags: [research]
+image: assets/images/blogs/ExcursionVienna_01_GernotNikolaus.jpg
 permalink: /blog/ExcursionVienna
 ---
 

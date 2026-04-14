@@ -11,6 +11,7 @@ title: Blog
     <button onclick="filterCategory('project')">Projects</button>
     <button onclick="filterCategory('experience')">Experience</button>
     <button onclick="filterCategory('insight')">Insights</button>
+    <button onclick="filterCategory('personal')">Personal</button>
   </div>
 
   <!-- TAG FILTER -->

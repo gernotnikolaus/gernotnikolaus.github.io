@@ -2,7 +2,9 @@
 layout: default
 title: "12WeekGeoChallenge"
 date: 2024-08-04
-categories: [projects]
+categories: [project]
+tags: [cartography, GIS]
+image: assets/images/projects/AmazonBasin_GernotNikolaus.jpg
 permalink: /projects/12WeekGeoChallenge
 ---
 

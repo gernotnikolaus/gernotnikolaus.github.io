@@ -4,7 +4,7 @@ title: "From Germany to the edge of Asia and back"
 date: 2023-08-01
 categories: [personal]
 tags: [cycling]
-image: assets/images/blogs/RathlinIsland_GernotNikolaus_01.jpg
+image: assets/images/blogs/CyclingToAsia_Arrival_01_GernotNikolaus.jpg
 permalink: /blog/CyclingToAsia
 ---
 

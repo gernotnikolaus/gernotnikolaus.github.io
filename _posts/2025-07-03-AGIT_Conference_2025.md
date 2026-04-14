@@ -2,7 +2,9 @@
 layout: default
 title: "AGIT Conference 2025"
 date: 2025-07-03
-categories: [blog]
+categories: [insight]
+tags: [research]
+image: assets/images/blogs/Presentation_AGIT_Conference_2025.png
 permalink: /blog/AGIT_Conference_2025
 ---
 

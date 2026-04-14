@@ -543,3 +543,9 @@ footer p {
   background: #fffaf3;
   border-left: 6px solid #b7791f;
 }
+
+/* PERSONAL */
+.portfolio-card.insight {
+  background: #fffaf3;
+  border-left: 6px solid #fc4141;
+}

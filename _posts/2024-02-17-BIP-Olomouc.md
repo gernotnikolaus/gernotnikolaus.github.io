@@ -2,8 +2,8 @@
 layout: default
 title: "BIP in Olomouc"
 date: 2024-02-17
-categories: [experience]
-tags: [research]
+categories: [insight]
+tags: [research, cartography]
 image: assets/images/blogs/OlomoucBIP_01_GernotNikolaus.jpg
 permalink: /blog/BIPinOlomouc
 ---

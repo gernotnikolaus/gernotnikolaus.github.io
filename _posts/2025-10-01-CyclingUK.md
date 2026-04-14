@@ -2,7 +2,9 @@
 layout: default
 title: "From Germany across the UK and back"
 date: 2025-10-01
-categories: [blog]
+categories: [personal]
+tags: [cycling]
+image: assets/images/projects/30Maps_2025_04_MyData_CyclingUK_GernotNikolaus.jpg
 permalink: /blog/CyclingUK
 ---
 
