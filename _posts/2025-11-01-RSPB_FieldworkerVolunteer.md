@@ -3,6 +3,7 @@ layout: default
 title: "Residential Fieldworker Volunteer - LIFE Raft Seabird Conservation Project"
 date: 2025-11-01
 categories: [blog]
+tags: [experience, GIS, biodiversity, fieldwork]
 permalink: /blog/RSPB_FieldworkerVolunteer
 ---
 

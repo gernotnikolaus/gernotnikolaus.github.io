@@ -2,6 +2,13 @@
 layout: default
 title: Blog
 ---
+
+<button onclick="filterPosts('all')">All</button>
+<button onclick="filterPosts('project')">Projects</button>
+<button onclick="filterPosts('fieldwork')">Field</button>
+<button onclick="filterPosts('climate')">Climate</button>
+<button onclick="filterPosts('humanitarian')">Humanitarian</button>
+
 <div class="portfolio-grid">
   {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
   {% for post in sorted_posts %}
