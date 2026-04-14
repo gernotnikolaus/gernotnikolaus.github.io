@@ -554,14 +554,17 @@ footer p {
 }
 
 .filter-btn {
-  margin: 5px;
-  padding: 8px 14px;
-  border: 2px solid transparent;
-  border-radius: 20px;
-  cursor: pointer;
-  background: #f5f5f5;
-  transition: all 0.2s ease;
-  font-weight: 500;
+    margin: 5px;
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 4px; /* Optional: slightly rounded corners */
+    margin-top: 10px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #f5f5f5;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-weight: 500;
 }
 
 /* PROJECT */
@@ -594,6 +597,17 @@ footer p {
 
 .filter-btn.insight:hover {
   background: var(--insight-color);
+  color: white;
+}
+
+/* INSIGHT */
+.filter-btn.personal {
+  border-color: var(--personal-color);
+  color: var(--personal-color);
+}
+
+.filter-btn.insight:hover {
+  background: var(--personal-color);
   color: white;
 }
 

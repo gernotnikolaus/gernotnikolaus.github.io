@@ -63,7 +63,7 @@ title: Portfolio
       </div>
       {% endif %}
 
-      <a href="{{ post.url }}" class="read-more">Read more →</a>
+     <!--  <a href="{{ post.url }}" class="read-more">Read more →</a>   -->
     </div>
 
   </div>
@@ -106,4 +106,16 @@ function applyFilters() {
 
   });
 }
+
+function filterCategory(category) {
+    activeCategory = category;
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+
+    document.querySelector(`.filter-btn.${category}`)?.classList.add('active');
+
+    applyFilters();
+    }
 </script>

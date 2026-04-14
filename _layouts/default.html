@@ -63,18 +63,6 @@
             var modal = document.getElementById("imageModal");
             modal.style.display = "none";
         }
-
-        function filterCategory(category) {
-            activeCategory = category;
-
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-
-            document.querySelector(`.filter-btn.${category}`)?.classList.add('active');
-
-            applyFilters();
-            }
     </script>
 </body>
 </html>
