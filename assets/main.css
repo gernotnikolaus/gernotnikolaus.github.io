@@ -613,7 +613,7 @@ footer p {
   color: var(--personal-color);
 }
 
-.filter-btn.insight:hover {
+.filter-btn.personal:hover {
   background: var(--personal-color);
   color: white;
 }

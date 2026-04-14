@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portfolio
+title: Portfolio (currently under construction)
 ---
 
 <div class="filter-container">
