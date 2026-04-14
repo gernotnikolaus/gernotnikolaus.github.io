@@ -25,34 +25,46 @@ title: Blog
 
 </div>
 
-<div class="portfolio-grid" id="portfolio">
+<div class="portfolio-grid">
 
   {% for post in site.posts %}
-  <div class="card"
-       data-category="{{ post.categories | join: ' ' }}"
+
+  <div class="portfolio-card {{ post.categories | first }}"
+       data-category="{{ post.categories | first }}"
        data-tags="{{ post.tags | join: ' ' }}">
 
     {% if post.image %}
-    <img src="{{ post.image }}" class="card-image">
+      <a href="{{ post.url }}">
+        <img src="{{ post.image }}" class="card-image">
+      </a>
     {% endif %}
 
     <div class="card-content">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
 
-      <p class="meta">
-        {{ post.date | date: "%b %Y" }} | {{ post.categories[0] }}
+      <p class="card-meta">
+        {{ post.date | date: "%b %Y" }} · {{ post.categories | first }}
       </p>
 
-      <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+      <p class="card-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 25 }}
+      </p>
 
-      <div class="tags">
+      {% if post.tags %}
+      <div class="card-tags">
         {% for tag in post.tags %}
-          <span>{{ tag }}</span>
+          <span class="tag">{{ tag }}</span>
         {% endfor %}
       </div>
+      {% endif %}
+
+      <a href="{{ post.url }}" class="read-more">Read more →</a>
     </div>
 
   </div>
+
   {% endfor %}
 
 </div>
@@ -73,15 +85,15 @@ function applyFilters() {
   let selectedTags = Array.from(document.querySelectorAll('.tag-filters input:checked'))
                           .map(cb => cb.value);
 
-  document.querySelectorAll('.card').forEach(card => {
+  document.querySelectorAll('.portfolio-card').forEach(card => {
 
-    let cardCategory = card.dataset.category;
-    let cardTags = card.dataset.tags;
+    let category = card.dataset.category;
+    let tags = card.dataset.tags;
 
-    let categoryMatch = (activeCategory === "all") || cardCategory.includes(activeCategory);
+    let categoryMatch = (activeCategory === "all" || category === activeCategory);
 
     let tagMatch = selectedTags.length === 0 ||
-      selectedTags.every(tag => cardTags.includes(tag));
+      selectedTags.every(tag => tags.includes(tag));
 
     if (categoryMatch && tagMatch) {
       card.style.display = "block";
