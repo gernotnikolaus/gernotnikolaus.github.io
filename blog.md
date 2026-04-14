@@ -3,49 +3,92 @@ layout: default
 title: Blog
 ---
 
-<button onclick="filterPosts('all')">All</button>
-<button onclick="filterPosts('project')">Projects</button>
-<button onclick="filterPosts('fieldwork')">Field</button>
-<button onclick="filterPosts('climate')">Climate</button>
-<button onclick="filterPosts('humanitarian')">Humanitarian</button>
+<div class="filter-container">
 
-<div class="portfolio-grid">
-  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-  {% for post in sorted_posts %}
-  
-  <div class="portfolio-card">
+  <!-- CATEGORY FILTER -->
+  <div class="category-filters">
+    <button onclick="filterCategory('all')">All</button>
+    <button onclick="filterCategory('project')">Projects</button>
+    <button onclick="filterCategory('experience')">Experience</button>
+    <button onclick="filterCategory('insight')">Insights</button>
+  </div>
+
+  <!-- TAG FILTER -->
+  <div class="tag-filters">
+    <label><input type="checkbox" value="climate"> Climate</label>
+    <label><input type="checkbox" value="humanitarian"> Humanitarian</label>
+    <label><input type="checkbox" value="health"> Health</label>
+    <label><input type="checkbox" value="fieldwork"> Fieldwork</label>
+    <label><input type="checkbox" value="biodiversity"> Biodiversity</label>
+    <label><input type="checkbox" value="risk"> Risk</label>
+  </div>
+
+</div>
+
+<div class="portfolio-grid" id="portfolio">
+
+  {% for post in site.posts %}
+  <div class="card"
+       data-category="{{ post.categories | join: ' ' }}"
+       data-tags="{{ post.tags | join: ' ' }}">
 
     {% if post.image %}
-      <a href="{{ post.url }}">
-        <img src="{{ post.image }}" class="card-image">
-      </a>
+    <img src="{{ post.image }}" class="card-image">
     {% endif %}
 
     <div class="card-content">
-      <h3>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h3>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-      <p class="card-meta">
-        {{ post.date | date: "%b %Y" }}
+      <p class="meta">
+        {{ post.date | date: "%b %Y" }} | {{ post.categories[0] }}
       </p>
 
-      <p class="card-excerpt">
-        {{ post.excerpt | strip_html | truncatewords: 25 }}
-      </p>
+      <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
 
-      {% if post.tags %}
-      <div class="card-tags">
+      <div class="tags">
         {% for tag in post.tags %}
-          <span class="tag">{{ tag }}</span>
+          <span>{{ tag }}</span>
         {% endfor %}
       </div>
-      {% endif %}
-
-      <a href="{{ post.url }}" class="read-more">Read more →</a>
     </div>
 
   </div>
-
   {% endfor %}
+
 </div>
+
+<script>
+let activeCategory = "all";
+
+function filterCategory(category) {
+  activeCategory = category;
+  applyFilters();
+}
+
+document.querySelectorAll('.tag-filters input').forEach(cb => {
+  cb.addEventListener('change', applyFilters);
+});
+
+function applyFilters() {
+  let selectedTags = Array.from(document.querySelectorAll('.tag-filters input:checked'))
+                          .map(cb => cb.value);
+
+  document.querySelectorAll('.card').forEach(card => {
+
+    let cardCategory = card.dataset.category;
+    let cardTags = card.dataset.tags;
+
+    let categoryMatch = (activeCategory === "all") || cardCategory.includes(activeCategory);
+
+    let tagMatch = selectedTags.length === 0 ||
+      selectedTags.every(tag => cardTags.includes(tag));
+
+    if (categoryMatch && tagMatch) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+
+  });
+}
+</script>
