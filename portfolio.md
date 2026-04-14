@@ -1,20 +1,21 @@
 ---
 layout: default
-title: Blog
+title: Portfolio
 ---
 
 <div class="filter-container">
 
   <!-- CATEGORY FILTER -->
   <div class="category-filters">
-    <button onclick="filterCategory('all')">All</button>
-    <button onclick="filterCategory('project')">Projects</button>
-    <button onclick="filterCategory('experience')">Experience</button>
-    <button onclick="filterCategory('insight')">Insights</button>
+    <button class="filter-btn all" onclick="filterCategory('all')">All</button>
+    <button class="filter-btn project" onclick="filterCategory('project')">Projects</button>
+    <button class="filter-btn experience" onclick="filterCategory('experience')">Experience</button>
+    <button class="filter-btn insight" onclick="filterCategory('insight')">Insights</button>
     <button onclick="filterCategory('personal')">Personal</button>
   </div>
 
-  <!-- TAG FILTER -->
+
+  <!-- TAG FILTER 
   <div class="tag-filters">
     <label><input type="checkbox" value="climate"> Climate</label>
     <label><input type="checkbox" value="humanitarian"> Humanitarian</label>
@@ -23,6 +24,7 @@ title: Blog
     <label><input type="checkbox" value="biodiversity"> Biodiversity</label>
     <label><input type="checkbox" value="risk"> Risk</label>
   </div>
+  -->
 
 </div>
 

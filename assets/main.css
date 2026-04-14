@@ -526,26 +526,90 @@ footer p {
    CATEGORY COLORS 🎨
    ========================= */
 
+:root {
+  --project-color: #2b6cb0;
+  --experience-color: #2f855a;
+  --insight-color: #b7791f;
+  --personal-color: #fc4141;
+}
 /* PROJECT */
 .portfolio-card.project {
   background: #f4f9ff;
-  border-left: 6px solid #2b6cb0;
+  border-left: 6px solid var(--project-color);
+}
+
+.portfolio-card.experience {
+  background: #f3fff6;
+  border-left: 6px solid var(--experience-color);
+}
+
+.portfolio-card.insight {
+  background: #fffaf3;
+  border-left: 6px solid var(--insight-color);
+}
+
+.portfolio-card.personal {
+  background: #fffaf3;
+  border-left: 6px solid  var(--personal-color);
+}
+
+.filter-btn {
+  margin: 5px;
+  padding: 8px 14px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #f5f5f5;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+/* PROJECT */
+.filter-btn.project {
+  border-color: var(--project-color);
+  color: var(--project-color);
+}
+
+.filter-btn.project:hover {
+  background: var(--project-color);
+  color: white;
 }
 
 /* EXPERIENCE */
-.portfolio-card.experience {
-  background: #f3fff6;
-  border-left: 6px solid #2f855a;
+.filter-btn.experience {
+  border-color: var(--experience-color);
+  color: var(--experience-color);
+}
+
+.filter-btn.experience:hover {
+  background: var(--experience-color);
+  color: white;
 }
 
 /* INSIGHT */
-.portfolio-card.insight {
-  background: #fffaf3;
-  border-left: 6px solid #b7791f;
+.filter-btn.insight {
+  border-color: var(--insight-color);
+  color: var(--insight-color);
 }
 
-/* PERSONAL */
-.portfolio-card.insight {
-  background: #fffaf3;
-  border-left: 6px solid #fc4141;
+.filter-btn.insight:hover {
+  background: var(--insight-color);
+  color: white;
+}
+
+/* ALL */
+.filter-btn.all {
+  border-color: #999;
+  color: #333;
+}
+
+.filter-btn.all:hover {
+  background: #333;
+  color: white;
+}
+
+.filter-btn.active {
+  background: #333;
+  color: white;
+  border-color: #333;
 }
