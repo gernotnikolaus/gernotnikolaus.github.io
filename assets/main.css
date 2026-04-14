@@ -549,7 +549,7 @@ footer p {
 }
 
 .portfolio-card.personal {
-  background: #fffaf3;
+  background: #fff3f3;
   border-left: 6px solid  var(--personal-color);
 }
 
@@ -560,7 +560,6 @@ footer p {
     margin-top: 10px;
     border: 2px solid transparent;
     text-decoration: none;
-    border-radius: 20px;
     cursor: pointer;
     background: #f5f5f5;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
