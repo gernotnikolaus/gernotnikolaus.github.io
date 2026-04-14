@@ -469,15 +469,23 @@ footer p {
 
 /* BASE CARD */
 .portfolio-card {
-  border-radius: 12px;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease;
+
   background: white;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .portfolio-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+  cursor: pointer;
 }
 
 /* IMAGE */

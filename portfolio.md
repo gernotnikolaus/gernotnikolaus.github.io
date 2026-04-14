@@ -7,45 +7,32 @@ title: Portfolio
 
   <!-- CATEGORY FILTER -->
   <div class="category-filters">
-    <button class="filter-btn all" onclick="filterCategory('all')">All</button>
+    <button class="filter-btn all active" onclick="filterCategory('all')">All</button>
     <button class="filter-btn project" onclick="filterCategory('project')">Projects</button>
     <button class="filter-btn experience" onclick="filterCategory('experience')">Experience</button>
     <button class="filter-btn insight" onclick="filterCategory('insight')">Insights</button>
-    <button onclick="filterCategory('personal')">Personal</button>
+    <button class="filter-btn personal" onclick="filterCategory('personal')">Personal</button>
   </div>
-
-
-  <!-- TAG FILTER 
-  <div class="tag-filters">
-    <label><input type="checkbox" value="climate"> Climate</label>
-    <label><input type="checkbox" value="humanitarian"> Humanitarian</label>
-    <label><input type="checkbox" value="health"> Health</label>
-    <label><input type="checkbox" value="fieldwork"> Fieldwork</label>
-    <label><input type="checkbox" value="biodiversity"> Biodiversity</label>
-    <label><input type="checkbox" value="risk"> Risk</label>
-  </div>
-  -->
 
 </div>
+
 
 <div class="portfolio-grid">
 
   {% for post in site.posts %}
 
-  <div class="portfolio-card {{ post.categories | first }}"
-       data-category="{{ post.categories | first }}"
-       data-tags="{{ post.tags | join: ' ' }}">
+  <a href="{{ post.url }}"
+     class="portfolio-card {{ post.categories | first }}"
+     data-category="{{ post.categories | first }}"
+     data-tags="{{ post.tags | join: ' ' }}">
 
     {% if post.image %}
-      <a href="{{ post.url }}">
-        <img src="{{ post.image }}" class="card-image">
-      </a>
+      <img src="{{ post.image }}" class="card-image">
     {% endif %}
 
     <div class="card-content">
-      <h3>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h3>
+
+      <h3>{{ post.title }}</h3>
 
       <p class="card-meta">
         {{ post.date | date: "%b %Y" }} · {{ post.categories | first }}
@@ -63,59 +50,66 @@ title: Portfolio
       </div>
       {% endif %}
 
-     <!--  <a href="{{ post.url }}" class="read-more">Read more →</a>   -->
     </div>
 
-  </div>
+  </a>
 
   {% endfor %}
 
 </div>
 
+
 <script>
+
 let activeCategory = "all";
 
+/* ---------------------------
+   CATEGORY FILTER
+---------------------------- */
 function filterCategory(category) {
   activeCategory = category;
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+
+  document.querySelector(`.filter-btn.${category}`)?.classList.add('active');
+
   applyFilters();
 }
 
-document.querySelectorAll('.tag-filters input').forEach(cb => {
+
+/* ---------------------------
+   TAG FILTER (checkboxes optional)
+---------------------------- */
+document.querySelectorAll('.tag-filters input')?.forEach(cb => {
   cb.addEventListener('change', applyFilters);
 });
 
+
+/* ---------------------------
+   MAIN FILTER FUNCTION
+---------------------------- */
 function applyFilters() {
+
   let selectedTags = Array.from(document.querySelectorAll('.tag-filters input:checked'))
                           .map(cb => cb.value);
 
   document.querySelectorAll('.portfolio-card').forEach(card => {
 
-    let category = card.dataset.category;
-    let tags = card.dataset.tags;
+    let category = card.dataset.category || "";
+    let tags = card.dataset.tags || "";
 
-    let categoryMatch = (activeCategory === "all" || category === activeCategory);
+    let categoryMatch =
+      (activeCategory === "all" || category === activeCategory);
 
-    let tagMatch = selectedTags.length === 0 ||
-      selectedTags.every(tag => tags.includes(tag));
+    let tagMatch =
+      (selectedTags.length === 0 ||
+       selectedTags.every(tag => tags.includes(tag)));
 
-    if (categoryMatch && tagMatch) {
-      card.style.display = "block";
-    } else {
-      card.style.display = "none";
-    }
-
+    card.style.display = (categoryMatch && tagMatch) ? "block" : "none";
   });
+
 }
 
-function filterCategory(category) {
-    activeCategory = category;
-
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.classList.remove('active');
-    });
-
-    document.querySelector(`.filter-btn.${category}`)?.classList.add('active');
-
-    applyFilters();
-    }
 </script>
