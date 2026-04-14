@@ -4,7 +4,7 @@ title: "Report on the Blended Intensive Program: Healthy Urban Systems (HUS) in 
 date: 2024-07-06
 categories: [insight]
 tags: [research]
-image: assets/images/blogs/CIVIS_BIP_02_GernotNikolaus.png
+image: assets/images/blogs/CIVIS_BIP_01_GernotNikolaus.png
 permalink: /blog/ReportBIPLausanne
 ---
 
