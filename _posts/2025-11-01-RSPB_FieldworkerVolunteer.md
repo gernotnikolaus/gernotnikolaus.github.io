@@ -4,6 +4,7 @@ title: "Residential Fieldworker Volunteer - LIFE Raft Seabird Conservation Proje
 date: 2025-11-01
 categories: [experience]
 tags: [biodiversity, fieldwork, conservation]
+image: assets/images/blogs/RathlinIsland_GernotNikolaus_01.jpg
 permalink: /blog/RSPB_FieldworkerVolunteer
 ---
 

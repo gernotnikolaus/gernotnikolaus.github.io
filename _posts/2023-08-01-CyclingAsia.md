@@ -2,7 +2,9 @@
 layout: default
 title: "From Germany to the edge of Asia and back"
 date: 2023-08-01
-categories: [blog]
+categories: [personal]
+tags: [cycling]
+image: assets/images/blogs/RathlinIsland_GernotNikolaus_01.jpg
 permalink: /blog/CyclingToAsia
 ---
 
