@@ -474,7 +474,7 @@ footer p {
   text-decoration: none;
   color: inherit;
 
-  height: 360px;   /* fixed height → ALL CARDS SAME SIZE */
+  height: 540px;   /* fixed height → ALL CARDS SAME SIZE */
   display: flex;
   flex-direction: column;
 
