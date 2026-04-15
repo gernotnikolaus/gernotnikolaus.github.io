@@ -4,6 +4,7 @@ title: "Medieval-Castles in the region of Salzburg"
 date: 2024-06-22
 categories: [project]
 tags: [GIS, geoprocessing, leaflet]
+image: assets/images/projects/MedievalCastlesWebMap_GernotNikolaus.jpg
 permalink: /projects/MedievalCastlesRegionOfSalzburg
 ---
 
