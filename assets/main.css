@@ -478,7 +478,7 @@ footer p {
   display: flex;
   flex-direction: column;
 
-  border-radius: 14px;
+  border-radius: 4px; /* 14*/
   overflow: hidden;
 
   background: white;
