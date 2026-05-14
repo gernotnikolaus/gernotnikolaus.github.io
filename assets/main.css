@@ -650,3 +650,44 @@ footer p {
   color: white;
   border-color: #333;
 }
+
+
+/*CV*/
+.cv-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.cv-item {
+  padding: 1rem;
+  border-left: 3px solid #ddd;
+}
+
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.cv-org {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.cv-date {
+  font-size: 0.85rem;
+  color: #888;
+  white-space: nowrap;
+}
+
+.cv-item h3 {
+  margin: 0;
+}
+
+.cv-note {
+  font-size: 0.85rem;
+  color: #444;
+}
