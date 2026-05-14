@@ -12,11 +12,12 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Project Assistant</h3>
-        <span class="cv-org">Climate Risk Analytics, United Nations University - Institute for Environment and Human Security (UNU-EHS) – Bonn, Germany</span>
+        <strong class="cv-org">United Nations University - Institute for Environment and Human Security (UNU-EHS) – Bonn, Germany</strong>
       </div>
       <span class="cv-date">Sep 2025 – Present</span>
     </div>
     <p>Contributing to climate risk analytics projects that improve access to actionable information for decision-makers and vulnerable populations.</p>
+    <ul>
     <li>
        Developing automated geospatial workflows using Python and Google Earth Engine for large-scale environmental data processing
     </li>
@@ -38,6 +39,7 @@ title: CV
       <span class="cv-date">Sep 2025 – Oct 2025</span>
     </div>
     <p>Supported one of the UK’s most ambitious seabird conservation projects, aimed at protecting Puffins, Guillemots, and Razorbills by managing invasive species and maintaining monitoring networks.</p>
+    <ul>
     <li>
        Checked and maintained 6,000+ bait stations across the island to monitor and manage invasive rats and ferrets threatening seabird populations.
     </li>
