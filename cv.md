@@ -14,9 +14,9 @@ title: CV
   <summary class="cv-summary">
     <div class="cv-header">
       <div>
-        <strong>Disaster Modelling Intern</strong>
-        <div class="cv-org">UNU-EHS / Munich Climate Insurance Initiative</div>
-        <span class="cv-date">Jul – Sep 2024</span>
+        <h3>Project Assistant</h3>
+        <strong class="cv-org">United Nations University - Institute for Environment and Human Security (UNU-EHS)</strong>
+        <span class="cv-date">Sept 2025–Present</span>
       </div>
     </div>
 
@@ -24,13 +24,14 @@ title: CV
   </summary>
 
   <p>
-    Worked on flood susceptibility mapping using geospatial methods and remote sensing data.
+    - Developing automated geospatial workflows using Python and Google Earth Engine for large-scale environmental data processing
+    - Designing and producing publication-ready cartographic products for climate risk reports (e.g., Pakistan)
+    - Developing interactive geospatial dashboards integrating multi-source environmental datasets for climate risk communication and decision-support
   </p>
 
   <div class="skills">
     <span class="tag">QGIS</span>
     <span class="tag">Python</span>
-    <span class="tag">AHP</span>
     <span class="tag">Remote Sensing</span>
   </div>
 </details>
