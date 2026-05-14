@@ -715,6 +715,39 @@ footer p {
   gap: 0.4rem;
 }
 
+.cv-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+  list-style: none;
+}
+
+.cv-summary::-webkit-details-marker {
+  display: none;
+}
+
+/* hover like a button */
+.cv-summary:hover {
+  background: #f5f7fa;
+  border-radius: 8px;
+}
+
+.more-btn {
+  font-size: 0.85rem;
+  color: #666;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  background: white;
+  transition: 0.2s;
+}
+
+.cv-summary:hover .more-btn {
+  border-color: #aaa;
+}
+
 details {
   padding: 1rem;
   border-left: 3px solid #ddd;
