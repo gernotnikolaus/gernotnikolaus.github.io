@@ -248,3 +248,61 @@ title: CV
 </details>
 
 </div>
+
+
+
+<h2>Experience</h2>
+
+<div class="cv-section">
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Project Assistant</h3>
+        <span class="cv-org">United Nations University – UNU-EHS</span>
+      </div>
+      <span class="cv-date">Sep 2025 – Present</span>
+    </div>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Residential Fieldworker Volunteer</h3>
+        <span class="cv-org">RSPB – LIFE Raft Seabird Conservation Project</span>
+      </div>
+      <span class="cv-date">Sep 2025 – Oct 2025</span>
+    </div>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Student Assistant</h3>
+        <span class="cv-org">United Nations University – UNU-EHS</span>
+      </div>
+      <span class="cv-date">Sep 2024 – Sep 2025</span>
+    </div>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Disaster Modelling Intern</h3>
+        <span class="cv-org">UNU-EHS / Munich Climate Insurance Initiative</span>
+      </div>
+      <span class="cv-date">Jul – Sep 2024</span>
+    </div>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Co-Founder</h3>
+        <span class="cv-org">Gernot Nikolaus & Simon Kraus Creative Studio GbR</span>
+      </div>
+      <span class="cv-date">Jul 2024</span>
+    </div>
+  </div>
+
+</div>
