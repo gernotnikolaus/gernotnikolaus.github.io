@@ -12,27 +12,55 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Project Assistant</h3>
-        <span class="cv-org">United Nations University – UNU-EHS</span>
+        <span class="cv-org">Climate Risk Analytics, United Nations University - Institute for Environment and Human Security (UNU-EHS) – Bonn, Germany</span>
       </div>
       <span class="cv-date">Sep 2025 – Present</span>
     </div>
+    <p>Contributing to climate risk analytics projects that improve access to actionable information for decision-makers and vulnerable populations.</p>
+    <li>
+       Developing automated geospatial workflows using Python and Google Earth Engine for large-scale environmental data processing
+    </li>
+    <li>
+        Designing and producing publication-ready cartographic products for climate risk reports (e.g., Pakistan)
+    </li>
+    <li>
+        UDeveloping interactive geospatial dashboards integrating multi-source environmental datasets for climate risk communication and decision-support
+    </li>
+    </ul>
   </div>
 
   <div class="cv-item">
     <div class="cv-header">
       <div>
         <h3>Residential Fieldworker Volunteer</h3>
-        <span class="cv-org">RSPB – LIFE Raft Seabird Conservation Project</span>
+        <span class="cv-org">RSPB – LIFE Raft Seabird Conservation Project – Rathlin Island, UK</span>
       </div>
       <span class="cv-date">Sep 2025 – Oct 2025</span>
     </div>
+    <p>Supported one of the UK’s most ambitious seabird conservation projects, aimed at protecting Puffins, Guillemots, and Razorbills by managing invasive species and maintaining monitoring networks.</p>
+    <li>
+       Checked and maintained 6,000+ bait stations across the island to monitor and manage invasive rats and ferrets threatening seabird populations.
+    </li>
+    <li>
+        Collected and recorded field data using Field Maps and Survey123 under challenging outdoor conditions.
+    </li>
+    <li>
+        Applied wildlife ID skills to identify remaining predators.
+    </li>
+    <li>
+        Worked collaboratively with an international volunteer team and local community.
+    </li>
+    <li>
+        Built experience in remote island fieldwork, teamwork, and outdoor resilience.
+    </li>
+    </ul>
   </div>
 
   <div class="cv-item">
     <div class="cv-header">
       <div>
         <h3>Student Assistant</h3>
-        <span class="cv-org">United Nations University – UNU-EHS</span>
+        <span class="cv-org">UNU-EHS</span>
       </div>
       <span class="cv-date">Sep 2024 – Sep 2025</span>
     </div>
@@ -125,11 +153,6 @@ title: CV
     <span>AGIT Conference (2025)</span>
     <a href="https://doi.org/10.25598/agit/2025-6">View paper</a>
   </div>
-
-  <div class="cv-item">
-    <p>Nikolaus, G., Dabiri, Z., Voženílek, V., Behre, E. Flood susceptibility mapping using AHP and sensitivity analysis in Punjab, Pakistan. gis.Science, 2025, 4, 147–152. https://doi.org/10.14627/gis.Science.2025.4.5</p>
-  </div>
-
 </div>
 
 
@@ -168,7 +191,7 @@ title: CV
         <h3>Harbert-Buchpreis – Best Student of the Year</h3>
         <span class="cv-org">Issued by DVW e.V. (German Association for Geodesy, Geoinformation & Land Management)</span>
       </div>
-      <span class="cv-date">May 2025</span>
+      <span class="cv-date">Sept 2023</span>
     </div>
     <p>
     Awarded for academic excellence within the geoinformation discipline.
