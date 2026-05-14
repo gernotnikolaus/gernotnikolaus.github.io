@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV
+title: Full CV
 ---
 <hr class="section-divider">
 
@@ -148,7 +148,7 @@ title: CV
 </div>
 
 
-<h1>Education</h1>
+<h1>Alma Mater</h1>
 
 <div class="cv-section">
 
