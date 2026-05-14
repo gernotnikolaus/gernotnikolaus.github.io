@@ -116,14 +116,18 @@ title: CV
 
   <div class="cv-item">
     <h3>Flood susceptibility mapping using AHP and sensitivity analysis in Punjab, Pakistan</h3>
-    <p>gis.Science (2025)</p>
+    <span>gis.Science (2025)</span>
     <a href="https://doi.org/10.14627/gis.Science.2025.4.5">View paper</a>
   </div>
 
   <div class="cv-item">
     <h3>Assessment of flood susceptibility using remote sensing and AHP</h3>
-    <p>AGIT Conference (2025)</p>
+    <span>AGIT Conference (2025)</span>
     <a href="https://doi.org/10.25598/agit/2025-6">View paper</a>
+  </div>
+
+  <div class="cv-item">
+    <p>Nikolaus, G., Dabiri, Z., Voženílek, V., Behre, E. Flood susceptibility mapping using AHP and sensitivity analysis in Punjab, Pakistan. gis.Science, 2025, 4, 147–152. https://doi.org/10.14627/gis.Science.2025.4.5</p>
   </div>
 
 </div>
@@ -132,7 +136,6 @@ title: CV
 <h1>Awards</h1>
 
 <div class="cv-section">
-
   <div class="cv-item">
     <div class="cv-header">
       <div>
@@ -142,8 +145,75 @@ title: CV
       <span class="cv-date">April 2026</span>
     </div>
     <p>
-    Master’s thesis research recognized with the Map of the Year Award in the student category
+    Master’s thesis research recognized with the Map of the Year Award in the student category.
     </p>
+  </div>
+
+<div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Dean’s Award</h3>
+        <span class="cv-org">Issued by Palacký University in Olomouc</span>
+      </div>
+      <span class="cv-date">May 2025</span>
+    </div>
+    <p>
+    Recognized as overall winner in the Earth Sciences section in the faculty.
+    </p>
+  </div>
+
+<div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Harbert-Buchpreis – Best Student of the Year</h3>
+        <span class="cv-org">Issued by DVW e.V. (German Association for Geodesy, Geoinformation & Land Management)</span>
+      </div>
+      <span class="cv-date">May 2025</span>
+    </div>
+    <p>
+    Awarded for academic excellence within the geoinformation discipline.
+    </p>
+  </div>
+</div>
+
+<h1>Talks & Conferences</h1>
+
+<div class="cv-section">
+
+<div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>AGIT Conference Salzburg</h3>
+      </div>
+      <span class="cv-date">July 2025</span>
+    </div>
+    <p>
+    Oral presentation on flood susceptibility mapping in Punjab, Pakistan.
+    </p>
+  </div>
+
+</div>
+
+<h1>Volunteering</h1>
+
+<div class="cv-section">
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Volunteer Mapper</h3>
+        <span class="cv-org">Missing Maps</span>
+      </div>
+      <span class="cv-date">Oct 2023–Present</span>
+    </div>
+    <ul>
+    <li>
+        Participating in humanitarian mapathons to improve open-source spatial data in vulnerable region.
+    </li>
+    <li>
+        Supporting disaster response and humanitarian aid through collaborative geospatial mapping.
+    </li>
+    </ul>
   </div>
 </div>
 
