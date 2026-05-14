@@ -34,7 +34,7 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Residential Fieldworker Volunteer</h3>
-        <span class="cv-org">RSPB – LIFE Raft Seabird Conservation Project – Rathlin Island, UK</span>
+        <strong class="cv-org">RSPB – LIFE Raft Seabird Conservation Project – Rathlin Island, UK</strong>
       </div>
       <span class="cv-date">Sep 2025 – Oct 2025</span>
     </div>
@@ -62,30 +62,87 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Student Assistant</h3>
-        <span class="cv-org">UNU-EHS</span>
+        <strong class="cv-org">UNU-EHS</strong>
       </div>
       <span class="cv-date">Sep 2024 – Sep 2025</span>
     </div>
+    <ul>
+    <li>
+       Supported climate risk insurance projects through geospatial data preparation and analysis.
+    </li>
+    <li>
+        Developed and maintained geoprocessing workflows to support adaptation and risk assessment studies.
+    </li>
+    <li>
+        Produced maps and visualizations to communicate climate risk and adaptation measures.
+    </li>
+    </ul>
   </div>
 
   <div class="cv-item">
     <div class="cv-header">
       <div>
         <h3>Disaster Modelling Intern</h3>
-        <span class="cv-org">UNU-EHS / Munich Climate Insurance Initiative</span>
+        <strong class="cv-org">UNU-EHS / Munich Climate Insurance Initiative</strong>
       </div>
       <span class="cv-date">Jul – Sep 2024</span>
     </div>
+    <ul>
+    <li>
+       Automated geoprocessing workflows using Python, QGIS, and ArcGIS Pro.
+    </li>
+    <li>
+        Applied CLIMADA for climate impact modelling and risk assessment.
+    </li>
+    <li>
+        Produced climate impact maps for case studies in Egypt and Thailand.
+    </li>
+    </ul>
   </div>
 
   <div class="cv-item">
     <div class="cv-header">
       <div>
         <h3>Co-Founder</h3>
-        <span class="cv-org">Gernot Nikolaus & Simon Kraus Creative Studio GbR</span>
+        <strong class="cv-org">Gernot Nikolaus & Simon Kraus Creative Studio GbR</strong>
       </div>
-      <span class="cv-date">Jul 2024</span>
+      <span class="cv-date">Jul 2024-Present</span>
     </div>
+    <p>Co-founded a cartography-focused creative studio developing map-themed print-on-demand brands (in development) and designing merchandise for companies.</p>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>GIS Trainer and Field Support</h3>
+        <strong class="cv-org">German Leprosy and Tuberculosis Relief Association (DAHW) – Lomé, Togo</strong>
+      </div>
+      <span class="cv-date">Apr 2022-Mar 2023</span>
+    </div>
+    <p>Supported a multi-year project to combat neglected tropical diseases (Leprosy, Buruli ulcer, and Yaws) in Togo by applying geospatial analysis to improve understanding of disease distribution and support targeted interventions.</p>
+    <ul>
+    <li>
+       Explored spatial correlations for disease incidence and provided geospatial and cartographic support remotely.
+    </li>
+    <li>
+        Visited hospitals and collected geodata in fieldwork, and conducted GIS training for Ministry of Health staff on site (Aug 2022–Sept 2022)
+    </li>
+    </ul>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Student Research Assistant</h3>
+        <strong class="cv-org">Technical University of Applied Sciences Würzburg-Schweinfurt</strong>
+      </div>
+      <span class="cv-date">Aug 2021–Sept 2021</span>
+    </div>
+    <ul>
+    <li>
+       Created vector tile basemaps for academic GIS teaching modules
+    </li>
+    </ul>
   </div>
 
 </div>
@@ -99,9 +156,9 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>MSc Copernicus Master in Digital Earth</h3>
-        <span class="cv-org">Palacký University Olomouc / University of Salzburg</span>
+        <strong class="cv-org">Palacký University Olomouc / University of Salzburg</strong>
       </div>
-      <span class="cv-date">2023 – 2025</span>
+      <span class="cv-date">2023–2025</span>
     </div>
     <ul>
     <li>
@@ -123,9 +180,9 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>BEng Geovisualization</h3>
-        <span class="cv-org">THWS Würzburg-Schweinfurt</span>
+        <strong class="cv-org">Technical University of Applied Sciences Würzburg-Schweinfurt</strong>
       </div>
-      <span class="cv-date">2019 – 2023</span>
+      <span class="cv-date">2019–2023</span>
     </div>
     <ul>
     <li>
@@ -146,13 +203,13 @@ title: CV
 
   <div class="cv-item">
     <h3>Flood susceptibility mapping using AHP and sensitivity analysis in Punjab, Pakistan</h3>
-    <span>gis.Science (2025)</span>
+    <strong>gis.Science (2025)</strong>
     <a href="https://doi.org/10.14627/gis.Science.2025.4.5">View paper</a>
   </div>
 
   <div class="cv-item">
     <h3>Assessment of flood susceptibility using remote sensing and AHP</h3>
-    <span>AGIT Conference (2025)</span>
+    <strong>AGIT Conference (2025)</strong>
     <a href="https://doi.org/10.25598/agit/2025-6">View paper</a>
   </div>
 </div>
@@ -165,7 +222,7 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Mapa Roku 2025</h3>
-        <span class="cv-org">Issued by Czech Cartographic Society</span>
+        <strong class="cv-org">Issued by Czech Cartographic Society</strong>
       </div>
       <span class="cv-date">April 2026</span>
     </div>
@@ -178,7 +235,7 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Dean’s Award</h3>
-        <span class="cv-org">Issued by Palacký University in Olomouc</span>
+        <strong class="cv-org">Issued by Palacký University in Olomouc</strong>
       </div>
       <span class="cv-date">May 2025</span>
     </div>
@@ -191,7 +248,7 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Harbert-Buchpreis – Best Student of the Year</h3>
-        <span class="cv-org">Issued by DVW e.V. (German Association for Geodesy, Geoinformation & Land Management)</span>
+        <strong class="cv-org">Issued by DVW e.V. (German Association for Geodesy, Geoinformation & Land Management)</strong>
       </div>
       <span class="cv-date">Sept 2023</span>
     </div>
@@ -227,7 +284,7 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Volunteer Mapper</h3>
-        <span class="cv-org">Missing Maps</span>
+        <strong class="cv-org">Missing Maps</strong>
       </div>
       <span class="cv-date">Oct 2023–Present</span>
     </div>
@@ -250,7 +307,7 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Seeing Through Lies: Mapping Trust in the Age of Misinformation</h3>
-        <span class="cv-org">Palacký University in Olomouc, Czech Republic</span>
+        <strong class="cv-org">Palacký University in Olomouc, Czech Republic</strong>
       </div>
       <span class="cv-date">2025</span>
     </div>
@@ -268,10 +325,43 @@ title: CV
     <div class="cv-header">
       <div>
         <h3>Make an Impact with Modern Geo Apps</h3>
-        <span class="cv-org">Esri</span>
+        <strong class="cv-org">Esri</strong>
       </div>
       <span class="cv-date">Issued May 2026</span>
     </div>
     <a href="https://www.esri.com/training/TrainingRecord/Certificate/gernotn/696f7b9ad4925782fa3a658a/-120">Show certificate</a>
+  </div>
+
+<div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>GIS for Climate Action</h3>
+        <strong class="cv-org">Esri</strong>
+      </div>
+      <span class="cv-date">Issued Mar 2026</span>
+    </div>
+    <a href="https://www.esri.com/training/TrainingRecord/Certificate/gernotn/696f7b94f1fbd6edaf326e1e/-60">Show certificate</a>
+  </div>
+
+<div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Going Places with Spatial Analysis</h3>
+        <strong class="cv-org">Esri</strong>
+      </div>
+      <span class="cv-date">Issued Feb 2026</span>
+    </div>
+    <a href="https://www.esri.com/training/TrainingRecord/Certificate/gernotn/696f7b8b86be186ee5114630/-60">Show certificate</a>
+  </div>
+
+<div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>Calculating Disparities in Pollution Exposure Using ArcGIS</h3>
+        <strong class="cv-org">Esri</strong>
+      </div>
+      <span class="cv-date">Issued Jan 2026</span>
+    </div>
+    <a href="https://www.esri.com/training/TrainingRecord/Certificate/gernotn/6970aa76a8c6679a6cd19205/-60">Show certificate</a>
   </div>
 </div>
