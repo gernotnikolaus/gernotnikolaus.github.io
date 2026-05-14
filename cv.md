@@ -11,7 +11,6 @@ title: CV
 <div class="cv-section">
 
 <details class="cv-item">
-  <summary>
     <div class="cv-header">
       <div>
         <strong>Disaster Modelling Intern</strong>
@@ -19,7 +18,6 @@ title: CV
       </div>
       <span class="cv-date">Jul – Sep 2024</span>
     </div>
-  </summary>
 
   <p>
     Worked on flood susceptibility mapping using geospatial methods and remote sensing data.
