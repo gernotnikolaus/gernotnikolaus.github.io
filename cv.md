@@ -16,8 +16,8 @@ title: CV
       <div>
         <strong>Disaster Modelling Intern</strong>
         <div class="cv-org">UNU-EHS / Munich Climate Insurance Initiative</div>
+        <span class="cv-date">Jul – Sep 2024</span>
       </div>
-      <span class="cv-date">Jul – Sep 2024</span>
     </div>
 
     <span class="more-btn">More details ▾</span>
