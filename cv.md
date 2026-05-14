@@ -315,6 +315,32 @@ title: Full CV
     International Spring School, focusing on data visualization, false narratives, and critical thinking
     </p>
   </div>
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>BIP CIVIS – Healthy Urban Systems</h3>
+        <strong class="cv-org">University of Lausanne (UNIL), Switzerland</strong>
+      </div>
+      <span class="cv-date">2024</span>
+    </div>
+    <p>
+    Erasmus+ Blended Intensive Programme focused on sustainable urban systems and health
+    </p>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
+        <h3>BIP – Digital Earth Citizens</h3>
+        <strong class="cv-org">Palacký University in Olomouc, Czech Republic</strong>
+      </div>
+      <span class="cv-date">2023-2024</span>
+    </div>
+    <p>
+    Erasmus+ Blended Intensive Programme (BIP) on digital citizenship and geospatial technologies
+    </p>
+  </div>
 </div>
 
 <h1>Certifications</h1>
