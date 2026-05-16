@@ -26,8 +26,7 @@ title: About me
 
 </div>
 
-
 <div class="blog-image">
-  <img src="{{ '/assets/images/projects/MagellanExpedition_GernotNikolaus.jpg' | relative_url }}" alt="Magellan's Circumnavigation | 1519-1522">
+  <img src="{{ '/assets/images/blogs/CyclingToAsia_Map_GernotNikolaus.jpg' | relative_url }}" alt="Cycling to Asia map">
   <figcaption>Featured map (own figure). Find more maps under the gallery tab.</figcaption>
 </div>
