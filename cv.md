@@ -14,7 +14,7 @@ title: Full CV
         <h3>Doctoral Researcher</h3>
         <strong class="cv-org">Luxembourg Centre for Socio-Environmental Systems (LCSES), University of Luxembourg</strong>
       </div>
-      <span class="cv-date">Sep 2025 – Sep 2026</span>
+      <span class="cv-date">Sep 2026 - Present</span>
     </div>
   </div>
 
@@ -24,7 +24,7 @@ title: Full CV
         <h3>Project Assistant</h3>
         <strong class="cv-org">United Nations University - Institute for Environment and Human Security (UNU-EHS) – Bonn, Germany</strong>
       </div>
-      <span class="cv-date">Sep 2025 – Sep 2026</span>
+      <span class="cv-date">Sep 2025 – Sep 2027</span>
     </div>
     <p>Contributing to climate risk analytics projects that improve access to actionable information for decision-makers and vulnerable populations.</p>
     <ul>
@@ -116,7 +116,7 @@ title: Full CV
         <h3>Co-Founder</h3>
         <strong class="cv-org">Gernot Nikolaus & Simon Kraus Creative Studio GbR</strong>
       </div>
-      <span class="cv-date">Jul 2024-Present</span>
+      <span class="cv-date">Jul 2024 - Present</span>
     </div>
     <p>Co-founded a cartography-focused creative studio developing map-themed print-on-demand brands (in development) and designing merchandise for companies.</p>
   </div>
