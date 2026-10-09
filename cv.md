@@ -11,10 +11,20 @@ title: Full CV
   <div class="cv-item">
     <div class="cv-header">
       <div>
+        <h3>Doctoral Researcher</h3>
+        <strong class="cv-org">Luxembourg Centre for Socio-Environmental Systems (LCSES), University of Luxembourg</strong>
+      </div>
+      <span class="cv-date">Sep 2025 – Sep 2026</span>
+    </div>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-header">
+      <div>
         <h3>Project Assistant</h3>
         <strong class="cv-org">United Nations University - Institute for Environment and Human Security (UNU-EHS) – Bonn, Germany</strong>
       </div>
-      <span class="cv-date">Sep 2025 – Present</span>
+      <span class="cv-date">Sep 2025 – Sep 2026</span>
     </div>
     <p>Contributing to climate risk analytics projects that improve access to actionable information for decision-makers and vulnerable populations.</p>
     <ul>
